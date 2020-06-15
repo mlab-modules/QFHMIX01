@@ -1,5 +1,0 @@
-(sym_lib_table
-  (lib (name QFHMIX01A-rescue)(type Legacy)(uri ${KIPRJMOD}/QFHMIX01A-rescue.lib)(options "")(descr ""))
-  (lib (name DENGS_lib)(type Legacy)(uri /home/kaklik/repos/DENGS/HW/modules/KiCAD_libs/DENGS_lib.lib)(options "")(descr ""))
-  (lib (name adapteva_kicad)(type Legacy)(uri /home/kaklik/repos/DENGS/HW/modules/KiCAD_libs/adapteva_kicad.lib)(options "")(descr ""))
-)

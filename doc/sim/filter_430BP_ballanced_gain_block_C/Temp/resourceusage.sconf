@@ -1,0 +1,2 @@
+FeatureKeywords:string:la:precond:pdss5, block:circuit:cap, block:circuit:dispb, block:circuit:dispb:ypar, block:circuit:ind, block:circuit:port, block:circuit:res, block:solver:standard, block:type:c, block:type:extport, block:type:gen_4_pin, block:type:gnd, block:type:l, block:type:r, lineqsolver:size:medium:spar, lineqssolver:sparsity:high, solver:circuit:floatingnodes, solver:circuit:parallelization:maximum, solver:circuit:port:real, solver:circuit:sparse, solver:task:spar, solver:task:spar:balance, source:circport:differential, source:circport:impedance
+---

@@ -1,0 +1,2 @@
+FeatureKeywords:string:block:circuit:cap, block:circuit:ind, block:circuit:port, block:circuit:res, block:solver:standard, block:type:c, block:type:extport, block:type:gnd, block:type:l, block:type:r, lineqsolver:size:medium:spar, lineqsolver:size:small:spar, solver:circuit:dense, solver:circuit:floatingnodes, solver:circuit:parallelization:maximum, solver:circuit:port:real, solver:task:spar, solver:task:spar:acfallback, solver:task:spar:balance, source:circport:differential, source:circport:impedance
+---

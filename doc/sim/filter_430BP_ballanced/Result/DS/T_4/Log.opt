@@ -1,0 +1,360 @@
+Optimizer Settings:
+
+Optimizer type: Trust Region Framework
+		Type: Local linear models on primary data
+.		Min trust region size (in unit cube): 0.01
+		Sigma (measure for globalness):0.2
+			Finite difference delta: 0.01
+			Tabu list vicinity radius: 0
+			Initial exploration threshold: 0
+		Surrogate optimization strategy: Nelder Mead Simplex Algorithm
+
+---------------------------------------------------------------------------------------
+
+Parameters used for optimization:
+---------------------------------------------------------------------------------------
+| name                    |          min |          max |      initial |
+---------------------------------------------------------------------------------------
+| C90001                  |         6.12 |         7.48 |          6.8 |
+| C90002                  |         3.51 |         4.29 |          3.9 |
+| C90003                  |         3.51 |         4.29 |          3.9 |
+| L90001                  |         16.2 |         19.8 |           18 |
+| L90003                  |         16.2 |         19.8 |           18 |
+---------------------------------------------------------------------------------------
+
+Goal functionals used for optimization:
+
+1DC: FD2D S-Parameters : S-Parameters : S1,1: operate by "<" with target -3.01 in range: 0...0, weighted: 1
+1DC: FD2D S-Parameters : S-Parameters : S2,1: operate by "<" with target -40 in range: 0...0, weighted: 1
+1DC: FD2D S-Parameters : S-Parameters : S2,1: operate by "<" with target -40 in range: 0...0, weighted: 1
+
+
+Optimizer detected sampling that doesn't fit to the goal definition of 0_FD2D S-Parameters : S-Parameters : S1,1.
+Specified range is [0.3615;0.5115]
+Sampled range is [0.361868;0.510992]
+The values at the bounds will be interpolated.
+
+
+
+________________________________________________________________________
+
+Solved problem for parameters:
+
+	C90001 = 6.8 
+	C90002 = 3.9 
+	C90003 = 3.9 
+	L90001 = 18 
+	L90003 = 18 
+
+	Initial goal function value  = 22.3799 (Solver)
+	Best goal function value   = 22.3799 (Solver)
+	Last goal function value   = 22.3799 (Solver)
+	Solver time = 00:00:01 h
+
+________________________________________________________________________
+
+Solved problem for parameters:
+
+	C90001 = 6.8136 
+	C90002 = 3.9 
+	C90003 = 3.9 
+	L90001 = 18 
+	L90003 = 18 
+
+	Initial goal function value  = 22.3799 (Solver)
+	Best goal function value   = 22.3409 (Solver)
+	Last goal function value   = 22.3409 (Solver)
+	Solver time = 00:00:01 h
+
+________________________________________________________________________
+
+Solved problem for parameters:
+
+	C90001 = 6.8 
+	C90002 = 3.9078 
+	C90003 = 3.9 
+	L90001 = 18 
+	L90003 = 18 
+
+	Initial goal function value  = 22.3799 (Solver)
+	Best goal function value   = 22.3409 (Solver)
+	Last goal function value   = 22.395 (Solver)
+	Solver time = 00:00:01 h
+
+________________________________________________________________________
+
+Solved problem for parameters:
+
+	C90001 = 6.8 
+	C90002 = 3.9 
+	C90003 = 3.9078 
+	L90001 = 18 
+	L90003 = 18 
+
+	Initial goal function value  = 22.3799 (Solver)
+	Best goal function value   = 22.3409 (Solver)
+	Last goal function value   = 22.3614 (Solver)
+
+________________________________________________________________________
+
+Solved problem for parameters:
+
+	C90001 = 6.8 
+	C90002 = 3.9 
+	C90003 = 3.9 
+	L90001 = 18.036 
+	L90003 = 18 
+
+	Initial goal function value  = 22.3799 (Solver)
+	Best goal function value   = 22.3409 (Solver)
+	Last goal function value   = 22.3623 (Solver)
+	Solver time = 00:00:01 h
+
+________________________________________________________________________
+
+Solved problem for parameters:
+
+	C90001 = 6.8 
+	C90002 = 3.9 
+	C90003 = 3.9 
+	L90001 = 18 
+	L90003 = 18.036 
+
+	Initial goal function value  = 22.3799 (Solver)
+	Best goal function value   = 22.3409 (Solver)
+	Last goal function value   = 22.3653 (Solver)
+
+
+Trust Region Framework: Optimization of trust region model yields a prediction of a goal of 17.0103 (current anchor: 22.3799)
+
+
+
+________________________________________________________________________
+
+Solved problem for parameters:
+
+	C90001 = 7.344 
+	C90002 = 3.588 
+	C90003 = 4.212 
+	L90001 = 19.44 
+	L90003 = 19.44 
+
+	Initial goal function value  = 22.3799 (Solver)
+	Best goal function value   = 18.3682 (Solver)
+	Last goal function value   = 18.3682 (Solver)
+
+________________________________________________________________________
+
+Solved problem for parameters:
+
+	C90001 = 7.3576 
+	C90002 = 3.588 
+	C90003 = 4.212 
+	L90001 = 19.44 
+	L90003 = 19.44 
+
+	Initial goal function value  = 22.3799 (Solver)
+	Best goal function value   = 18.3326 (Solver)
+	Last goal function value   = 18.3326 (Solver)
+	Solver time = 00:00:01 h
+
+________________________________________________________________________
+
+Solved problem for parameters:
+
+	C90001 = 7.344 
+	C90002 = 3.5958 
+	C90003 = 4.212 
+	L90001 = 19.44 
+	L90003 = 19.44 
+
+	Initial goal function value  = 22.3799 (Solver)
+	Best goal function value   = 18.3326 (Solver)
+	Last goal function value   = 18.3871 (Solver)
+	Solver time = 00:00:01 h
+
+________________________________________________________________________
+
+Solved problem for parameters:
+
+	C90001 = 7.344 
+	C90002 = 3.588 
+	C90003 = 4.2198 
+	L90001 = 19.44 
+	L90003 = 19.44 
+
+	Initial goal function value  = 22.3799 (Solver)
+	Best goal function value   = 18.3326 (Solver)
+	Last goal function value   = 18.3516 (Solver)
+
+________________________________________________________________________
+
+Solved problem for parameters:
+
+	C90001 = 7.344 
+	C90002 = 3.588 
+	C90003 = 4.212 
+	L90001 = 19.476 
+	L90003 = 19.44 
+
+	Initial goal function value  = 22.3799 (Solver)
+	Best goal function value   = 18.3326 (Solver)
+	Last goal function value   = 18.3544 (Solver)
+	Solver time = 00:00:01 h
+
+________________________________________________________________________
+
+Solved problem for parameters:
+
+	C90001 = 7.344 
+	C90002 = 3.588 
+	C90003 = 4.212 
+	L90001 = 19.44 
+	L90003 = 19.476 
+
+	Initial goal function value  = 22.3799 (Solver)
+	Best goal function value   = 18.3326 (Solver)
+	Last goal function value   = 18.3569 (Solver)
+
+
+Trust Region Framework: Optimization of trust region model yields a prediction of a goal of 17.3548 (current anchor: 18.3682)
+
+
+
+________________________________________________________________________
+
+Solved problem for parameters:
+
+	C90001 = 7.48 
+	C90002 = 3.51 
+	C90003 = 4.29 
+	L90001 = 19.8 
+	L90003 = 19.8 
+
+	Initial goal function value  = 22.3799 (Solver)
+	Best goal function value   = 17.4147 (Solver)
+	Last goal function value   = 17.4147 (Solver)
+	Solver time = 00:00:01 h
+
+________________________________________________________________________
+
+Solved problem for parameters:
+
+	C90001 = 7.4664 
+	C90002 = 3.51 
+	C90003 = 4.29 
+	L90001 = 19.8 
+	L90003 = 19.8 
+
+	Initial goal function value  = 22.3799 (Solver)
+	Best goal function value   = 17.4147 (Solver)
+	Last goal function value   = 17.4495 (Solver)
+	Solver time = 00:00:01 h
+
+________________________________________________________________________
+
+Solved problem for parameters:
+
+	C90001 = 7.48 
+	C90002 = 3.5178 
+	C90003 = 4.29 
+	L90001 = 19.8 
+	L90003 = 19.8 
+
+	Initial goal function value  = 22.3799 (Solver)
+	Best goal function value   = 17.4147 (Solver)
+	Last goal function value   = 17.4346 (Solver)
+
+________________________________________________________________________
+
+Solved problem for parameters:
+
+	C90001 = 7.48 
+	C90002 = 3.51 
+	C90003 = 4.2822 
+	L90001 = 19.8 
+	L90003 = 19.8 
+
+	Initial goal function value  = 22.3799 (Solver)
+	Best goal function value   = 17.4147 (Solver)
+	Last goal function value   = 17.4309 (Solver)
+	Solver time = 00:00:01 h
+
+________________________________________________________________________
+
+Solved problem for parameters:
+
+	C90001 = 7.48 
+	C90002 = 3.51 
+	C90003 = 4.29 
+	L90001 = 19.764 
+	L90003 = 19.8 
+
+	Initial goal function value  = 22.3799 (Solver)
+	Best goal function value   = 17.4147 (Solver)
+	Last goal function value   = 17.4277 (Solver)
+	Solver time = 00:00:01 h
+
+________________________________________________________________________
+
+Solved problem for parameters:
+
+	C90001 = 7.48 
+	C90002 = 3.51 
+	C90003 = 4.29 
+	L90001 = 19.8 
+	L90003 = 19.764 
+
+	Initial goal function value  = 22.3799 (Solver)
+	Best goal function value   = 17.4147 (Solver)
+	Last goal function value   = 17.4253 (Solver)
+
+
+Trust Region Framework: Optimization of trust region model yields a prediction of a goal of 17.3924 (current anchor: 17.4147)
+
+
+
+________________________________________________________________________
+
+Solved problem for parameters:
+
+	C90001 = 7.48 
+	C90002 = 3.51 
+	C90003 = 4.29 
+	L90001 = 19.7929 
+	L90003 = 19.8 
+
+	Initial goal function value  = 22.3799 (Solver)
+	Best goal function value   = 17.4147 (Solver)
+	Last goal function value   = 17.4173 (Solver)
+	Solver time = 00:00:01 h
+
+========================================================================
+
+Solved problem for best parameters:
+
+	C90001 = 7.48 
+	C90002 = 3.51 
+	C90003 = 4.29 
+	L90001 = 19.8 
+	L90003 = 19.8 
+
+	Initial goal function value  = 22.3799 (Solver)
+	Best goal function value   = 17.4147 (Solver)
+	Last goal function value   = 17.4147 (Solver)
+
+
+The best parameter set is very close to the boundaries defined by the minimum and maximum settings.
+A better parameter set may be found if you change the range of the corresponding parameters.
+
+
+________________________________________________________________________
+
+	Total solver time           = 00:00:12 h (20 solver runs)
+	Total parameter update time = 00:00:00 h
+	Total optimizer time        = 00:00:13 h (20 evaluations)
+
+
+
+Optimization successful. Best parameter set is stored.
+

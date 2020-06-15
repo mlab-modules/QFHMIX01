@@ -1,0 +1,12 @@
+Algorithm: Trust Region Framework
+Number of evaluations: 23
+              (solver: 22, reloaded: 1)
+Initial goal function value = 2.65652250308  (reloaded)
+Best goal function value    = 0.379370481999
+Last goal function value    = *** aborted by user ***
+
+Best parameters so far:
+
+ C22 = 21.3441
+ C23 = 49.9355
+ L21 = 10

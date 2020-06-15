@@ -1,0 +1,104 @@
+Optimizer Settings:
+
+Optimizer type: Trust Region Framework
+		Type: Local linear models on primary data
+.		Min trust region size (in unit cube): 0.01
+		Sigma (measure for globalness):0.2
+			Finite difference delta: 0.01
+			Tabu list vicinity radius: 0
+			Initial exploration threshold: 0
+		Surrogate optimization strategy: Nelder Mead Simplex Algorithm
+
+---------------------------------------------------------------------------------------
+
+Parameters used for optimization:
+---------------------------------------------------------------------------------------
+| name                    |          min |          max |      initial |
+---------------------------------------------------------------------------------------
+| C10001                  |            6 |           24 |           12 |
+| C10002                  |            1 |           10 |          3.9 |
+| C10003                  |       5.5441 |           12 |          6.8 |
+---------------------------------------------------------------------------------------
+
+Goal functionals used for optimization:
+
+1DC: FD2D Simulation : S-Parameters : S2,1: operate by "<" with target 0.3 in range: total, weighted: 1.0
+
+________________________________________________________________________
+
+Solved problem for parameters:
+
+	C10001 = 12 
+	C10002 = 3.9 
+	C10003 = 6.8 
+
+	Initial goal function value  = 0.39496 (Solver)
+	Best goal function value   = 0.39496 (Solver)
+	Last goal function value   = 0.39496 (Solver)
+
+________________________________________________________________________
+
+Solved problem for parameters:
+
+	C10001 = 12.18 
+	C10002 = 3.9 
+	C10003 = 6.8 
+
+	Initial goal function value  = 0.39496 (Solver)
+	Best goal function value   = 0.386544 (Solver)
+	Last goal function value   = 0.386544 (Solver)
+	Solver time = 00:00:01 h
+
+________________________________________________________________________
+
+Solved problem for parameters:
+
+	C10001 = 12 
+	C10002 = 3.99 
+	C10003 = 6.8 
+
+	Initial goal function value  = 0.39496 (Solver)
+	Best goal function value   = 0.386544 (Solver)
+	Last goal function value   = 0.399031 (Solver)
+
+________________________________________________________________________
+
+Solved problem for parameters:
+
+	C10001 = 12 
+	C10002 = 3.9 
+	C10003 = 6.86456 
+
+	Initial goal function value  = 0.39496 (Solver)
+	Best goal function value   = 0.386544 (Solver)
+	Last goal function value   = 0.396956 (Solver)
+
+
+Trust Region Framework: Optimization of trust region model yields a prediction of a goal of 0.101858 (current anchor: 0.39496)
+
+
+
+________________________________________________________________________
+
+Solved problem for parameters:
+
+	C10001 = 16.3199 
+	C10002 = 1.19649 
+	C10003 = 5.5441 
+
+	Initial goal function value  = 0.39496 (Solver)
+	Best goal function value   = 0 (Solver)
+	Last goal function value   = 0 (Solver)
+
+	Optimization process aborted.
+
+________________________________________________________________________
+
+	Total solver time           = 00:00:01 h (5 solver runs)
+	Total parameter update time = 00:00:00 h
+	Total optimizer time        = 00:00:01 h (5 evaluations)
+
+
+
+Optimization was able to satisfy the defined goals. Best parameter set is stored.
+

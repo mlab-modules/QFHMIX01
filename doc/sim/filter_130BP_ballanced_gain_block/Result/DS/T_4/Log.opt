@@ -1,0 +1,140 @@
+Optimizer Settings:
+
+Optimizer type: Trust Region Framework
+		Type: Local linear models on primary data
+.		Min trust region size (in unit cube): 0.01
+		Sigma (measure for globalness):0.2
+			Finite difference delta: 0.01
+			Tabu list vicinity radius: 0
+			Initial exploration threshold: 0
+		Surrogate optimization strategy: Nelder Mead Simplex Algorithm
+
+---------------------------------------------------------------------------------------
+
+Parameters used for optimization:
+---------------------------------------------------------------------------------------
+| name                    |          min |          max |      initial |
+---------------------------------------------------------------------------------------
+| C100001                 |         19.8 |         24.2 |           22 |
+| C100002                 |         61.2 |         74.8 |           68 |
+| L100001                 |         61.2 |         74.8 |           68 |
+| L100002                 |         19.8 |         24.2 |           22 |
+---------------------------------------------------------------------------------------
+
+Goal functionals used for optimization:
+
+1DC: FD2D S-Parameters : S-Parameters : S1,1: operate by "<" with target -20 in range: 0...0, weighted: 1
+1DC: FD2D S-Parameters : S-Parameters : S2,1: operate by "<" with target -40 in range: 0...0, weighted: 1
+1DC: FD2D S-Parameters : S-Parameters : S2,1: operate by "<" with target -40 in range: 0...0, weighted: 1
+
+
+Optimizer detected sampling that doesn't fit to the goal definition of 0_FD2D S-Parameters : S-Parameters : S1,1.
+Specified range is [0.1074;0.1574]
+Sampled range is [0.10754;0.15715]
+The values at the bounds will be interpolated.
+
+
+
+________________________________________________________________________
+
+Solved problem for parameters:
+
+	C100001 = 22 
+	C100002 = 68 
+	L100001 = 68 
+	L100002 = 22 
+
+	Initial goal function value  = 13.4454 (Solver)
+	Best goal function value   = 13.4454 (Solver)
+	Last goal function value   = 13.4454 (Solver)
+	Solver time = 00:00:01 h
+
+________________________________________________________________________
+
+Solved problem for parameters:
+
+	C100001 = 22.044 
+	C100002 = 68 
+	L100001 = 68 
+	L100002 = 22 
+
+	Initial goal function value  = 13.4454 (Solver)
+	Best goal function value   = 13.4454 (Solver)
+	Last goal function value   = 13.4454 (Solver)
+	Solver time = 00:00:01 h
+	Parameter update time   = 00:00:01 h
+
+________________________________________________________________________
+
+Solved problem for parameters:
+
+	C100001 = 22 
+	C100002 = 68.136 
+	L100001 = 68 
+	L100002 = 22 
+
+	Initial goal function value  = 13.4454 (Solver)
+	Best goal function value   = 13.4454 (Solver)
+	Last goal function value   = 13.4454 (Solver)
+	Solver time = 00:00:01 h
+
+________________________________________________________________________
+
+Solved problem for parameters:
+
+	C100001 = 22 
+	C100002 = 68 
+	L100001 = 68.136 
+	L100002 = 22 
+
+	Initial goal function value  = 13.4454 (Solver)
+	Best goal function value   = 13.4454 (Solver)
+	Last goal function value   = 13.4454 (Solver)
+	Solver time = 00:00:01 h
+
+________________________________________________________________________
+
+Solved problem for parameters:
+
+	C100001 = 22 
+	C100002 = 68 
+	L100001 = 68 
+	L100002 = 22.044 
+
+	Initial goal function value  = 13.4454 (Solver)
+	Best goal function value   = 13.4454 (Solver)
+	Last goal function value   = 13.4454 (Solver)
+	Solver time = 00:00:01 h
+	Parameter update time   = 00:00:01 h
+
+
+Trust Region Framework: Optimization of trust region model yields a prediction of a goal of 13.4454 (current anchor: 13.4454)
+Optimization of trust region model did not yield any expected improvement.
+
+
+
+========================================================================
+
+Solved problem for best parameters:
+
+	C100001 = 22 
+	C100002 = 68 
+	L100001 = 68 
+	L100002 = 22 
+
+	Initial goal function value  = 13.4454 (Solver)
+	Best goal function value   = 13.4454 (Solver)
+	Last goal function value   = 13.4454 (Solver)
+	Solver time = 00:00:01 h
+
+________________________________________________________________________
+
+	Total solver time           = 00:00:06 h (6 solver runs)
+	Total parameter update time = 00:00:02 h
+	Total optimizer time        = 00:00:08 h (6 evaluations)
+
+
+
+Optimization aborted without improved goal value.
+The initial parameters are kept.
+

@@ -1,6 +1,6 @@
 (kicad_sch (version 20200608) (host eeschema "5.99.0-unknown-8bd9b26~101~ubuntu18.04.1")
 
-  (page 2 2)
+  (page 1 2)
 
   (paper "A4")
 
@@ -1029,7 +1029,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 85.725 77.47 0)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 85.725 77.47 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005d31848b")
     (property "Reference" "L13" (id 0) (at 84.455 81.28 90)
@@ -1049,7 +1049,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 85.725 112.395 0)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 85.725 112.395 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005d31bc92")
     (property "Reference" "L28" (id 0) (at 84.455 116.84 90)
@@ -1069,7 +1069,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 102.235 77.47 0)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 102.235 77.47 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005d317c72")
     (property "Reference" "L14" (id 0) (at 100.965 81.28 90)
@@ -1089,7 +1089,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 102.235 112.395 0)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 102.235 112.395 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005d31a5ed")
     (property "Reference" "L29" (id 0) (at 100.965 116.84 90)
@@ -1109,7 +1109,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 133.985 53.34 0)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 133.985 53.34 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005d51132a")
     (property "Reference" "L1" (id 0) (at 132.715 54.61 90)
@@ -1129,7 +1129,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 133.985 62.865 0)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 133.985 62.865 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf095a6")
     (property "Reference" "L7" (id 0) (at 132.715 64.135 90)
@@ -1149,7 +1149,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 133.985 127 0)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 133.985 127 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf095e2")
     (property "Reference" "L35" (id 0) (at 132.715 128.905 90)
@@ -1169,7 +1169,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 133.985 137.16 0)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 133.985 137.16 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005d67aa5e")
     (property "Reference" "L39" (id 0) (at 132.715 139.065 90)
@@ -1189,7 +1189,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 137.795 53.34 0)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 137.795 53.34 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005d511da6")
     (property "Reference" "L2" (id 0) (at 139.7 57.785 90)
@@ -1209,7 +1209,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 137.795 62.865 0)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 137.795 62.865 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf095ad")
     (property "Reference" "L8" (id 0) (at 139.7 68.58 90)
@@ -1229,7 +1229,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 137.795 127 0)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 137.795 127 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf095e9")
     (property "Reference" "L36" (id 0) (at 139.7 133.35 90)
@@ -1249,7 +1249,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 137.795 137.16 0)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 137.795 137.16 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005d67af09")
     (property "Reference" "L40" (id 0) (at 139.7 144.78 90)
@@ -1269,7 +1269,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 142.875 71.12 90)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 142.875 71.12 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf097f0")
     (property "Reference" "L11" (id 0) (at 144.78 67.31 90)
@@ -1289,7 +1289,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 142.875 83.82 270)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 142.875 83.82 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf097f8")
     (property "Reference" "L24" (id 0) (at 140.97 85.725 90)
@@ -1309,7 +1309,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 142.875 106.045 90)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 142.875 106.045 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf09810")
     (property "Reference" "L26" (id 0) (at 142.24 103.505 90)
@@ -1329,7 +1329,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 142.875 118.745 270)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 142.875 118.745 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf09818")
     (property "Reference" "L33" (id 0) (at 139.065 121.285 90)
@@ -1349,7 +1349,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 151.765 77.47 0)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 151.765 77.47 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf09538")
     (property "Reference" "L17" (id 0) (at 150.495 81.28 90)
@@ -1369,7 +1369,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 151.765 112.395 0)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 151.765 112.395 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf09599")
     (property "Reference" "L30" (id 0) (at 149.86 117.475 90)
@@ -1389,7 +1389,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 164.465 77.47 0)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 164.465 77.47 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf094f0")
     (property "Reference" "L18" (id 0) (at 166.37 81.28 90)
@@ -1409,7 +1409,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 164.465 112.395 0)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 164.465 112.395 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf09572")
     (property "Reference" "L31" (id 0) (at 163.195 116.84 90)
@@ -1429,7 +1429,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 177.165 77.47 0)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 177.165 77.47 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf0950f")
     (property "Reference" "L23" (id 0) (at 175.895 81.915 90)
@@ -1449,7 +1449,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 177.165 112.395 0)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 177.165 112.395 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf0954f")
     (property "Reference" "L32" (id 0) (at 175.895 116.84 90)
@@ -1469,7 +1469,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 180.975 71.12 90)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 180.975 71.12 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf09800")
     (property "Reference" "L12" (id 0) (at 180.34 68.58 90)
@@ -1489,7 +1489,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 180.975 83.82 270)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 180.975 83.82 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf09808")
     (property "Reference" "L25" (id 0) (at 178.435 86.36 90)
@@ -1509,7 +1509,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 180.975 106.045 90)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 180.975 106.045 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf0982b")
     (property "Reference" "L27" (id 0) (at 180.34 103.505 90)
@@ -1529,7 +1529,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 180.975 118.745 270)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 180.975 118.745 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf09823")
     (property "Reference" "L34" (id 0) (at 178.435 121.285 90)
@@ -1549,7 +1549,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 206.375 53.34 0)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 206.375 53.34 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005d59172d")
     (property "Reference" "L5" (id 0) (at 205.105 54.61 90)
@@ -1569,7 +1569,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 206.375 62.865 0)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 206.375 62.865 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf09707")
     (property "Reference" "L9" (id 0) (at 205.105 64.135 90)
@@ -1589,7 +1589,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 206.375 128.27 0)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 206.375 128.27 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf09794")
     (property "Reference" "L37" (id 0) (at 205.105 129.54 90)
@@ -1609,7 +1609,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 206.375 138.43 0)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 206.375 138.43 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005d6f1a8e")
     (property "Reference" "L41" (id 0) (at 205.105 139.7 90)
@@ -1629,7 +1629,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 210.185 53.34 0)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 210.185 53.34 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005d591f1e")
     (property "Reference" "L6" (id 0) (at 212.09 57.785 90)
@@ -1649,7 +1649,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 210.185 62.865 0)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 210.185 62.865 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf09717")
     (property "Reference" "L10" (id 0) (at 211.455 69.215 90)
@@ -1669,7 +1669,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 210.185 128.27 0)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 210.185 128.27 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf0978b")
     (property "Reference" "L38" (id 0) (at 212.09 133.35 90)
@@ -1689,7 +1689,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 210.185 138.43 0)
+  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 210.185 138.43 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005d6f1e2d")
     (property "Reference" "L42" (id 0) (at 212.09 144.78 90)
@@ -1949,7 +1949,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 133.985 43.815 0)
+  (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 133.985 43.815 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf095b3")
     (property "Reference" "R1" (id 0) (at 131.445 43.815 90))
@@ -1962,7 +1962,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 133.985 147.32 0)
+  (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 133.985 147.32 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf095ef")
     (property "Reference" "R21" (id 0) (at 131.445 147.32 90))
@@ -1975,7 +1975,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 137.795 43.815 180)
+  (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 137.795 43.815 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf095b9")
     (property "Reference" "R2" (id 0) (at 140.335 43.815 90))
@@ -1988,7 +1988,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 137.795 147.32 180)
+  (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 137.795 147.32 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf095f5")
     (property "Reference" "R22" (id 0) (at 140.335 147.32 90))
@@ -2001,7 +2001,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 206.375 43.815 0)
+  (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 206.375 43.815 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf0971f")
     (property "Reference" "R3" (id 0) (at 203.835 43.815 90))
@@ -2014,7 +2014,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 206.375 148.59 0)
+  (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 206.375 148.59 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf0979b")
     (property "Reference" "R23" (id 0) (at 203.835 148.59 90))
@@ -2027,7 +2027,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 210.185 43.815 180)
+  (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 210.185 43.815 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf09726")
     (property "Reference" "R4" (id 0) (at 212.725 43.815 90))
@@ -2040,7 +2040,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 210.185 148.59 180)
+  (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 210.185 148.59 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf097a1")
     (property "Reference" "R24" (id 0) (at 212.725 148.59 90))
@@ -2053,7 +2053,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 77.47 71.12 270)
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 77.47 71.12 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005d319877")
     (property "Reference" "C11" (id 0) (at 76.2 65.405 0)
@@ -2070,7 +2070,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 77.47 83.82 90)
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 77.47 83.82 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005d319f0c")
     (property "Reference" "C23" (id 0) (at 78.74 89.535 0)
@@ -2087,7 +2087,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 78.105 106.045 270)
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 78.105 106.045 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005d31c49a")
     (property "Reference" "C33" (id 0) (at 76.835 100.33 0)
@@ -2104,7 +2104,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 78.105 118.745 90)
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 78.105 118.745 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005d31cc96")
     (property "Reference" "C45" (id 0) (at 79.375 124.46 0)
@@ -2121,7 +2121,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 93.98 71.12 270)
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 93.98 71.12 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005d318b67")
     (property "Reference" "C12" (id 0) (at 92.71 65.405 0)
@@ -2138,7 +2138,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 93.98 83.82 90)
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 93.98 83.82 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005d319178")
     (property "Reference" "C24" (id 0) (at 95.25 89.535 0)
@@ -2155,7 +2155,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 93.98 106.045 270)
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 93.98 106.045 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005d31ada1")
     (property "Reference" "C34" (id 0) (at 92.71 100.33 0)
@@ -2172,7 +2172,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 93.98 118.745 90)
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 93.98 118.745 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005d31b488")
     (property "Reference" "C46" (id 0) (at 95.25 124.46 0)
@@ -2189,7 +2189,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 109.855 71.12 270)
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 109.855 71.12 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf09833")
     (property "Reference" "C13" (id 0) (at 108.585 65.405 0)
@@ -2206,7 +2206,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 109.855 83.82 90)
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 109.855 83.82 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf09839")
     (property "Reference" "C25" (id 0) (at 111.125 89.535 0)
@@ -2223,7 +2223,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 109.855 106.045 270)
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 109.855 106.045 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf09841")
     (property "Reference" "C35" (id 0) (at 108.585 100.33 0)
@@ -2240,7 +2240,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 109.855 118.745 90)
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 109.855 118.745 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf09848")
     (property "Reference" "C48" (id 0) (at 111.125 124.46 0)
@@ -2325,7 +2325,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 146.685 77.47 180)
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 146.685 77.47 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf09531")
     (property "Reference" "C18" (id 0) (at 145.415 78.74 90)
@@ -2342,7 +2342,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 146.685 112.395 180)
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 146.685 112.395 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf0958e")
     (property "Reference" "C42" (id 0) (at 144.78 113.665 90)
@@ -2359,7 +2359,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 155.575 71.12 270)
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 155.575 71.12 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf094e9")
     (property "Reference" "C14" (id 0) (at 154.305 65.405 0)
@@ -2376,7 +2376,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 155.575 83.82 270)
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 155.575 83.82 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf094f6")
     (property "Reference" "C26" (id 0) (at 154.94 86.36 0)
@@ -2393,7 +2393,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 155.575 106.045 270)
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 155.575 106.045 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf0957e")
     (property "Reference" "C37" (id 0) (at 154.94 100.33 0)
@@ -2410,7 +2410,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 155.575 118.745 270)
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 155.575 118.745 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf09584")
     (property "Reference" "C49" (id 0) (at 154.94 121.285 0)
@@ -2427,7 +2427,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 159.385 77.47 180)
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 159.385 77.47 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf094fc")
     (property "Reference" "C19" (id 0) (at 160.655 78.74 90)
@@ -2444,7 +2444,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 159.385 112.395 180)
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 159.385 112.395 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf09569")
     (property "Reference" "C43" (id 0) (at 158.115 113.665 90)
@@ -2461,7 +2461,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 168.275 71.12 270)
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 168.275 71.12 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf09502")
     (property "Reference" "C15" (id 0) (at 167.64 64.77 0)
@@ -2478,7 +2478,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 168.275 83.82 270)
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 168.275 83.82 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf09508")
     (property "Reference" "C31" (id 0) (at 167.64 86.36 0)
@@ -2495,7 +2495,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 168.275 106.045 270)
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 168.275 106.045 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf09559")
     (property "Reference" "C38" (id 0) (at 167.005 100.33 0)
@@ -2512,7 +2512,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 168.275 118.745 270)
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 168.275 118.745 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf0955f")
     (property "Reference" "C50" (id 0) (at 167.64 121.285 0)
@@ -2529,7 +2529,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 172.085 77.47 180)
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 172.085 77.47 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf09515")
     (property "Reference" "C22" (id 0) (at 170.815 78.74 90)
@@ -2546,7 +2546,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 172.085 112.395 180)
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 172.085 112.395 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf09546")
     (property "Reference" "C44" (id 0) (at 170.815 113.665 90)
@@ -2631,7 +2631,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 215.265 71.12 90)
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 215.265 71.12 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf09629")
     (property "Reference" "C17" (id 0) (at 215.9 68.58 90)
@@ -2648,7 +2648,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 215.265 83.82 90)
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 215.265 83.82 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf0962f")
     (property "Reference" "C32" (id 0) (at 215.265 86.995 90)
@@ -2665,7 +2665,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 215.265 106.045 90)
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 215.265 106.045 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf09778")
     (property "Reference" "C39" (id 0) (at 214.63 103.505 90)
@@ -2682,7 +2682,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 215.265 118.745 90)
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 215.265 118.745 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf0963d")
     (property "Reference" "C51" (id 0) (at 215.265 121.92 90)
@@ -2699,7 +2699,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:MPGA-105+-DENGS_lib-QFHMIX01B-rescue") (at 122.555 77.47 0)
+  (symbol (lib_id "QFHMIX01C-rescue:MPGA-105+-DENGS_lib-QFHMIX01B-rescue") (at 122.555 77.47 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf094e3")
     (property "Reference" "U1" (id 0) (at 114.935 64.135 0)
@@ -2716,7 +2716,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:MPGA-105+-DENGS_lib-QFHMIX01B-rescue") (at 122.555 112.395 0)
+  (symbol (lib_id "QFHMIX01C-rescue:MPGA-105+-DENGS_lib-QFHMIX01B-rescue") (at 122.555 112.395 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf09695")
     (property "Reference" "U5" (id 0) (at 114.935 99.06 0)
@@ -2733,7 +2733,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:MPGA-105+-DENGS_lib-QFHMIX01B-rescue") (at 193.675 77.47 0)
+  (symbol (lib_id "QFHMIX01C-rescue:MPGA-105+-DENGS_lib-QFHMIX01B-rescue") (at 193.675 77.47 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf09700")
     (property "Reference" "U2" (id 0) (at 186.055 64.135 0)
@@ -2750,7 +2750,7 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:MPGA-105+-DENGS_lib-QFHMIX01B-rescue") (at 193.675 112.395 0)
+  (symbol (lib_id "QFHMIX01C-rescue:MPGA-105+-DENGS_lib-QFHMIX01B-rescue") (at 193.675 112.395 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005cf0977e")
     (property "Reference" "U6" (id 0) (at 186.055 99.06 0)

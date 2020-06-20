@@ -68,5 +68,5 @@ ERC_CheckBusEntryConflicts=1
 ERC_CheckBusToBusConflicts=1
 ERC_CheckBusToNetConflicts=1
 [sheetnames]
-1=8e1eee77-fdcc-42e8-ac01-46f2b1fc1e11:
+1=a3a84e6d-a287-4a2a-a15f-f8d6ebe9a8cc:
 2=00000000-0000-0000-0000-00005ccb1e0f:LNA

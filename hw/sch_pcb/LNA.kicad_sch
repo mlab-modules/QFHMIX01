@@ -1,6 +1,6 @@
 (kicad_sch (version 20200608) (host eeschema "5.99.0-unknown-8bd9b26~101~ubuntu18.04.1")
 
-  (page 1 2)
+  (page 2 2)
 
   (paper "A4")
 
@@ -2382,7 +2382,7 @@
     (property "Reference" "C26" (id 0) (at 154.94 86.36 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "33pF" (id 1) (at 156.845 86.36 0)
+    (property "Value" "3.3pF" (id 1) (at 156.845 86.36 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Mlab_C:SMD-0603" (id 2) (at 155.575 83.82 0)

@@ -1,20 +1,172 @@
 (kicad_sch (version 20200618) (host eeschema "(5.99.0-2251-g5226d6b4d)")
 
-  (page 1 2)
+  (page 1 3)
 
   (paper "A4")
 
   (title_block
     (title "QFHMIX01C")
     (date "%F")
-    (rev "REV 0.2")
-    (company "ORBISYS www.orbisys.sk")
-    (comment 1 "VERSION 3")
     (comment 2 "Frontend for QFH antenna")
-    (comment 3 "Maksim Rezenov, Jakub kakona")
   )
 
   (lib_symbols
+    (symbol "MLAB_IO:AD8343"
+      (property "Odkaz" "U" (id 0) (at -11.43 11.43 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Hodnota" "AD8343" (id 1) (at 6.35 -10.16 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Pouzdro" "" (id 2) (at -11.43 10.16 0)
+        (effects (font (size 1.524 1.524)) hide)
+      )
+      (property "Katalogový list" "" (id 3) (at -11.43 10.16 0)
+        (effects (font (size 1.524 1.524)) hide)
+      )
+      (symbol "AD8343_0_1"
+        (circle (center 1.27 4.445) (radius 1.27) (stroke (width 0)) (fill (type none)))
+        (rectangle (start -12.7 10.16) (end 12.7 -12.7)
+          (stroke (width 0)) (fill (type none))
+        )
+        (rectangle (start -5.08 -1.905) (end -1.27 -5.715)
+          (stroke (width 0)) (fill (type none))
+        )
+        (polyline
+          (pts (xy -6.35 -5.08) (xy -5.08 -5.08))
+          (stroke (width 0)) (fill (type none))
+        )
+        (polyline
+          (pts (xy -6.35 -2.54) (xy -5.08 -2.54))
+          (stroke (width 0)) (fill (type none))
+        )
+        (polyline
+          (pts (xy -6.35 0) (xy 0.127 0))
+          (stroke (width 0)) (fill (type none))
+        )
+        (polyline
+          (pts (xy -6.35 2.54) (xy -1.27 2.54))
+          (stroke (width 0)) (fill (type none))
+        )
+        (polyline
+          (pts (xy -6.35 5.08) (xy 0 5.08))
+          (stroke (width 0)) (fill (type none))
+        )
+        (polyline
+          (pts (xy -3.175 -1.905) (xy -3.175 0))
+          (stroke (width 0)) (fill (type none))
+        )
+        (polyline
+          (pts (xy 0.381 5.334) (xy 2.159 3.556))
+          (stroke (width 0)) (fill (type none))
+        )
+        (polyline
+          (pts (xy 0.635 -5.08) (xy 0.635 -0.762))
+          (stroke (width 0)) (fill (type none))
+        )
+        (polyline
+          (pts (xy 0.635 0.762) (xy 0.635 3.302))
+          (stroke (width 0)) (fill (type none))
+        )
+        (polyline
+          (pts (xy 1.905 0.762) (xy 1.905 3.302))
+          (stroke (width 0)) (fill (type none))
+        )
+        (polyline
+          (pts (xy 2.159 5.334) (xy 0.381 3.556))
+          (stroke (width 0)) (fill (type none))
+        )
+        (polyline
+          (pts (xy 6.35 -5.08) (xy 0.635 -5.08))
+          (stroke (width 0)) (fill (type none))
+        )
+        (polyline
+          (pts (xy 6.35 5.08) (xy 2.54 5.08))
+          (stroke (width 0)) (fill (type none))
+        )
+        (polyline
+          (pts (xy -1.27 2.54) (xy -1.27 3.81) (xy 0 3.81))
+          (stroke (width 0)) (fill (type none))
+        )
+        (polyline
+          (pts (xy 6.35 -2.54) (xy 1.905 -2.54) (xy 1.905 -0.762))
+          (stroke (width 0)) (fill (type none))
+        )
+        (polyline
+          (pts (xy 6.35 2.54) (xy 3.81 2.54) (xy 3.81 3.81) (xy 2.54 3.81))
+          (stroke (width 0)) (fill (type none))
+        )
+        (polyline
+          (pts (xy 1.27 1.778) (xy -0.254 -0.762) (xy 2.794 -0.762) (xy 2.159 0.254)
+               (xy 1.27 1.778)
+          )
+          (stroke (width 0)) (fill (type none))
+        )
+      )
+      (symbol "AD8343_0_0"
+        (text "Bias" (at -3.175 -3.81 0)
+          (effects (font (size 0.762 0.762)))
+        )
+      )
+      (symbol "AD8343_1_1"
+        (pin input line (at 0 -17.78 90) (length 5.08) hide
+          (name "COMM" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 17.78 -2.54 180) (length 5.08)
+          (name "LOIP" (effects (font (size 1.27 1.27))))
+          (number "10" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 0 -17.78 90) (length 5.08) hide
+          (name "COMM" (effects (font (size 1.27 1.27))))
+          (number "11" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 17.78 2.54 180) (length 5.08)
+          (name "OUTM" (effects (font (size 1.27 1.27))))
+          (number "12" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 17.78 5.08 180) (length 5.08)
+          (name "OUTP" (effects (font (size 1.27 1.27))))
+          (number "13" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 0 -17.78 90) (length 5.08) hide
+          (name "COMM" (effects (font (size 1.27 1.27))))
+          (number "14" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -17.78 5.08 0) (length 5.08)
+          (name "INPP" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -17.78 2.54 0) (length 5.08)
+          (name "INPM" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -17.78 0 0) (length 5.08)
+          (name "DCPL" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -17.78 -2.54 0) (length 5.08)
+          (name "VPOS" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -17.78 -5.08 0) (length 5.08)
+          (name "PWDN" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 0 -17.78 90) (length 5.08)
+          (name "COMM" (effects (font (size 1.27 1.27))))
+          (number "7" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 0 -17.78 90) (length 5.08) hide
+          (name "COMM" (effects (font (size 1.27 1.27))))
+          (number "8" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 17.78 -5.08 180) (length 5.08)
+          (name "LOIM" (effects (font (size 1.27 1.27))))
+          (number "9" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "QFHMIX01C-rescue:+3V3-power-QFHMIX01B-rescue" (power) (pin_names (offset 0))
       (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -236,42 +388,6 @@
         (pin input line (at 11.43 -5.08 180) (length 5.08)
           (name "LOIM" (effects (font (size 1.27 1.27))))
           (number "9" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "QFHMIX01C-rescue:AP1117-15-regul-QFHMIX01B-rescue" (pin_names (offset 0.254))
-      (property "Reference" "U" (id 0) (at -3.81 3.175 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "AP1117-15-regul-QFHMIX01B-rescue" (id 1) (at 0 3.175 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "TO_SOT_Packages_SMD:SOT-223-3_TabPin2" (id 2) (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 2.54 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "SOT?223*TabPin2*" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "AP1117-15-regul-QFHMIX01B-rescue_0_1"
-        (rectangle (start -5.08 -5.08) (end 5.08 1.905)
-          (stroke (width 0.254)) (fill (type background))
-        )
-      )
-      (symbol "AP1117-15-regul-QFHMIX01B-rescue_1_1"
-        (pin power_in line (at 0 -7.62 90) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 0 180) (length 2.54)
-          (name "VO" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -7.62 0 0) (length 2.54)
-          (name "VI" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -1103,8 +1219,12 @@
   (junction (at 76.835 175.26) (diameter 0) (color 0 0 0 0))
   (junction (at 99.695 153.67) (diameter 0) (color 0 0 0 0))
   (junction (at 104.775 181.61) (diameter 0) (color 0 0 0 0))
+  (junction (at 111.125 73.025) (diameter 0) (color 0 0 0 0))
+  (junction (at 113.665 108.585) (diameter 0) (color 0 0 0 0))
   (junction (at 120.015 162.56) (diameter 0) (color 0 0 0 0))
   (junction (at 120.015 172.72) (diameter 0) (color 0 0 0 0))
+  (junction (at 120.65 73.025) (diameter 0) (color 0 0 0 0))
+  (junction (at 123.19 108.585) (diameter 0) (color 0 0 0 0))
   (junction (at 123.825 165.1) (diameter 0) (color 0 0 0 0))
   (junction (at 123.825 170.18) (diameter 0) (color 0 0 0 0))
   (junction (at 132.08 76.835) (diameter 0) (color 0 0 0 0))
@@ -1127,17 +1247,11 @@
   (junction (at 170.18 132.08) (diameter 0) (color 0 0 0 0))
   (junction (at 203.2 74.93) (diameter 0) (color 0 0 0 0))
   (junction (at 203.2 92.71) (diameter 0) (color 0 0 0 0))
-  (junction (at 210.82 129.54) (diameter 0) (color 0 0 0 0))
-  (junction (at 211.455 150.495) (diameter 0) (color 0 0 0 0))
   (junction (at 218.44 105.41) (diameter 0) (color 0 0 0 0))
   (junction (at 220.98 105.41) (diameter 0) (color 0 0 0 0))
-  (junction (at 231.14 129.54) (diameter 0) (color 0 0 0 0))
-  (junction (at 231.775 150.495) (diameter 0) (color 0 0 0 0))
   (junction (at 233.68 53.34) (diameter 0) (color 0 0 0 0))
   (junction (at 233.68 59.69) (diameter 0) (color 0 0 0 0))
   (junction (at 233.68 68.58) (diameter 0) (color 0 0 0 0))
-  (junction (at 238.125 129.54) (diameter 0) (color 0 0 0 0))
-  (junction (at 238.76 150.495) (diameter 0) (color 0 0 0 0))
   (junction (at 242.57 21.59) (diameter 0) (color 0 0 0 0))
   (junction (at 242.57 29.21) (diameter 0) (color 0 0 0 0))
   (junction (at 250.19 21.59) (diameter 0) (color 0 0 0 0))
@@ -1314,6 +1428,30 @@
   (wire (pts (xy 106.68 42.545) (xy 112.395 42.545))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
+  (wire (pts (xy 109.855 73.025) (xy 111.125 73.025))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (wire (pts (xy 111.125 73.025) (xy 111.125 76.835))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (wire (pts (xy 111.125 73.025) (xy 112.395 73.025))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (wire (pts (xy 111.125 81.915) (xy 111.125 85.725))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (wire (pts (xy 112.395 108.585) (xy 113.665 108.585))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (wire (pts (xy 113.665 108.585) (xy 113.665 112.395))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (wire (pts (xy 113.665 108.585) (xy 114.935 108.585))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (wire (pts (xy 113.665 117.475) (xy 113.665 121.285))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
   (wire (pts (xy 117.475 162.56) (xy 120.015 162.56))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
@@ -1324,6 +1462,9 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 117.475 172.72) (xy 120.015 172.72))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (wire (pts (xy 120.015 73.025) (xy 120.65 73.025))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 120.015 152.4) (xy 120.015 151.13))
@@ -1344,6 +1485,30 @@
   (wire (pts (xy 120.015 182.88) (xy 120.015 184.15))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
+  (wire (pts (xy 120.65 73.025) (xy 120.65 76.835))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (wire (pts (xy 120.65 73.025) (xy 132.08 73.025))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (wire (pts (xy 120.65 81.915) (xy 120.65 85.725))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (wire (pts (xy 122.555 108.585) (xy 123.19 108.585))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (wire (pts (xy 123.19 107.95) (xy 123.19 108.585))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (wire (pts (xy 123.19 107.95) (xy 132.08 107.95))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (wire (pts (xy 123.19 108.585) (xy 123.19 112.395))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (wire (pts (xy 123.19 117.475) (xy 123.19 121.285))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
   (wire (pts (xy 123.825 152.4) (xy 123.825 151.13))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
@@ -1360,12 +1525,6 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 123.825 182.88) (xy 123.825 184.15))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (wire (pts (xy 127 73.025) (xy 132.08 73.025))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (wire (pts (xy 127 107.95) (xy 132.08 107.95))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 130.175 160.02) (xy 131.445 160.02))
@@ -1668,34 +1827,10 @@
   (wire (pts (xy 203.2 100.33) (xy 203.2 92.71))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (wire (pts (xy 204.47 129.54) (xy 204.47 125.73))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (wire (pts (xy 204.47 147.32) (xy 204.47 150.495))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (wire (pts (xy 204.47 150.495) (xy 211.455 150.495))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
   (wire (pts (xy 205.74 77.47) (xy 203.2 77.47))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 205.74 90.17) (xy 203.2 90.17))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (wire (pts (xy 210.82 129.54) (xy 204.47 129.54))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (wire (pts (xy 210.82 129.54) (xy 210.82 131.445))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (wire (pts (xy 211.455 150.495) (xy 211.455 152.4))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (wire (pts (xy 213.36 129.54) (xy 210.82 129.54))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (wire (pts (xy 213.995 150.495) (xy 211.455 150.495))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 215.9 104.14) (xy 215.9 105.41))
@@ -1722,28 +1857,10 @@
   (wire (pts (xy 223.52 105.41) (xy 223.52 104.14))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (wire (pts (xy 228.6 129.54) (xy 231.14 129.54))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (wire (pts (xy 229.235 150.495) (xy 231.775 150.495))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (wire (pts (xy 231.14 129.54) (xy 231.14 131.445))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (wire (pts (xy 231.14 129.54) (xy 238.125 129.54))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
   (wire (pts (xy 231.775 53.34) (xy 233.68 53.34))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 231.775 59.69) (xy 233.68 59.69))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (wire (pts (xy 231.775 150.495) (xy 231.775 152.4))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (wire (pts (xy 231.775 150.495) (xy 238.76 150.495))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 232.41 78.74) (xy 234.315 78.74))
@@ -1776,21 +1893,6 @@
   (wire (pts (xy 234.315 73.66) (xy 232.41 73.66))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (wire (pts (xy 238.125 130.81) (xy 238.125 129.54))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (wire (pts (xy 238.125 135.89) (xy 238.125 137.16))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (wire (pts (xy 238.76 150.495) (xy 242.57 150.495))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (wire (pts (xy 238.76 151.765) (xy 238.76 150.495))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (wire (pts (xy 238.76 158.115) (xy 238.76 156.845))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
   (wire (pts (xy 241.935 73.66) (xy 247.65 73.66))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
@@ -1801,9 +1903,6 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 241.935 93.98) (xy 247.65 93.98))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (wire (pts (xy 241.935 129.54) (xy 238.125 129.54))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 242.57 20.32) (xy 242.57 21.59))
@@ -1818,9 +1917,6 @@
   (wire (pts (xy 242.57 29.21) (xy 242.57 30.48))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (wire (pts (xy 249.555 127) (xy 249.555 129.54))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
   (wire (pts (xy 250.19 21.59) (xy 242.57 21.59))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
@@ -1831,9 +1927,6 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 250.19 29.21) (xy 242.57 29.21))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (wire (pts (xy 250.19 150.495) (xy 250.19 147.32))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 257.81 21.59) (xy 250.19 21.59))
@@ -1918,10 +2011,6 @@
     (stroke (width 0) (type dash) (color 0 0 0 0))
   )
 
-  (text "(lib_symbols\n  (symbol \"QFHMIX01C-rescue:L-device-QFHMIX01B-rescue\" (pin_numbers hide) (pin_names hide)\n    (property \"Reference\" \"L\" (id 0) (at -1.27 0 90)\n      (effects (font (size 1.27 1.27)))\n    )\n    (property \"Value\" \"L-device-QFHMIX01B-rescue\" (id 1) (at 1.905 0 90)\n      (effects (font (size 1.27 1.27)))\n    )\n    (property \"Footprint\" \"\" (id 2) (at 0 0 0)\n      (effects (font (size 1.27 1.27)) hide)\n    )\n    (property \"Datasheet\" \"\" (id 3) (at 0 0 0)\n      (effects (font (size 1.27 1.27)) hide)\n    )\n    (property \"ki_fp_filters\" \"Choke_*\\n*Coil*\\nInductor_*\\nL_*\" (id 4) (at 0 0 0)\n      (effects (font (size 1.27 1.27)) hide)\n    )\n    (symbol \"L-device-QFHMIX01B-rescue_0_1\"\n      (arc (start 0 -2.54) (end 0 -1.27) (radius (at 0 -1.905) (length 0.635) (angles -89.9 89.9))\n        (stroke (width 0)) (fill (type none))\n      )\n      (arc (start 0 -1.27) (end 0 0) (radius (at 0 -0.635) (length 0.635) (angles -89.9 89.9))\n        (stroke (width 0)) (fill (type none))\n      )\n      (arc (start 0 0) (end 0 1.27) (radius (at 0 0.635) (length 0.635) (angles -89.9 89.9))\n        (stroke (width 0)) (fill (type none))\n      )\n      (arc (start 0 1.27) (end 0 2.54) (radius (at 0 1.905) (length 0.635) (angles -89.9 89.9))\n        (stroke (width 0)) (fill (type none))\n      )\n    )\n    (symbol \"L-device-QFHMIX01B-rescue_1_1\"\n      (pin passive line (at 0 3.81 270) (length 1.27)\n        (name \"1\" (effects (font (size 1.27 1.27))))\n        (number \"1\" (effects (font (size 1.27 1.27))))\n      )\n      (pin passive line (at 0 -3.81 90) (length 1.27)\n        (name \"2\" (effects (font (size 1.27 1.27))))\n        (number \"2\" (effects (font (size 1.27 1.27))))\n      )\n    )\n  )\n)\n\n(symbol (lib_id \"QFHMIX01C-rescue:L-device-QFHMIX01B-rescue\") (at 246.38 150.495 90) (unit 1)\n  (in_bom yes) (on_board yes)\n  (uuid \"00000000-0000-0000-0000-00005ab22f51\")\n  (property \"Odkaz\" \"L20\" (id 0) (at 247.65 151.765 90)\n    (effects (font (size 1.27 1.27)) (justify left))\n  )\n  (property \"Hodnota\" \"BLM21PG331SN1D\" (id 1) (at 258.445 154.305 90)\n    (effects (font (size 1.27 1.27)) (justify left))\n  )\n  (property \"Pouzdro\" \"Mlab_L:SMD-0805\" (id 2) (at 246.38 150.495 0)\n    (effects (font (size 1.27 1.27)) hide)\n  )\n  (property \"Katalogový list\" \"\" (id 3) (at 246.38 150.495 0)\n    (effects (font (size 1.27 1.27)) hide)\n  )\n  (property \"MFPN\" \"BLM21PG331SN1D\" (id 4) (at 246.38 150.495 90)\n    (effects (font (size 1.27 1.27)) hide)\n  )\n)\n"
-    (at -0.9144 -1.0668 0)
-    (effects (font (size 1.27 1.27)))
-  )
   (text "POWER INPUT" (at 238.76 38.1 0)
     (effects (font (size 1.524 1.524)) (justify left bottom))
   )
@@ -1982,7 +2071,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:HOLE-MLAB_MECHANICAL") (at 17.78 71.755 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005c1db7a3")
-    (property "Odkaz" "M5" (id 0) (at 15.24 71.755 90)
+    (property "Odkaz" "M1" (id 0) (at 15.24 71.755 90)
       (effects (font (size 1.524 1.524)))
     )
     (property "Hodnota" "HOLE" (id 1) (at 17.78 74.295 0)
@@ -1999,7 +2088,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:HOLE-MLAB_MECHANICAL") (at 17.78 76.835 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005c1dc4ab")
-    (property "Odkaz" "M6" (id 0) (at 15.24 76.835 90)
+    (property "Odkaz" "M2" (id 0) (at 15.24 76.835 90)
       (effects (font (size 1.524 1.524)))
     )
     (property "Hodnota" "HOLE" (id 1) (at 17.78 79.375 0)
@@ -2016,7 +2105,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:HOLE-MLAB_MECHANICAL") (at 18.415 92.075 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005c1dc613")
-    (property "Odkaz" "M7" (id 0) (at 15.875 92.075 90)
+    (property "Odkaz" "M3" (id 0) (at 15.875 92.075 90)
       (effects (font (size 1.524 1.524)))
     )
     (property "Hodnota" "HOLE" (id 1) (at 18.415 94.615 0)
@@ -2033,7 +2122,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:HOLE-MLAB_MECHANICAL") (at 18.415 97.155 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005c1dca4f")
-    (property "Odkaz" "M8" (id 0) (at 15.875 97.155 90)
+    (property "Odkaz" "M4" (id 0) (at 15.875 97.155 90)
       (effects (font (size 1.524 1.524)))
     )
     (property "Hodnota" "HOLE" (id 1) (at 18.415 99.695 0)
@@ -2050,7 +2139,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:HOLE-MLAB_MECHANICAL") (at 260.35 43.815 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-0000549d7549")
-    (property "Odkaz" "M1" (id 0) (at 260.35 46.355 90)
+    (property "Odkaz" "M5" (id 0) (at 260.35 46.355 90)
       (effects (font (size 1.524 1.524)))
     )
     (property "Hodnota" "HOLE" (id 1) (at 262.89 43.815 0)
@@ -2067,7 +2156,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:HOLE-MLAB_MECHANICAL") (at 265.43 43.815 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-0000549d7628")
-    (property "Odkaz" "M2" (id 0) (at 265.43 46.355 90)
+    (property "Odkaz" "M6" (id 0) (at 265.43 46.355 90)
       (effects (font (size 1.524 1.524)))
     )
     (property "Hodnota" "HOLE" (id 1) (at 267.97 43.815 0)
@@ -2084,7 +2173,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:HOLE-MLAB_MECHANICAL") (at 270.51 43.815 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-0000549d7646")
-    (property "Odkaz" "M3" (id 0) (at 270.51 46.355 90)
+    (property "Odkaz" "M7" (id 0) (at 270.51 46.355 90)
       (effects (font (size 1.524 1.524)))
     )
     (property "Hodnota" "HOLE" (id 1) (at 273.05 43.815 0)
@@ -2101,7 +2190,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:HOLE-MLAB_MECHANICAL") (at 275.59 43.815 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-0000549d7665")
-    (property "Odkaz" "M4" (id 0) (at 275.59 46.355 90)
+    (property "Odkaz" "M8" (id 0) (at 275.59 46.355 90)
       (effects (font (size 1.524 1.524)))
     )
     (property "Hodnota" "HOLE" (id 1) (at 278.13 43.815 0)
@@ -2118,7 +2207,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:VCC-power-QFHMIX01B-rescue") (at 106.68 24.765 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a8a006d")
-    (property "Odkaz" "#PWR033" (id 0) (at 102.87 24.765 0)
+    (property "Odkaz" "#PWR07" (id 0) (at 102.87 24.765 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Hodnota" "VCC" (id 1) (at 110.49 22.225 0)
@@ -2132,27 +2221,10 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:VCC-power-QFHMIX01B-rescue") (at 204.47 147.32 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005aad97e1")
-    (property "Odkaz" "#PWR070" (id 0) (at 204.47 151.13 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Hodnota" "VCC" (id 1) (at 204.47 143.51 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Pouzdro" "" (id 2) (at 204.47 147.32 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Katalogový list" "" (id 3) (at 204.47 147.32 0)
-      (effects (font (size 1.524 1.524)))
-    )
-  )
-
   (symbol (lib_id "QFHMIX01C-rescue:VCC-power-QFHMIX01B-rescue") (at 242.57 20.32 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-0000549d7353")
-    (property "Odkaz" "#PWR02" (id 0) (at 242.57 24.13 0)
+    (property "Odkaz" "#PWR046" (id 0) (at 242.57 24.13 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Hodnota" "VCC" (id 1) (at 242.57 16.51 0)
@@ -2169,7 +2241,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:+3V3-power-QFHMIX01B-rescue") (at 62.23 154.94 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a80126e")
-    (property "Odkaz" "#PWR077" (id 0) (at 66.04 154.94 0)
+    (property "Odkaz" "#PWR01" (id 0) (at 66.04 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "+3V3" (id 1) (at 57.8358 154.559 0))
@@ -2184,7 +2256,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:+3V3-power-QFHMIX01B-rescue") (at 99.695 152.4 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a91a7e1")
-    (property "Odkaz" "#PWR073" (id 0) (at 99.695 156.21 0)
+    (property "Odkaz" "#PWR05" (id 0) (at 99.695 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "+3V3" (id 1) (at 100.076 148.0058 0))
@@ -2196,36 +2268,36 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:+5V-power-QFHMIX01B-rescue") (at 127 73.025 90) (unit 1)
+  (symbol (lib_id "QFHMIX01C-rescue:+5V-power-QFHMIX01B-rescue") (at 109.855 73.025 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a57f614")
-    (property "Odkaz" "#PWR029" (id 0) (at 130.81 73.025 0)
+    (property "Odkaz" "#PWR010" (id 0) (at 113.665 73.025 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Hodnota" "+5V" (id 1) (at 123.825 73.025 90)
+    (property "Hodnota" "+5V" (id 1) (at 106.68 73.025 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Pouzdro" "" (id 2) (at 127 73.025 0)
+    (property "Pouzdro" "" (id 2) (at 109.855 73.025 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Katalogový list" "" (id 3) (at 127 73.025 0)
+    (property "Katalogový list" "" (id 3) (at 109.855 73.025 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:+5V-power-QFHMIX01B-rescue") (at 127 107.95 90) (unit 1)
+  (symbol (lib_id "QFHMIX01C-rescue:+5V-power-QFHMIX01B-rescue") (at 112.395 108.585 90) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005a639147")
-    (property "Odkaz" "#PWR045" (id 0) (at 130.81 107.95 0)
+    (uuid "e95e41fe-f1c4-4974-8c76-15f35658cfe5")
+    (property "Odkaz" "#PWR0103" (id 0) (at 116.205 108.585 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Hodnota" "+5V" (id 1) (at 124.46 109.22 90)
+    (property "Hodnota" "+5V" (id 1) (at 109.22 108.585 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Pouzdro" "" (id 2) (at 127 107.95 0)
+    (property "Pouzdro" "" (id 2) (at 112.395 108.585 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Katalogový list" "" (id 3) (at 127 107.95 0)
+    (property "Katalogový list" "" (id 3) (at 112.395 108.585 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -2233,7 +2305,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:+3V3-power-QFHMIX01B-rescue") (at 137.795 141.605 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005b810c50")
-    (property "Odkaz" "#PWR091" (id 0) (at 141.605 141.605 0)
+    (property "Odkaz" "#PWR022" (id 0) (at 141.605 141.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "+3V3" (id 1) (at 131.445 141.605 90))
@@ -2248,7 +2320,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:+5V-power-QFHMIX01B-rescue") (at 170.18 38.1 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a6371e6")
-    (property "Odkaz" "#PWR06" (id 0) (at 170.18 41.91 0)
+    (property "Odkaz" "#PWR032" (id 0) (at 170.18 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "+5V" (id 1) (at 168.91 35.56 90)
@@ -2265,7 +2337,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:+5V-power-QFHMIX01B-rescue") (at 170.18 133.35 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a77eb4b")
-    (property "Odkaz" "#PWR068" (id 0) (at 170.18 129.54 0)
+    (property "Odkaz" "#PWR033" (id 0) (at 170.18 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "+5V" (id 1) (at 172.72 133.985 90)
@@ -2279,27 +2351,10 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:+5V-power-QFHMIX01B-rescue") (at 204.47 125.73 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005a7bd83e")
-    (property "Odkaz" "#PWR052" (id 0) (at 204.47 129.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Hodnota" "+5V" (id 1) (at 203.2 123.19 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Pouzdro" "" (id 2) (at 204.47 125.73 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Katalogový list" "" (id 3) (at 204.47 125.73 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-
   (symbol (lib_id "QFHMIX01C-rescue:+3V3-power-QFHMIX01B-rescue") (at 233.68 50.165 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a624e79")
-    (property "Odkaz" "#PWR014" (id 0) (at 233.68 53.975 0)
+    (property "Odkaz" "#PWR045" (id 0) (at 233.68 53.975 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "+3V3" (id 1) (at 229.87 48.26 0))
@@ -2311,42 +2366,10 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:+3V3-power-QFHMIX01B-rescue") (at 249.555 127 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005ab54a15")
-    (property "Odkaz" "#PWR057" (id 0) (at 249.555 130.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Hodnota" "+3V3" (id 1) (at 249.936 122.6058 0))
-    (property "Pouzdro" "" (id 2) (at 249.555 127 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Katalogový list" "" (id 3) (at 249.555 127 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-
-  (symbol (lib_id "QFHMIX01C-rescue:+5V-power-QFHMIX01B-rescue") (at 250.19 147.32 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005ab6d0b0")
-    (property "Odkaz" "#PWR071" (id 0) (at 250.19 151.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Hodnota" "+5V" (id 1) (at 248.92 144.78 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Pouzdro" "" (id 2) (at 250.19 147.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Katalogový list" "" (id 3) (at 250.19 147.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-
   (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 42.5196 135.6868 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "aa173c49-0780-4937-86ff-aa311d463651")
-    (property "Odkaz" "L?" (id 0) (at 43.7896 136.9568 90)
+    (property "Odkaz" "L1" (id 0) (at 43.7896 136.9568 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Hodnota" "BLM21PG331SN1D" (id 1) (at 54.5846 139.4968 90)
@@ -2366,7 +2389,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 66.04 154.94 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a7d8b0d")
-    (property "Odkaz" "L21" (id 0) (at 67.31 156.21 90)
+    (property "Odkaz" "L2" (id 0) (at 67.31 156.21 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Hodnota" "BLM21PG331SN1D" (id 1) (at 76.2 149.86 90)
@@ -2386,7 +2409,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 141.605 141.605 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005b7cf7f1")
-    (property "Odkaz" "L22" (id 0) (at 142.875 142.875 90)
+    (property "Odkaz" "L3" (id 0) (at 142.875 142.875 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Hodnota" "BLM21PG331SN1D" (id 1) (at 146.05 138.43 90)
@@ -2406,7 +2429,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 166.37 59.69 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005ac5f47a")
-    (property "Odkaz" "L3" (id 0) (at 168.275 64.77 90)
+    (property "Odkaz" "L4" (id 0) (at 168.275 64.77 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Hodnota" "680nH" (id 1) (at 168.275 60.325 90)
@@ -2426,7 +2449,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 166.37 109.22 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a71c2d8")
-    (property "Odkaz" "L15" (id 0) (at 168.275 116.205 90)
+    (property "Odkaz" "L5" (id 0) (at 168.275 116.205 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Hodnota" "680nH" (id 1) (at 168.275 111.76 90)
@@ -2446,7 +2469,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 170.18 59.69 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005acfdbc8")
-    (property "Odkaz" "L4" (id 0) (at 172.085 64.77 90)
+    (property "Odkaz" "L6" (id 0) (at 172.085 64.77 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Hodnota" "680nH" (id 1) (at 172.085 60.325 90)
@@ -2466,7 +2489,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 170.18 109.22 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a71bcee")
-    (property "Odkaz" "L16" (id 0) (at 172.085 116.205 90)
+    (property "Odkaz" "L7" (id 0) (at 172.085 116.205 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Hodnota" "680nH" (id 1) (at 172.085 111.76 90)
@@ -2483,50 +2506,10 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 245.745 129.54 90) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005ab229af")
-    (property "Odkaz" "L19" (id 0) (at 247.015 130.81 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Hodnota" "BLM21PG331SN1D" (id 1) (at 258.445 132.715 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Pouzdro" "Mlab_L:SMD-0805" (id 2) (at 245.745 129.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Katalogový list" "" (id 3) (at 245.745 129.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFPN" "BLM21PG331SN1D" (id 4) (at 245.745 129.54 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-
-  (symbol (lib_id "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue") (at 246.38 150.495 90) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005ab22f51")
-    (property "Odkaz" "L20" (id 0) (at 247.65 151.765 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Hodnota" "BLM21PG331SN1D" (id 1) (at 258.445 154.305 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Pouzdro" "Mlab_L:SMD-0805" (id 2) (at 246.38 150.495 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Katalogový list" "" (id 3) (at 246.38 150.495 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFPN" "BLM21PG331SN1D" (id 4) (at 246.38 150.495 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 71.755 184.15 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a787c2b")
-    (property "Odkaz" "#PWR089" (id 0) (at 71.755 190.5 0)
+    (property "Odkaz" "#PWR02" (id 0) (at 71.755 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 71.755 187.96 0))
@@ -2541,7 +2524,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 76.835 184.15 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a787fbc")
-    (property "Odkaz" "#PWR090" (id 0) (at 76.835 190.5 0)
+    (property "Odkaz" "#PWR03" (id 0) (at 76.835 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 76.835 187.96 0))
@@ -2556,7 +2539,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 85.09 154.94 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a7d78b9")
-    (property "Odkaz" "#PWR078" (id 0) (at 91.44 154.94 0)
+    (property "Odkaz" "#PWR04" (id 0) (at 91.44 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 88.9 154.94 0))
@@ -2571,7 +2554,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 104.775 181.61 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a596eeb")
-    (property "Odkaz" "#PWR086" (id 0) (at 104.775 187.96 0)
+    (property "Odkaz" "#PWR06" (id 0) (at 104.775 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 104.775 185.42 0))
@@ -2586,7 +2569,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 106.68 27.305 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a873880")
-    (property "Odkaz" "#PWR030" (id 0) (at 113.03 27.305 0)
+    (property "Odkaz" "#PWR08" (id 0) (at 113.03 27.305 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 110.49 27.305 0))
@@ -2601,7 +2584,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 107.315 153.67 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a59771f")
-    (property "Odkaz" "#PWR076" (id 0) (at 113.665 153.67 0)
+    (property "Odkaz" "#PWR09" (id 0) (at 113.665 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 111.125 153.67 0))
@@ -2613,10 +2596,40 @@
     )
   )
 
+  (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 111.125 85.725 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid "7147697e-a285-4016-abe9-56e5b0606d3b")
+    (property "Odkaz" "#PWR0102" (id 0) (at 111.125 92.075 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Hodnota" "GND" (id 1) (at 111.125 89.535 0))
+    (property "Pouzdro" "" (id 2) (at 111.125 85.725 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Katalogový list" "" (id 3) (at 111.125 85.725 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 113.665 121.285 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid "b55034a1-d291-487a-91e7-7a6e415b1dcd")
+    (property "Odkaz" "#PWR0104" (id 0) (at 113.665 127.635 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Hodnota" "GND" (id 1) (at 113.665 125.095 0))
+    (property "Pouzdro" "" (id 2) (at 113.665 121.285 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Katalogový list" "" (id 3) (at 113.665 121.285 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 120.015 151.13 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a8cc6d7")
-    (property "Odkaz" "#PWR074" (id 0) (at 120.015 144.78 0)
+    (property "Odkaz" "#PWR011" (id 0) (at 120.015 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 120.015 147.32 0))
@@ -2631,7 +2644,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 120.015 184.15 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a8cc4b4")
-    (property "Odkaz" "#PWR087" (id 0) (at 120.015 190.5 0)
+    (property "Odkaz" "#PWR012" (id 0) (at 120.015 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 120.015 187.96 0))
@@ -2643,10 +2656,40 @@
     )
   )
 
+  (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 120.65 85.725 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid "eeb0433c-2638-4745-bace-229dcee90fed")
+    (property "Odkaz" "#PWR0101" (id 0) (at 120.65 92.075 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Hodnota" "GND" (id 1) (at 120.65 89.535 0))
+    (property "Pouzdro" "" (id 2) (at 120.65 85.725 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Katalogový list" "" (id 3) (at 120.65 85.725 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 123.19 121.285 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid "6b390838-db86-4175-a36c-352347428a99")
+    (property "Odkaz" "#PWR0105" (id 0) (at 123.19 127.635 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Hodnota" "GND" (id 1) (at 123.19 125.095 0))
+    (property "Pouzdro" "" (id 2) (at 123.19 121.285 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Katalogový list" "" (id 3) (at 123.19 121.285 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 123.825 151.13 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a8cca1b")
-    (property "Odkaz" "#PWR075" (id 0) (at 123.825 144.78 0)
+    (property "Odkaz" "#PWR013" (id 0) (at 123.825 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 123.825 147.32 0))
@@ -2661,7 +2704,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 123.825 184.15 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a8cc555")
-    (property "Odkaz" "#PWR088" (id 0) (at 123.825 190.5 0)
+    (property "Odkaz" "#PWR014" (id 0) (at 123.825 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 123.825 187.96 0))
@@ -2676,7 +2719,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 127 70.485 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a69b1d8")
-    (property "Odkaz" "#PWR027" (id 0) (at 120.65 70.485 0)
+    (property "Odkaz" "#PWR015" (id 0) (at 120.65 70.485 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 121.92 70.485 90))
@@ -2691,7 +2734,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 127 105.41 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a69b243")
-    (property "Odkaz" "#PWR041" (id 0) (at 120.65 105.41 0)
+    (property "Odkaz" "#PWR016" (id 0) (at 120.65 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 121.92 105.41 90))
@@ -2706,7 +2749,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 132.08 62.865 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a5945c0")
-    (property "Odkaz" "#PWR021" (id 0) (at 125.73 62.865 0)
+    (property "Odkaz" "#PWR018" (id 0) (at 125.73 62.865 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 128.27 62.865 0))
@@ -2721,7 +2764,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 132.08 76.835 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a5948aa")
-    (property "Odkaz" "#PWR031" (id 0) (at 125.73 76.835 0)
+    (property "Odkaz" "#PWR019" (id 0) (at 125.73 76.835 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 128.27 76.835 0))
@@ -2736,7 +2779,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 132.08 97.79 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a5e6cb8")
-    (property "Odkaz" "#PWR035" (id 0) (at 125.73 97.79 0)
+    (property "Odkaz" "#PWR020" (id 0) (at 125.73 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 128.27 97.79 0))
@@ -2751,7 +2794,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 132.08 111.76 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a5e6d21")
-    (property "Odkaz" "#PWR046" (id 0) (at 125.73 111.76 0)
+    (property "Odkaz" "#PWR021" (id 0) (at 125.73 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 128.27 111.76 0))
@@ -2766,7 +2809,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 148.59 132.08 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005b8938ef")
-    (property "Odkaz" "#PWR092" (id 0) (at 148.59 125.73 0)
+    (property "Odkaz" "#PWR023" (id 0) (at 148.59 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 148.59 128.27 0))
@@ -2781,7 +2824,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 154.94 62.865 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a5944ee")
-    (property "Odkaz" "#PWR022" (id 0) (at 161.29 62.865 0)
+    (property "Odkaz" "#PWR024" (id 0) (at 161.29 62.865 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 158.75 62.865 0))
@@ -2796,7 +2839,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 154.94 70.485 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a5949c2")
-    (property "Odkaz" "#PWR028" (id 0) (at 161.29 70.485 0)
+    (property "Odkaz" "#PWR025" (id 0) (at 161.29 70.485 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 158.75 70.485 0))
@@ -2811,7 +2854,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 154.94 78.105 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a594557")
-    (property "Odkaz" "#PWR032" (id 0) (at 161.29 78.105 0)
+    (property "Odkaz" "#PWR026" (id 0) (at 161.29 78.105 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 158.75 78.105 0))
@@ -2826,7 +2869,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 154.94 97.79 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a5e6b7d")
-    (property "Odkaz" "#PWR036" (id 0) (at 161.29 97.79 0)
+    (property "Odkaz" "#PWR027" (id 0) (at 161.29 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 158.75 97.79 0))
@@ -2841,7 +2884,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 154.94 105.41 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a5e6be6")
-    (property "Odkaz" "#PWR042" (id 0) (at 161.29 105.41 0)
+    (property "Odkaz" "#PWR028" (id 0) (at 161.29 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 158.75 105.41 0))
@@ -2856,7 +2899,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 154.94 113.03 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a5e6c4f")
-    (property "Odkaz" "#PWR048" (id 0) (at 161.29 113.03 0)
+    (property "Odkaz" "#PWR029" (id 0) (at 161.29 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 158.75 113.03 0))
@@ -2871,7 +2914,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 159.385 43.18 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a5ff828")
-    (property "Odkaz" "#PWR013" (id 0) (at 153.035 43.18 0)
+    (property "Odkaz" "#PWR030" (id 0) (at 153.035 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 155.575 43.18 0))
@@ -2886,7 +2929,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 159.385 51.435 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a5ff19f")
-    (property "Odkaz" "#PWR015" (id 0) (at 153.035 51.435 0)
+    (property "Odkaz" "#PWR031" (id 0) (at 153.035 51.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 155.575 51.435 0))
@@ -2901,7 +2944,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 174.625 141.605 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a566d6b")
-    (property "Odkaz" "#PWR050" (id 0) (at 180.975 141.605 0)
+    (property "Odkaz" "#PWR034" (id 0) (at 180.975 141.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 178.435 141.605 0))
@@ -2916,7 +2959,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 174.625 146.685 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a566f06")
-    (property "Odkaz" "#PWR058" (id 0) (at 180.975 146.685 0)
+    (property "Odkaz" "#PWR035" (id 0) (at 180.975 146.685 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 178.435 146.685 0))
@@ -2931,7 +2974,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 174.625 151.765 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a589d00")
-    (property "Odkaz" "#PWR063" (id 0) (at 180.975 151.765 0)
+    (property "Odkaz" "#PWR036" (id 0) (at 180.975 151.765 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 178.435 151.765 0))
@@ -2946,7 +2989,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 174.625 156.845 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a589e53")
-    (property "Odkaz" "#PWR069" (id 0) (at 180.975 156.845 0)
+    (property "Odkaz" "#PWR037" (id 0) (at 180.975 156.845 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 178.435 156.845 0))
@@ -2961,7 +3004,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 179.07 124.46 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a77deeb")
-    (property "Odkaz" "#PWR051" (id 0) (at 185.42 124.46 0)
+    (property "Odkaz" "#PWR038" (id 0) (at 185.42 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 182.88 124.46 0))
@@ -2976,7 +3019,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 179.07 132.08 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a77e51b")
-    (property "Odkaz" "#PWR062" (id 0) (at 185.42 132.08 0)
+    (property "Odkaz" "#PWR039" (id 0) (at 185.42 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 182.88 132.08 0))
@@ -2991,7 +3034,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 203.2 59.69 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a610dec")
-    (property "Odkaz" "#PWR019" (id 0) (at 203.2 53.34 0)
+    (property "Odkaz" "#PWR040" (id 0) (at 203.2 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 203.2 55.88 0))
@@ -3006,7 +3049,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 203.2 105.41 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a610d2f")
-    (property "Odkaz" "#PWR043" (id 0) (at 203.2 111.76 0)
+    (property "Odkaz" "#PWR041" (id 0) (at 203.2 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 203.2 109.22 0))
@@ -3018,40 +3061,10 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 210.82 136.525 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005aa7be08")
-    (property "Odkaz" "#PWR064" (id 0) (at 210.82 142.875 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Hodnota" "GND" (id 1) (at 210.82 140.335 0))
-    (property "Pouzdro" "" (id 2) (at 210.82 136.525 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Katalogový list" "" (id 3) (at 210.82 136.525 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-
-  (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 211.455 157.48 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005aaaa5c7")
-    (property "Odkaz" "#PWR079" (id 0) (at 211.455 163.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Hodnota" "GND" (id 1) (at 211.455 161.29 0))
-    (property "Pouzdro" "" (id 2) (at 211.455 157.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Katalogový list" "" (id 3) (at 211.455 157.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 218.44 107.315 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a7a7430")
-    (property "Odkaz" "#PWR044" (id 0) (at 218.44 113.665 0)
+    (property "Odkaz" "#PWR042" (id 0) (at 218.44 113.665 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 218.44 111.125 0))
@@ -3063,40 +3076,10 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 220.98 137.16 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005aa7bd2f")
-    (property "Odkaz" "#PWR066" (id 0) (at 220.98 143.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Hodnota" "GND" (id 1) (at 220.98 140.97 0))
-    (property "Pouzdro" "" (id 2) (at 220.98 137.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Katalogový list" "" (id 3) (at 220.98 137.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-
-  (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 221.615 158.115 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005aaaa4ee")
-    (property "Odkaz" "#PWR081" (id 0) (at 221.615 164.465 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Hodnota" "GND" (id 1) (at 221.615 161.925 0))
-    (property "Pouzdro" "" (id 2) (at 221.615 158.115 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Katalogový list" "" (id 3) (at 221.615 158.115 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 226.695 53.34 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a6aed26")
-    (property "Odkaz" "#PWR016" (id 0) (at 220.345 53.34 0)
+    (property "Odkaz" "#PWR043" (id 0) (at 220.345 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 222.885 53.34 0))
@@ -3111,7 +3094,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 226.695 59.69 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a806993")
-    (property "Odkaz" "#PWR020" (id 0) (at 220.345 59.69 0)
+    (property "Odkaz" "#PWR044" (id 0) (at 220.345 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 222.885 59.69 0))
@@ -3123,70 +3106,10 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 231.14 136.525 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005aa92b94")
-    (property "Odkaz" "#PWR065" (id 0) (at 231.14 142.875 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Hodnota" "GND" (id 1) (at 231.14 140.335 0))
-    (property "Pouzdro" "" (id 2) (at 231.14 136.525 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Katalogový list" "" (id 3) (at 231.14 136.525 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-
-  (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 231.775 157.48 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005aac190d")
-    (property "Odkaz" "#PWR080" (id 0) (at 231.775 163.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Hodnota" "GND" (id 1) (at 231.775 161.29 0))
-    (property "Pouzdro" "" (id 2) (at 231.775 157.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Katalogový list" "" (id 3) (at 231.775 157.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-
-  (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 238.125 137.16 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005ab221ce")
-    (property "Odkaz" "#PWR067" (id 0) (at 238.125 143.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Hodnota" "GND" (id 1) (at 238.125 140.97 0))
-    (property "Pouzdro" "" (id 2) (at 238.125 137.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Katalogový list" "" (id 3) (at 238.125 137.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-
-  (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 238.76 158.115 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005ab222ab")
-    (property "Odkaz" "#PWR082" (id 0) (at 238.76 164.465 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Hodnota" "GND" (id 1) (at 238.76 161.925 0))
-    (property "Pouzdro" "" (id 2) (at 238.76 158.115 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Katalogový list" "" (id 3) (at 238.76 158.115 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 242.57 30.48 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-0000549d73b2")
-    (property "Odkaz" "#PWR03" (id 0) (at 242.57 36.83 0)
+    (property "Odkaz" "#PWR047" (id 0) (at 242.57 36.83 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 242.57 34.29 0)
@@ -3203,7 +3126,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue") (at 280.67 42.545 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-0000549d770f")
-    (property "Odkaz" "#PWR012" (id 0) (at 280.67 48.895 0)
+    (property "Odkaz" "#PWR048" (id 0) (at 280.67 48.895 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Hodnota" "GND" (id 1) (at 280.67 46.355 0)
@@ -3220,7 +3143,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:D_Small-device-QFHMIX01B-rescue") (at 257.81 25.4 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-000055622fb7")
-    (property "Odkaz" "D2" (id 0) (at 257.81 22.86 90)
+    (property "Odkaz" "D1" (id 0) (at 257.81 22.86 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Hodnota" "M4" (id 1) (at 259.08 27.94 90)
@@ -3237,7 +3160,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 71.755 161.29 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a635320")
-    (property "Odkaz" "R32" (id 0) (at 69.215 161.29 90))
+    (property "Odkaz" "R1" (id 0) (at 69.215 161.29 90))
     (property "Hodnota" "130" (id 1) (at 71.755 161.29 90))
     (property "Pouzdro" "Mlab_R:SMD-0603" (id 2) (at 73.533 161.29 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -3250,7 +3173,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 71.755 180.34 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a63547c")
-    (property "Odkaz" "R40" (id 0) (at 69.215 180.34 90))
+    (property "Odkaz" "R2" (id 0) (at 69.215 180.34 90))
     (property "Hodnota" "82" (id 1) (at 71.755 180.34 90))
     (property "Pouzdro" "Mlab_R:SMD-0603" (id 2) (at 73.533 180.34 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -3263,7 +3186,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 76.835 161.29 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a63503c")
-    (property "Odkaz" "R33" (id 0) (at 74.295 161.29 90))
+    (property "Odkaz" "R3" (id 0) (at 74.295 161.29 90))
     (property "Hodnota" "130" (id 1) (at 76.835 161.29 90))
     (property "Pouzdro" "Mlab_R:SMD-0603" (id 2) (at 78.613 161.29 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -3276,7 +3199,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 76.835 180.34 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a6351c2")
-    (property "Odkaz" "R41" (id 0) (at 74.295 180.34 90))
+    (property "Odkaz" "R4" (id 0) (at 74.295 180.34 90))
     (property "Hodnota" "82" (id 1) (at 76.835 180.34 90))
     (property "Pouzdro" "Mlab_R:SMD-0603" (id 2) (at 78.613 180.34 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -3286,10 +3209,36 @@
     )
   )
 
+  (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 116.205 73.025 90) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid "11c19efe-b619-4fcc-bf21-105e1bd4b698")
+    (property "Odkaz" "R5" (id 0) (at 116.205 70.485 90))
+    (property "Hodnota" "3R9" (id 1) (at 116.205 73.025 90))
+    (property "Pouzdro" "Mlab_R:SMD-0603" (id 2) (at 116.205 74.803 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Katalogový list" "" (id 3) (at 116.205 73.025 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 118.745 108.585 90) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid "e038a678-61a2-44a2-bb8a-331b604fc75b")
+    (property "Odkaz" "R50" (id 0) (at 118.745 106.045 90))
+    (property "Hodnota" "3R9" (id 1) (at 118.745 108.585 90))
+    (property "Pouzdro" "Mlab_R:SMD-0603" (id 2) (at 118.745 110.363 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Katalogový list" "" (id 3) (at 118.745 108.585 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
   (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 120.015 156.21 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a7d314e")
-    (property "Odkaz" "R29" (id 0) (at 117.475 156.21 90))
+    (property "Odkaz" "R6" (id 0) (at 117.475 156.21 90))
     (property "Hodnota" "120" (id 1) (at 120.015 156.21 90))
     (property "Pouzdro" "Mlab_R:SMD-0603" (id 2) (at 118.237 156.21 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -3302,7 +3251,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 120.015 179.07 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a881a05")
-    (property "Odkaz" "R38" (id 0) (at 117.475 179.07 90))
+    (property "Odkaz" "R7" (id 0) (at 117.475 179.07 90))
     (property "Hodnota" "120" (id 1) (at 120.015 179.07 90))
     (property "Pouzdro" "Mlab_R:SMD-0603" (id 2) (at 118.237 179.07 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -3315,7 +3264,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 123.825 156.21 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a7d321c")
-    (property "Odkaz" "R30" (id 0) (at 126.365 156.21 90))
+    (property "Odkaz" "R8" (id 0) (at 126.365 156.21 90))
     (property "Hodnota" "120" (id 1) (at 123.825 156.21 90))
     (property "Pouzdro" "Mlab_R:SMD-0603" (id 2) (at 122.047 156.21 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -3328,7 +3277,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 123.825 179.07 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a881b15")
-    (property "Odkaz" "R39" (id 0) (at 126.365 179.07 90))
+    (property "Odkaz" "R9" (id 0) (at 126.365 179.07 90))
     (property "Hodnota" "120" (id 1) (at 123.825 179.07 90))
     (property "Pouzdro" "Mlab_R:SMD-0603" (id 2) (at 122.047 179.07 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -3341,7 +3290,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 142.24 160.02 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a59ce06")
-    (property "Odkaz" "R31" (id 0) (at 142.24 157.48 90))
+    (property "Odkaz" "R10" (id 0) (at 142.24 157.48 90))
     (property "Hodnota" "75" (id 1) (at 142.24 160.02 90))
     (property "Pouzdro" "Mlab_R:SMD-0603" (id 2) (at 142.24 158.242 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -3354,7 +3303,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 142.24 165.1 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a59cef2")
-    (property "Odkaz" "R34" (id 0) (at 142.24 162.56 90))
+    (property "Odkaz" "R11" (id 0) (at 142.24 162.56 90))
     (property "Hodnota" "75" (id 1) (at 142.24 165.1 90))
     (property "Pouzdro" "Mlab_R:SMD-0603" (id 2) (at 142.24 163.322 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -3367,7 +3316,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 142.24 170.18 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a59d106")
-    (property "Odkaz" "R35" (id 0) (at 142.24 167.64 90))
+    (property "Odkaz" "R12" (id 0) (at 142.24 167.64 90))
     (property "Hodnota" "75" (id 1) (at 142.24 170.18 90))
     (property "Pouzdro" "Mlab_R:SMD-0603" (id 2) (at 142.24 168.402 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -3380,7 +3329,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 142.24 175.26 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a59d2c7")
-    (property "Odkaz" "R37" (id 0) (at 142.24 172.72 90))
+    (property "Odkaz" "R13" (id 0) (at 142.24 172.72 90))
     (property "Hodnota" "75" (id 1) (at 142.24 175.26 90))
     (property "Pouzdro" "Mlab_R:SMD-0603" (id 2) (at 142.24 173.482 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -3393,7 +3342,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 153.67 141.605 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005b614e7b")
-    (property "Odkaz" "R42" (id 0) (at 153.67 139.065 90))
+    (property "Odkaz" "R14" (id 0) (at 153.67 139.065 90))
     (property "Hodnota" "200" (id 1) (at 153.67 141.605 90))
     (property "Pouzdro" "Mlab_R:SMD-0603" (id 2) (at 153.67 139.827 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -3406,7 +3355,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 153.67 146.685 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005b614fe9")
-    (property "Odkaz" "R43" (id 0) (at 153.67 144.145 90))
+    (property "Odkaz" "R15" (id 0) (at 153.67 144.145 90))
     (property "Hodnota" "200" (id 1) (at 153.67 146.685 90))
     (property "Pouzdro" "Mlab_R:SMD-0603" (id 2) (at 153.67 144.907 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -3419,7 +3368,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 153.67 151.765 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005b61515d")
-    (property "Odkaz" "R44" (id 0) (at 153.67 149.225 90))
+    (property "Odkaz" "R16" (id 0) (at 153.67 149.225 90))
     (property "Hodnota" "200" (id 1) (at 153.67 151.765 90))
     (property "Pouzdro" "Mlab_R:SMD-0603" (id 2) (at 153.67 149.987 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -3432,7 +3381,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 153.67 156.845 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005b6152e1")
-    (property "Odkaz" "R45" (id 0) (at 153.67 154.305 90))
+    (property "Odkaz" "R17" (id 0) (at 153.67 154.305 90))
     (property "Hodnota" "200" (id 1) (at 153.67 156.845 90))
     (property "Pouzdro" "Mlab_R:SMD-0603" (id 2) (at 153.67 155.067 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -3445,7 +3394,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 170.815 141.605 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a544d71")
-    (property "Odkaz" "R25" (id 0) (at 170.815 139.065 90))
+    (property "Odkaz" "R18" (id 0) (at 170.815 139.065 90))
     (property "Hodnota" "24.9" (id 1) (at 170.815 141.605 90))
     (property "Pouzdro" "Mlab_R:SMD-0603" (id 2) (at 170.815 139.827 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -3458,7 +3407,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 170.815 146.685 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a544f02")
-    (property "Odkaz" "R26" (id 0) (at 170.815 144.145 90))
+    (property "Odkaz" "R19" (id 0) (at 170.815 144.145 90))
     (property "Hodnota" "24.9" (id 1) (at 170.815 146.685 90))
     (property "Pouzdro" "Mlab_R:SMD-0603" (id 2) (at 170.815 144.907 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -3471,7 +3420,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 170.815 151.765 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a567089")
-    (property "Odkaz" "R27" (id 0) (at 170.815 149.225 90))
+    (property "Odkaz" "R20" (id 0) (at 170.815 149.225 90))
     (property "Hodnota" "24.9" (id 1) (at 170.815 151.765 90))
     (property "Pouzdro" "Mlab_R:SMD-0603" (id 2) (at 170.815 149.987 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -3484,7 +3433,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 170.815 156.845 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a566fb1")
-    (property "Odkaz" "R28" (id 0) (at 170.815 154.305 90))
+    (property "Odkaz" "R21" (id 0) (at 170.815 154.305 90))
     (property "Hodnota" "24.9" (id 1) (at 170.815 156.845 90))
     (property "Pouzdro" "Mlab_R:SMD-0603" (id 2) (at 170.815 155.067 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -3497,7 +3446,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 198.12 72.39 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a4c5f52")
-    (property "Odkaz" "R9" (id 0) (at 198.12 69.85 90))
+    (property "Odkaz" "R22" (id 0) (at 198.12 69.85 90))
     (property "Hodnota" "200" (id 1) (at 198.12 72.39 90))
     (property "Pouzdro" "Mlab_R:SMD-0603" (id 2) (at 198.12 70.612 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -3510,7 +3459,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 198.12 80.01 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a4c6045")
-    (property "Odkaz" "R12" (id 0) (at 198.12 77.47 90))
+    (property "Odkaz" "R23" (id 0) (at 198.12 77.47 90))
     (property "Hodnota" "200" (id 1) (at 198.12 80.01 90))
     (property "Pouzdro" "Mlab_R:SMD-0603" (id 2) (at 198.12 78.232 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -3523,7 +3472,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 198.12 87.63 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a4d0c2b")
-    (property "Odkaz" "R13" (id 0) (at 198.12 85.09 90))
+    (property "Odkaz" "R24" (id 0) (at 198.12 85.09 90))
     (property "Hodnota" "200" (id 1) (at 198.12 87.63 90))
     (property "Pouzdro" "Mlab_R:SMD-0603" (id 2) (at 198.12 85.852 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -3536,7 +3485,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 198.12 95.25 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a4d0c91")
-    (property "Odkaz" "R16" (id 0) (at 198.12 92.71 90))
+    (property "Odkaz" "R25" (id 0) (at 198.12 92.71 90))
     (property "Hodnota" "200" (id 1) (at 198.12 95.25 90))
     (property "Pouzdro" "Mlab_R:SMD-0603" (id 2) (at 198.12 93.472 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -3549,7 +3498,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 238.125 73.66 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005af49818")
-    (property "Odkaz" "R10" (id 0) (at 238.125 71.12 90))
+    (property "Odkaz" "R26" (id 0) (at 238.125 71.12 90))
     (property "Hodnota" "50" (id 1) (at 238.125 73.66 90))
     (property "Pouzdro" "Mlab_R:SMD-0603" (id 2) (at 238.125 71.882 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -3562,7 +3511,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 238.125 78.74 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005af4999e")
-    (property "Odkaz" "R11" (id 0) (at 238.125 76.2 90))
+    (property "Odkaz" "R27" (id 0) (at 238.125 76.2 90))
     (property "Hodnota" "50" (id 1) (at 238.125 78.74 90))
     (property "Pouzdro" "Mlab_R:SMD-0603" (id 2) (at 238.125 76.962 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -3575,7 +3524,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 238.125 88.9 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005af9379a")
-    (property "Odkaz" "R14" (id 0) (at 238.125 86.36 90))
+    (property "Odkaz" "R28" (id 0) (at 238.125 86.36 90))
     (property "Hodnota" "50" (id 1) (at 238.125 88.9 90))
     (property "Pouzdro" "Mlab_R:SMD-0603" (id 2) (at 238.125 87.122 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -3588,7 +3537,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue") (at 238.125 93.98 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005af9363c")
-    (property "Odkaz" "R15" (id 0) (at 238.125 91.44 90))
+    (property "Odkaz" "R29" (id 0) (at 238.125 91.44 90))
     (property "Hodnota" "50" (id 1) (at 238.125 93.98 90))
     (property "Pouzdro" "Mlab_R:SMD-0603" (id 2) (at 238.125 92.202 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -3601,7 +3550,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 37.1856 139.2936 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "befbc6b4-e701-45b9-a2ff-950f00488af4")
-    (property "Odkaz" "C?" (id 0) (at 39.0906 131.0386 0)
+    (property "Odkaz" "C1" (id 0) (at 39.0906 131.0386 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Hodnota" "100nF" (id 1) (at 40.9956 132.9436 0)
@@ -3618,7 +3567,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 49.4284 139.3444 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "143a9598-bba9-4696-83e8-3f7a11f7a98e")
-    (property "Odkaz" "C?" (id 0) (at 51.3334 131.0894 0)
+    (property "Odkaz" "C2" (id 0) (at 51.3334 131.0894 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Hodnota" "100nF" (id 1) (at 53.2384 132.9944 0)
@@ -3635,7 +3584,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 54.0004 139.3952 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "e2868fb0-b164-40f3-a733-c7a5a4aea04f")
-    (property "Odkaz" "C?" (id 0) (at 55.9054 131.1402 0)
+    (property "Odkaz" "C3" (id 0) (at 55.9054 131.1402 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Hodnota" "47uF/6V3" (id 1) (at 57.8104 133.0452 0)
@@ -3652,7 +3601,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 82.55 154.94 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a7afcc1")
-    (property "Odkaz" "C58" (id 0) (at 81.28 153.67 90)
+    (property "Odkaz" "C4" (id 0) (at 81.28 153.67 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Hodnota" "100nF" (id 1) (at 85.09 151.13 90)
@@ -3669,7 +3618,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 83.185 167.64 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a91acad")
-    (property "Odkaz" "C63" (id 0) (at 81.915 166.37 90)
+    (property "Odkaz" "C5" (id 0) (at 81.915 166.37 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Hodnota" "100nF" (id 1) (at 85.725 163.83 90)
@@ -3686,7 +3635,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 83.185 175.26 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a91ad9b")
-    (property "Odkaz" "C65" (id 0) (at 81.915 173.99 90)
+    (property "Odkaz" "C6" (id 0) (at 81.915 173.99 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Hodnota" "100nF" (id 1) (at 84.455 179.07 90)
@@ -3703,7 +3652,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 104.775 153.67 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a597667")
-    (property "Odkaz" "C56" (id 0) (at 104.14 150.495 90)
+    (property "Odkaz" "C7" (id 0) (at 104.14 150.495 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Hodnota" "10nF" (id 1) (at 109.22 150.495 90)
@@ -3717,13 +3666,81 @@
     )
   )
 
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 111.125 79.375 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid "3368ccda-df3c-498d-a987-7417a9d20007")
+    (property "Odkaz" "C8" (id 0) (at 109.22 84.455 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Hodnota" "100nF" (id 1) (at 113.03 86.36 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Pouzdro" "Mlab_C:SMD-0603" (id 2) (at 111.125 79.375 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Katalogový list" "" (id 3) (at 111.125 79.375 0)
+      (effects (font (size 1.524 1.524)))
+    )
+  )
+
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 113.665 114.935 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid "5e5b1835-f0c9-4d69-803a-5212f6eb366a")
+    (property "Odkaz" "C81" (id 0) (at 111.76 120.015 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Hodnota" "100nF" (id 1) (at 115.57 121.92 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Pouzdro" "Mlab_C:SMD-0603" (id 2) (at 113.665 114.935 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Katalogový list" "" (id 3) (at 113.665 114.935 0)
+      (effects (font (size 1.524 1.524)))
+    )
+  )
+
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 120.65 79.375 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid "2db3508e-0b7d-4eed-9fc8-e4fb600d4bfe")
+    (property "Odkaz" "C9" (id 0) (at 118.745 84.455 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Hodnota" "10nF" (id 1) (at 122.555 86.36 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Pouzdro" "Mlab_C:SMD-0603" (id 2) (at 120.65 79.375 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Katalogový list" "" (id 3) (at 120.65 79.375 0)
+      (effects (font (size 1.524 1.524)))
+    )
+  )
+
+  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 123.19 114.935 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid "2b5052b9-94b8-47cc-9c76-887b09f37d04")
+    (property "Odkaz" "C82" (id 0) (at 121.285 120.015 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Hodnota" "10nF" (id 1) (at 125.095 121.92 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Pouzdro" "Mlab_C:SMD-0603" (id 2) (at 123.19 114.935 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Katalogový list" "" (id 3) (at 123.19 114.935 0)
+      (effects (font (size 1.524 1.524)))
+    )
+  )
+
   (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 129.54 70.485 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a57f7c4")
-    (property "Odkaz" "C20" (id 0) (at 130.81 69.215 90)
+    (property "Odkaz" "C10" (id 0) (at 124.46 68.58 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Hodnota" "10nF" (id 1) (at 130.81 71.755 90)
+    (property "Hodnota" "100nF" (id 1) (at 122.555 72.39 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Pouzdro" "Mlab_C:SMD-0603" (id 2) (at 129.54 70.485 0)
@@ -3737,10 +3754,10 @@
   (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 129.54 105.41 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a6394af")
-    (property "Odkaz" "C41" (id 0) (at 130.81 104.14 90)
+    (property "Odkaz" "C11" (id 0) (at 130.81 104.14 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Hodnota" "10n" (id 1) (at 130.81 106.68 90)
+    (property "Hodnota" "100nF" (id 1) (at 130.81 106.68 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Pouzdro" "Mlab_C:SMD-0603" (id 2) (at 129.54 105.41 0)
@@ -3754,7 +3771,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 133.985 160.02 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a52f807")
-    (property "Odkaz" "C61" (id 0) (at 132.715 158.75 90)
+    (property "Odkaz" "C12" (id 0) (at 132.715 158.75 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Hodnota" "10nF" (id 1) (at 139.065 158.75 90)
@@ -3771,7 +3788,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 133.985 165.1 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a832df0")
-    (property "Odkaz" "C62" (id 0) (at 132.715 163.83 90)
+    (property "Odkaz" "C13" (id 0) (at 132.715 163.83 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Hodnota" "10nF" (id 1) (at 138.43 163.83 90)
@@ -3788,7 +3805,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 133.985 170.18 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a4ebffa")
-    (property "Odkaz" "C64" (id 0) (at 132.715 168.91 90)
+    (property "Odkaz" "C14" (id 0) (at 132.715 168.91 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Hodnota" "10nF" (id 1) (at 138.43 168.91 90)
@@ -3805,7 +3822,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 133.985 175.26 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a52f8ab")
-    (property "Odkaz" "C66" (id 0) (at 132.715 173.99 90)
+    (property "Odkaz" "C15" (id 0) (at 132.715 173.99 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Hodnota" "10nF" (id 1) (at 138.43 173.99 90)
@@ -3822,7 +3839,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 148.59 134.62 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005b811413")
-    (property "Odkaz" "C67" (id 0) (at 152.4 132.715 90)
+    (property "Odkaz" "C16" (id 0) (at 152.4 132.715 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Hodnota" "10nF" (id 1) (at 151.765 137.795 90)
@@ -3839,7 +3856,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 161.925 43.18 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a5e3ea9")
-    (property "Odkaz" "C7" (id 0) (at 161.29 46.355 90)
+    (property "Odkaz" "C17" (id 0) (at 161.29 46.355 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Hodnota" "100nF" (id 1) (at 160.02 40.005 90)
@@ -3856,7 +3873,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 161.925 51.435 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a5ff702")
-    (property "Odkaz" "C8" (id 0) (at 161.29 53.975 90)
+    (property "Odkaz" "C18" (id 0) (at 161.29 53.975 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Hodnota" "100nF" (id 1) (at 160.02 48.26 90)
@@ -3873,7 +3890,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 176.53 124.46 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a6a055e")
-    (property "Odkaz" "C47" (id 0) (at 175.895 127 90)
+    (property "Odkaz" "C19" (id 0) (at 175.895 127 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Hodnota" "100nF" (id 1) (at 174.625 121.285 90)
@@ -3890,7 +3907,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 176.53 132.08 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a6a0de8")
-    (property "Odkaz" "C52" (id 0) (at 175.895 134.62 90)
+    (property "Odkaz" "C20" (id 0) (at 175.895 134.62 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Hodnota" "100nF" (id 1) (at 174.625 128.905 90)
@@ -3924,7 +3941,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 181.61 80.01 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a69544d")
-    (property "Odkaz" "C28" (id 0) (at 182.88 78.74 90)
+    (property "Odkaz" "C22" (id 0) (at 182.88 78.74 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Hodnota" "100nF" (id 1) (at 182.88 81.28 90)
@@ -3941,7 +3958,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 181.61 87.63 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a69557d")
-    (property "Odkaz" "C29" (id 0) (at 182.88 86.36 90)
+    (property "Odkaz" "C23" (id 0) (at 182.88 86.36 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Hodnota" "100nF" (id 1) (at 182.88 88.9 90)
@@ -3958,7 +3975,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 181.61 95.25 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a6956af")
-    (property "Odkaz" "C36" (id 0) (at 182.88 93.98 90)
+    (property "Odkaz" "C24" (id 0) (at 182.88 93.98 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Hodnota" "100nF" (id 1) (at 182.88 96.52 90)
@@ -3975,7 +3992,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 203.2 62.23 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a5ea454")
-    (property "Odkaz" "C16" (id 0) (at 198.12 60.96 0)
+    (property "Odkaz" "C25" (id 0) (at 198.12 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Hodnota" "10nF" (id 1) (at 196.85 62.865 0)
@@ -3992,7 +4009,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 203.2 102.87 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a5fd855")
-    (property "Odkaz" "C40" (id 0) (at 198.755 99.06 0)
+    (property "Odkaz" "C26" (id 0) (at 198.755 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Hodnota" "10nF" (id 1) (at 198.12 100.965 0)
@@ -4006,44 +4023,10 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 210.82 133.985 180) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005aa64ac3")
-    (property "Odkaz" "C54" (id 0) (at 208.28 131.445 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Hodnota" "100nF" (id 1) (at 208.28 134.62 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Pouzdro" "Mlab_C:SMD-0603" (id 2) (at 210.82 133.985 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Katalogový list" "" (id 3) (at 210.82 133.985 0)
-      (effects (font (size 1.524 1.524)))
-    )
-  )
-
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 211.455 154.94 180) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005aa65011")
-    (property "Odkaz" "C59" (id 0) (at 212.09 146.685 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Hodnota" "100nF" (id 1) (at 212.725 148.59 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Pouzdro" "Mlab_C:SMD-0603" (id 2) (at 211.455 154.94 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Katalogový list" "" (id 3) (at 211.455 154.94 0)
-      (effects (font (size 1.524 1.524)))
-    )
-  )
-
   (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 229.235 53.34 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a6ae877")
-    (property "Odkaz" "C9" (id 0) (at 228.6 56.515 90)
+    (property "Odkaz" "C27" (id 0) (at 228.6 56.515 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Hodnota" "100nF" (id 1) (at 222.25 56.515 90)
@@ -4060,7 +4043,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 229.235 59.69 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a806833")
-    (property "Odkaz" "C10" (id 0) (at 228.6 62.865 90)
+    (property "Odkaz" "C28" (id 0) (at 228.6 62.865 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Hodnota" "100nF" (id 1) (at 222.25 62.865 90)
@@ -4074,78 +4057,10 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 231.14 133.985 180) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005aa64f05")
-    (property "Odkaz" "C55" (id 0) (at 233.045 125.73 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Hodnota" "100nF" (id 1) (at 234.95 127.635 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Pouzdro" "Mlab_C:SMD-0603" (id 2) (at 231.14 133.985 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Katalogový list" "" (id 3) (at 231.14 133.985 0)
-      (effects (font (size 1.524 1.524)))
-    )
-  )
-
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 231.775 154.94 180) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005aa6512b")
-    (property "Odkaz" "C60" (id 0) (at 233.68 146.685 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Hodnota" "100nF" (id 1) (at 234.315 148.59 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Pouzdro" "Mlab_C:SMD-0603" (id 2) (at 231.775 154.94 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Katalogový list" "" (id 3) (at 231.775 154.94 0)
-      (effects (font (size 1.524 1.524)))
-    )
-  )
-
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 238.125 133.35 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005aaf1c23")
-    (property "Odkaz" "C53" (id 0) (at 236.855 125.095 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Hodnota" "10uF" (id 1) (at 236.22 127 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Pouzdro" "Mlab_C:C_0805" (id 2) (at 238.125 133.35 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Katalogový list" "" (id 3) (at 238.125 133.35 0)
-      (effects (font (size 1.524 1.524)))
-    )
-  )
-
-  (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 238.76 154.305 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005aaf2109")
-    (property "Odkaz" "C57" (id 0) (at 236.855 146.685 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Hodnota" "10uF" (id 1) (at 236.855 148.59 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Pouzdro" "Mlab_C:C_0805" (id 2) (at 238.76 154.305 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Katalogový list" "" (id 3) (at 238.76 154.305 0)
-      (effects (font (size 1.524 1.524)))
-    )
-  )
-
   (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 242.57 25.4 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a69a30c")
-    (property "Odkaz" "C1" (id 0) (at 242.57 22.86 0)
+    (property "Odkaz" "C29" (id 0) (at 242.57 22.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Hodnota" "10uF/16V" (id 1) (at 240.03 30.48 90)
@@ -4162,7 +4077,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue") (at 250.19 25.4 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005562302c")
-    (property "Odkaz" "C2" (id 0) (at 250.19 22.86 0)
+    (property "Odkaz" "C30" (id 0) (at 250.19 22.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Hodnota" "100nF" (id 1) (at 250.19 27.94 0)
@@ -4179,7 +4094,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:HEADER_2x03_PARALLEL-MLAB_HEADER") (at 273.05 21.59 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-0000549d65bc")
-    (property "Odkaz" "J1" (id 0) (at 273.05 26.67 0)
+    (property "Odkaz" "J2" (id 0) (at 273.05 26.67 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Hodnota" "+9V" (id 1) (at 273.05 15.875 0)
@@ -4193,46 +4108,20 @@
     )
   )
 
-  (symbol (lib_id "QFHMIX01C-rescue:HEADER_1x08-MLAB_HEADER") (at 101.6 33.655 0) (mirror y) (unit 1)
+  (symbol (lib_id "QFHMIX01C-rescue:HEADER_1x08-MLAB_HEADER") (at 101.6 33.655 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a87055f")
-    (property "Odkaz" "J2" (id 0) (at 99.6188 32.1818 0)
+    (property "Odkaz" "J1" (id 0) (at 99.6188 35.1282 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Hodnota" "HEADER_1x08" (id 1) (at 99.6188 34.8742 0)
+    (property "Hodnota" "HEADER_1x08" (id 1) (at 99.6188 32.4358 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Pouzdro" "maxrez:IDC381-8-110" (id 2) (at 99.6188 36.2204 0)
+    (property "Pouzdro" "maxrez:IDC381-8-110" (id 2) (at 99.6188 31.0896 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
-    (property "Katalogový list" "" (id 3) (at 101.6 24.765 0)
+    (property "Katalogový list" "" (id 3) (at 101.6 42.545 0)
       (effects (font (size 1.524 1.524)))
-    )
-  )
-
-  (symbol (lib_id "QFHMIX01C-rescue:AP1117-15-regul-QFHMIX01B-rescue") (at 220.98 129.54 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005aa08668")
-    (property "Odkaz" "U8" (id 0) (at 220.98 120.65 0))
-    (property "Hodnota" "LM1117MP-3,3/NO" (id 1) (at 220.98 123.19 0))
-    (property "Pouzdro" "TO_SOT_Packages_SMD:SOT-223-3_TabPin2" (id 2) (at 220.98 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Katalogový list" "http://www.diodes.com/datasheets/AP1117.pdf" (id 3) (at 223.52 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-
-  (symbol (lib_id "QFHMIX01C-rescue:AP1117-15-regul-QFHMIX01B-rescue") (at 221.615 150.495 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005aa08e3a")
-    (property "Odkaz" "U9" (id 0) (at 221.615 144.3482 0))
-    (property "Hodnota" "NCP1117ST50" (id 1) (at 221.615 146.6596 0))
-    (property "Pouzdro" "TO_SOT_Packages_SMD:SOT-223-3_TabPin2" (id 2) (at 221.615 145.415 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Katalogový list" "http://www.diodes.com/datasheets/AP1117.pdf" (id 3) (at 224.155 156.845 0)
-      (effects (font (size 1.27 1.27)) hide)
     )
   )
 
@@ -4256,7 +4145,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:AD8343-DENGS_lib-QFHMIX01B-rescue") (at 143.51 105.41 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a4c9c13")
-    (property "Odkaz" "U7" (id 0) (at 138.43 93.345 0)
+    (property "Odkaz" "U4" (id 0) (at 138.43 93.345 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Hodnota" "AD8343" (id 1) (at 143.51 116.84 0)
@@ -4273,7 +4162,7 @@
   (symbol (lib_id "QFHMIX01C-rescue:Si53322-DENGS_lib-QFHMIX01B-rescue") (at 104.775 167.64 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a50caa9")
-    (property "Odkaz" "U10" (id 0) (at 97.155 179.07 0)
+    (property "Odkaz" "U2" (id 0) (at 97.155 179.07 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Hodnota" "Si53322" (id 1) (at 97.155 181.61 0)
@@ -4287,10 +4176,27 @@
     )
   )
 
+  (symbol (lib_id "MLAB_IO:AD8343") (at 61.595 44.45 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid "9e403048-126f-40d0-be3e-0b23792c8554")
+    (property "Odkaz" "U1" (id 0) (at 61.595 29.5935 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Hodnota" "AD8343" (id 1) (at 61.595 32.3011 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Pouzdro" "kicad-libraries-master:TSSOP14" (id 2) (at 50.165 34.29 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Katalogový list" "" (id 3) (at 50.165 34.29 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+  )
+
   (symbol (lib_id "QFHMIX01C-rescue:LT6604-DENGS_lib-QFHMIX01B-rescue") (at 219.71 83.82 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a467482")
-    (property "Odkaz" "U4" (id 0) (at 210.82 64.77 0)
+    (property "Odkaz" "U5" (id 0) (at 210.82 64.77 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Hodnota" "LT6604-10" (id 1) (at 218.44 83.82 0)
@@ -4339,762 +4245,902 @@
     )
   )
 
+  (sheet (at 24.384 183.7944) (size 13.3096 7.4676)
+    (stroke (width 0.001) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))    (uuid d464a012-3bbc-4755-a15c-1179d919aa40)
+    (property "Název listu" "Power" (id 0) (at 24.384 183.1585 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Power.kicad_sch" (id 1) (at 24.384 191.7709 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (symbol_instances
-    (path "/00000000-0000-0000-0000-0000549d7353"
-      (reference "#PWR02") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-0000549d73b2"
-      (reference "#PWR03") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a6371e6"
-      (reference "#PWR06") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-0000549d770f"
-      (reference "#PWR012") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a5ff828"
-      (reference "#PWR013") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a624e79"
-      (reference "#PWR014") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a5ff19f"
-      (reference "#PWR015") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a6aed26"
-      (reference "#PWR016") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a610dec"
-      (reference "#PWR019") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a806993"
-      (reference "#PWR020") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a5945c0"
-      (reference "#PWR021") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a5944ee"
-      (reference "#PWR022") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a69b1d8"
-      (reference "#PWR027") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a5949c2"
-      (reference "#PWR028") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a57f614"
-      (reference "#PWR029") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a873880"
-      (reference "#PWR030") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a5948aa"
-      (reference "#PWR031") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a594557"
-      (reference "#PWR032") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a8a006d"
-      (reference "#PWR033") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a5e6cb8"
-      (reference "#PWR035") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a5e6b7d"
-      (reference "#PWR036") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a69b243"
-      (reference "#PWR041") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a5e6be6"
-      (reference "#PWR042") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a610d2f"
-      (reference "#PWR043") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a7a7430"
-      (reference "#PWR044") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a639147"
-      (reference "#PWR045") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a5e6d21"
-      (reference "#PWR046") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a5e6c4f"
-      (reference "#PWR048") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a566d6b"
-      (reference "#PWR050") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a77deeb"
-      (reference "#PWR051") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a7bd83e"
-      (reference "#PWR052") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ab54a15"
-      (reference "#PWR057") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a566f06"
-      (reference "#PWR058") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a77e51b"
-      (reference "#PWR062") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a589d00"
-      (reference "#PWR063") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005aa7be08"
-      (reference "#PWR064") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005aa92b94"
-      (reference "#PWR065") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005aa7bd2f"
-      (reference "#PWR066") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ab221ce"
-      (reference "#PWR067") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a77eb4b"
-      (reference "#PWR068") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a589e53"
-      (reference "#PWR069") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005aad97e1"
-      (reference "#PWR070") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ab6d0b0"
-      (reference "#PWR071") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a91a7e1"
-      (reference "#PWR073") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a8cc6d7"
-      (reference "#PWR074") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a8cca1b"
-      (reference "#PWR075") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a59771f"
-      (reference "#PWR076") (unit 1)
-    )
     (path "/00000000-0000-0000-0000-00005a80126e"
-      (reference "#PWR077") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a7d78b9"
-      (reference "#PWR078") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005aaaa5c7"
-      (reference "#PWR079") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005aac190d"
-      (reference "#PWR080") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005aaaa4ee"
-      (reference "#PWR081") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ab222ab"
-      (reference "#PWR082") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a596eeb"
-      (reference "#PWR086") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a8cc4b4"
-      (reference "#PWR087") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a8cc555"
-      (reference "#PWR088") (unit 1)
+      (reference "#PWR01") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005a787c2b"
-      (reference "#PWR089") (unit 1)
+      (reference "#PWR02") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005a787fbc"
-      (reference "#PWR090") (unit 1)
+      (reference "#PWR03") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a7d78b9"
+      (reference "#PWR04") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a91a7e1"
+      (reference "#PWR05") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a596eeb"
+      (reference "#PWR06") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a8a006d"
+      (reference "#PWR07") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a873880"
+      (reference "#PWR08") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a59771f"
+      (reference "#PWR09") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a57f614"
+      (reference "#PWR010") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a8cc6d7"
+      (reference "#PWR011") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a8cc4b4"
+      (reference "#PWR012") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a8cca1b"
+      (reference "#PWR013") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a8cc555"
+      (reference "#PWR014") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a69b1d8"
+      (reference "#PWR015") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a69b243"
+      (reference "#PWR016") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a5945c0"
+      (reference "#PWR018") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a5948aa"
+      (reference "#PWR019") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a5e6cb8"
+      (reference "#PWR020") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a5e6d21"
+      (reference "#PWR021") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005b810c50"
-      (reference "#PWR091") (unit 1)
+      (reference "#PWR022") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005b8938ef"
-      (reference "#PWR092") (unit 1)
+      (reference "#PWR023") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005a69a30c"
+    (path "/00000000-0000-0000-0000-00005a5944ee"
+      (reference "#PWR024") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a5949c2"
+      (reference "#PWR025") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a594557"
+      (reference "#PWR026") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a5e6b7d"
+      (reference "#PWR027") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a5e6be6"
+      (reference "#PWR028") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a5e6c4f"
+      (reference "#PWR029") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a5ff828"
+      (reference "#PWR030") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a5ff19f"
+      (reference "#PWR031") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a6371e6"
+      (reference "#PWR032") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a77eb4b"
+      (reference "#PWR033") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a566d6b"
+      (reference "#PWR034") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a566f06"
+      (reference "#PWR035") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a589d00"
+      (reference "#PWR036") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a589e53"
+      (reference "#PWR037") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a77deeb"
+      (reference "#PWR038") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a77e51b"
+      (reference "#PWR039") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a610dec"
+      (reference "#PWR040") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a610d2f"
+      (reference "#PWR041") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a7a7430"
+      (reference "#PWR042") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a6aed26"
+      (reference "#PWR043") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a806993"
+      (reference "#PWR044") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a624e79"
+      (reference "#PWR045") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-0000549d7353"
+      (reference "#PWR046") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-0000549d73b2"
+      (reference "#PWR047") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-0000549d770f"
+      (reference "#PWR048") (unit 1)
+    )
+    (path "/eeb0433c-2638-4745-bace-229dcee90fed"
+      (reference "#PWR0101") (unit 1)
+    )
+    (path "/7147697e-a285-4016-abe9-56e5b0606d3b"
+      (reference "#PWR0102") (unit 1)
+    )
+    (path "/e95e41fe-f1c4-4974-8c76-15f35658cfe5"
+      (reference "#PWR0103") (unit 1)
+    )
+    (path "/b55034a1-d291-487a-91e7-7a6e415b1dcd"
+      (reference "#PWR0104") (unit 1)
+    )
+    (path "/6b390838-db86-4175-a36c-352347428a99"
+      (reference "#PWR0105") (unit 1)
+    )
+    (path "/befbc6b4-e701-45b9-a2ff-950f00488af4"
       (reference "C1") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005562302c"
+    (path "/143a9598-bba9-4696-83e8-3f7a11f7a98e"
       (reference "C2") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005a5e3ea9"
+    (path "/e2868fb0-b164-40f3-a733-c7a5a4aea04f"
+      (reference "C3") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a7afcc1"
+      (reference "C4") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a91acad"
+      (reference "C5") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a91ad9b"
+      (reference "C6") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a597667"
       (reference "C7") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005a5ff702"
+    (path "/3368ccda-df3c-498d-a987-7417a9d20007"
       (reference "C8") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005a6ae877"
+    (path "/2db3508e-0b7d-4eed-9fc8-e4fb600d4bfe"
       (reference "C9") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005a806833"
+    (path "/00000000-0000-0000-0000-00005a57f7c4"
       (reference "C10") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005a5ea454"
+    (path "/00000000-0000-0000-0000-00005a6394af"
+      (reference "C11") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a52f807"
+      (reference "C12") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a832df0"
+      (reference "C13") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a4ebffa"
+      (reference "C14") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a52f8ab"
+      (reference "C15") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005b811413"
       (reference "C16") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005a57f7c4"
+    (path "/00000000-0000-0000-0000-00005a5e3ea9"
+      (reference "C17") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a5ff702"
+      (reference "C18") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a6a055e"
+      (reference "C19") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a6a0de8"
       (reference "C20") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005a6952ff"
       (reference "C21") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005a69544d"
-      (reference "C28") (unit 1)
+      (reference "C22") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005a69557d"
-      (reference "C29") (unit 1)
+      (reference "C23") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005a6956af"
-      (reference "C36") (unit 1)
+      (reference "C24") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a5ea454"
+      (reference "C25") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005a5fd855"
-      (reference "C40") (unit 1)
+      (reference "C26") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005a6394af"
-      (reference "C41") (unit 1)
+    (path "/00000000-0000-0000-0000-00005a6ae877"
+      (reference "C27") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005a6a055e"
-      (reference "C47") (unit 1)
+    (path "/00000000-0000-0000-0000-00005a806833"
+      (reference "C28") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005a6a0de8"
-      (reference "C52") (unit 1)
+    (path "/00000000-0000-0000-0000-00005a69a30c"
+      (reference "C29") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005aaf1c23"
-      (reference "C53") (unit 1)
+    (path "/00000000-0000-0000-0000-00005562302c"
+      (reference "C30") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005aa64ac3"
-      (reference "C54") (unit 1)
+    (path "/5e5b1835-f0c9-4d69-803a-5212f6eb366a"
+      (reference "C81") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005aa64f05"
-      (reference "C55") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a597667"
-      (reference "C56") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005aaf2109"
-      (reference "C57") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a7afcc1"
-      (reference "C58") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005aa65011"
-      (reference "C59") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005aa6512b"
-      (reference "C60") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a52f807"
-      (reference "C61") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a832df0"
-      (reference "C62") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a91acad"
-      (reference "C63") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a4ebffa"
-      (reference "C64") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a91ad9b"
-      (reference "C65") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a52f8ab"
-      (reference "C66") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005b811413"
-      (reference "C67") (unit 1)
-    )
-    (path "/143a9598-bba9-4696-83e8-3f7a11f7a98e"
-      (reference "C?") (unit 1)
-    )
-    (path "/befbc6b4-e701-45b9-a2ff-950f00488af4"
-      (reference "C?") (unit 1)
-    )
-    (path "/e2868fb0-b164-40f3-a733-c7a5a4aea04f"
-      (reference "C?") (unit 1)
+    (path "/2b5052b9-94b8-47cc-9c76-887b09f37d04"
+      (reference "C82") (unit 1)
     )
     (path "/00000000-0000-0000-0000-000055622fb7"
-      (reference "D2") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-0000549d65bc"
-      (reference "J1") (unit 1)
+      (reference "D1") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005a87055f"
+      (reference "J1") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-0000549d65bc"
       (reference "J2") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ac5f47a"
+    (path "/aa173c49-0780-4937-86ff-aa311d463651"
+      (reference "L1") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a7d8b0d"
+      (reference "L2") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005b7cf7f1"
       (reference "L3") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005acfdbc8"
+    (path "/00000000-0000-0000-0000-00005ac5f47a"
       (reference "L4") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005a71c2d8"
-      (reference "L15") (unit 1)
+      (reference "L5") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005acfdbc8"
+      (reference "L6") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005a71bcee"
-      (reference "L16") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ab229af"
-      (reference "L19") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ab22f51"
-      (reference "L20") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a7d8b0d"
-      (reference "L21") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005b7cf7f1"
-      (reference "L22") (unit 1)
-    )
-    (path "/aa173c49-0780-4937-86ff-aa311d463651"
-      (reference "L?") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-0000549d7549"
-      (reference "M1") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-0000549d7628"
-      (reference "M2") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-0000549d7646"
-      (reference "M3") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-0000549d7665"
-      (reference "M4") (unit 1)
+      (reference "L7") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005c1db7a3"
-      (reference "M5") (unit 1)
+      (reference "M1") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005c1dc4ab"
-      (reference "M6") (unit 1)
+      (reference "M2") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005c1dc613"
-      (reference "M7") (unit 1)
+      (reference "M3") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005c1dca4f"
+      (reference "M4") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-0000549d7549"
+      (reference "M5") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-0000549d7628"
+      (reference "M6") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-0000549d7646"
+      (reference "M7") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-0000549d7665"
       (reference "M8") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005a4c5f52"
-      (reference "R9") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005af49818"
-      (reference "R10") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005af4999e"
-      (reference "R11") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a4c6045"
-      (reference "R12") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a4d0c2b"
-      (reference "R13") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005af9379a"
-      (reference "R14") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005af9363c"
-      (reference "R15") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a4d0c91"
-      (reference "R16") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a544d71"
-      (reference "R25") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a544f02"
-      (reference "R26") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a567089"
-      (reference "R27") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a566fb1"
-      (reference "R28") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a7d314e"
-      (reference "R29") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a7d321c"
-      (reference "R30") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a59ce06"
-      (reference "R31") (unit 1)
-    )
     (path "/00000000-0000-0000-0000-00005a635320"
-      (reference "R32") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a63503c"
-      (reference "R33") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a59cef2"
-      (reference "R34") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a59d106"
-      (reference "R35") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a59d2c7"
-      (reference "R37") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a881a05"
-      (reference "R38") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005a881b15"
-      (reference "R39") (unit 1)
+      (reference "R1") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005a63547c"
-      (reference "R40") (unit 1)
+      (reference "R2") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a63503c"
+      (reference "R3") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005a6351c2"
-      (reference "R41") (unit 1)
+      (reference "R4") (unit 1)
+    )
+    (path "/11c19efe-b619-4fcc-bf21-105e1bd4b698"
+      (reference "R5") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a7d314e"
+      (reference "R6") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a881a05"
+      (reference "R7") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a7d321c"
+      (reference "R8") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a881b15"
+      (reference "R9") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a59ce06"
+      (reference "R10") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a59cef2"
+      (reference "R11") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a59d106"
+      (reference "R12") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a59d2c7"
+      (reference "R13") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005b614e7b"
-      (reference "R42") (unit 1)
+      (reference "R14") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005b614fe9"
-      (reference "R43") (unit 1)
+      (reference "R15") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005b61515d"
-      (reference "R44") (unit 1)
+      (reference "R16") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005b6152e1"
-      (reference "R45") (unit 1)
+      (reference "R17") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a544d71"
+      (reference "R18") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a544f02"
+      (reference "R19") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a567089"
+      (reference "R20") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a566fb1"
+      (reference "R21") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a4c5f52"
+      (reference "R22") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a4c6045"
+      (reference "R23") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a4d0c2b"
+      (reference "R24") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a4d0c91"
+      (reference "R25") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005af49818"
+      (reference "R26") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005af4999e"
+      (reference "R27") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005af9379a"
+      (reference "R28") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005af9363c"
+      (reference "R29") (unit 1)
+    )
+    (path "/e038a678-61a2-44a2-bb8a-331b604fc75b"
+      (reference "R50") (unit 1)
+    )
+    (path "/9e403048-126f-40d0-be3e-0b23792c8554"
+      (reference "U1") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005a50caa9"
+      (reference "U2") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005a16da6f"
       (reference "U3") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005a467482"
+    (path "/00000000-0000-0000-0000-00005a4c9c13"
       (reference "U4") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005a4c9c13"
-      (reference "U7") (unit 1)
+    (path "/00000000-0000-0000-0000-00005a467482"
+      (reference "U5") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005aa08668"
-      (reference "U8") (unit 1)
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced793c"
+      (reference "#PWR049") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005aa08e3a"
-      (reference "U9") (unit 1)
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/6e2aa5a1-afdb-40c2-ad68-ac152618e62a"
+      (reference "#PWR050") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005a50caa9"
-      (reference "U10") (unit 1)
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced78fe"
+      (reference "#PWR051") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095cf"
-      (reference "#PWR0101") (unit 1)
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/d44fa271-5f73-412b-9639-2ee1aabbfaa6"
+      (reference "#PWR052") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095d5"
-      (reference "#PWR0102") (unit 1)
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced7904"
+      (reference "#PWR053") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095db"
-      (reference "#PWR0103") (unit 1)
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/2a787427-d00f-43b0-8b39-023c67ea638b"
+      (reference "#PWR054") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0960d"
-      (reference "#PWR0104") (unit 1)
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced7921"
+      (reference "#PWR055") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09613"
-      (reference "#PWR0105") (unit 1)
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/27cb520f-7549-4722-a0de-056be9a6c1ef"
+      (reference "#PWR056") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09619"
-      (reference "#PWR0106") (unit 1)
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced7912"
+      (reference "#PWR057") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09689"
-      (reference "#PWR0107") (unit 1)
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/bbbc65c0-59dc-47ff-bdd8-fe0b6cd522bb"
+      (reference "#PWR058") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0968f"
-      (reference "#PWR0108") (unit 1)
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced78d4"
+      (reference "#PWR059") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0969b"
-      (reference "#PWR0109") (unit 1)
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/b3ce2a03-c903-4f40-b637-ac02b71746a5"
+      (reference "#PWR060") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf096f8"
-      (reference "#PWR0110") (unit 1)
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced78da"
+      (reference "#PWR061") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0970f"
-      (reference "#PWR0111") (unit 1)
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/3e321f40-4693-4b18-8811-901ddfe3dd73"
+      (reference "#PWR062") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09735"
-      (reference "#PWR0112") (unit 1)
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced78e0"
+      (reference "#PWR063") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09753"
-      (reference "#PWR0113") (unit 1)
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/69c038f8-41c9-47d2-9acc-fa49aae7577e"
+      (reference "#PWR064") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0975f"
-      (reference "#PWR0114") (unit 1)
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced7964"
+      (reference "#PWR065") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09765"
-      (reference "#PWR0115") (unit 1)
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/db3c7ca0-b813-4b8f-9440-09b78054daf8"
+      (reference "#PWR066") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09770"
-      (reference "#PWR0116") (unit 1)
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/ea228446-12f6-4d5e-8ffd-43b92eb65210"
+      (reference "#PWR067") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf097c8"
-      (reference "#PWR0117") (unit 1)
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005cf08723"
+      (reference "#PWR068") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf097ce"
-      (reference "#PWR0118") (unit 1)
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/285d128b-cab3-4981-96ed-673bab6041a9"
+      (reference "#PWR069") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf097d4"
-      (reference "#PWR0119") (unit 1)
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/afac0bdb-f6b7-41a0-9315-4b7f19ab0bd1"
+      (reference "#PWR070") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf097e5"
-      (reference "#PWR0120") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095c6"
-      (reference "C3") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095c0"
-      (reference "C4") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0972d"
-      (reference "C5") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0973b"
-      (reference "C6") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d319877"
-      (reference "C11") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d318b67"
-      (reference "C12") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09833"
-      (reference "C13") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf094e9"
-      (reference "C14") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09502"
-      (reference "C15") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09629"
-      (reference "C17") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09531"
-      (reference "C18") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf094fc"
-      (reference "C19") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09515"
-      (reference "C22") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d319f0c"
-      (reference "C23") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d319178"
-      (reference "C24") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09839"
-      (reference "C25") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf094f6"
-      (reference "C26") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09508"
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced78ef"
       (reference "C31") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0962f"
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/cfdd0ffb-6946-4c8f-a936-8a10f7a035d2"
       (reference "C32") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d31c49a"
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced78f7"
       (reference "C33") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d31ada1"
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/cf49ba98-256c-4f60-bb75-5dfbc6cdde4b"
       (reference "C34") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09841"
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced7898"
       (reference "C35") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0957e"
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/13ddbc04-41f2-4c1b-a5c6-1ab988bf5d93"
+      (reference "C36") (unit 1)
+    )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced78af"
       (reference "C37") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09559"
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/6ba1f7df-314a-490f-bdc0-f9146a29744e"
       (reference "C38") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09778"
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced78b7"
       (reference "C39") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0958e"
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/054d3717-8563-414e-97cb-6b55fe7fb152"
+      (reference "C40") (unit 1)
+    )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced7957"
+      (reference "C41") (unit 1)
+    )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/356bfcca-ddf9-451d-9c14-46b71c78a9f3"
       (reference "C42") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09569"
-      (reference "C43") (unit 1)
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005cf0871c"
+      (reference "D2") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09546"
-      (reference "C44") (unit 1)
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/88c7f9b5-6d1a-4f65-8f35-ba983b8c5731"
+      (reference "D3") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d31cc96"
-      (reference "C45") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d31b488"
-      (reference "C46") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09848"
-      (reference "C48") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09584"
-      (reference "C49") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0955f"
-      (reference "C50") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0963d"
-      (reference "C51") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095fb"
-      (reference "C68") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09605"
-      (reference "C69") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf097b1"
-      (reference "C70") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf097bd"
-      (reference "C71") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d51132a"
-      (reference "L1") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d511da6"
-      (reference "L2") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d59172d"
-      (reference "L5") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d591f1e"
-      (reference "L6") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095a6"
-      (reference "L7") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095ad"
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced7890"
       (reference "L8") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09707"
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/43745de9-28e6-466c-8a31-2adbb2e6e00f"
       (reference "L9") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09717"
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/ff26309f-e1d0-41be-b847-aeb9ebc5e4fc"
       (reference "L10") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf097f0"
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/1c368aff-fe1c-413c-a92e-86c97cad24d3"
       (reference "L11") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09800"
-      (reference "L12") (unit 1)
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced7943"
+      (reference "R30") (unit 1)
+    )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced791a"
+      (reference "R31") (unit 1)
+    )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/344625a4-3806-4f70-bc9b-4d4bae922428"
+      (reference "R32") (unit 1)
+    )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/ff2e67e6-9c7d-4a39-9cc4-d1bfc2668cc6"
+      (reference "R33") (unit 1)
+    )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced78bf"
+      (reference "R34") (unit 1)
+    )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/dcf57771-be28-4cff-a9b6-550f77221fc6"
+      (reference "R35") (unit 1)
+    )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced78a1"
+      (reference "R36") (unit 1)
+    )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/70ca4b9c-d42a-4621-9f1f-918dfcf0d888"
+      (reference "R37") (unit 1)
+    )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced78c6"
+      (reference "R38") (unit 1)
+    )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/5f119f6e-86e1-444c-80fc-257a1b52c129"
+      (reference "R39") (unit 1)
+    )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005cf08715"
+      (reference "R40") (unit 1)
+    )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/e3263593-0fe7-4a91-ad52-9cb0c7cb3a97"
+      (reference "R41") (unit 1)
+    )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced7888"
+      (reference "U6") (unit 1)
+    )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/71e3aea4-e6cf-446d-b186-0994371ebf1f"
+      (reference "U7") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf096f8"
+      (reference "#PWR071") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09770"
+      (reference "#PWR072") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095cf"
+      (reference "#PWR073") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0960d"
+      (reference "#PWR074") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09689"
+      (reference "#PWR075") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0968f"
+      (reference "#PWR076") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095db"
+      (reference "#PWR077") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09619"
+      (reference "#PWR078") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095d5"
+      (reference "#PWR079") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09613"
+      (reference "#PWR080") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0970f"
+      (reference "#PWR081") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0969b"
+      (reference "#PWR082") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09735"
+      (reference "#PWR083") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf097d4"
+      (reference "#PWR084") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0975f"
+      (reference "#PWR085") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf097e5"
+      (reference "#PWR086") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09765"
+      (reference "#PWR087") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf097c8"
+      (reference "#PWR088") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf097ce"
+      (reference "#PWR089") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09753"
+      (reference "#PWR090") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d319877"
+      (reference "C43") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d319f0c"
+      (reference "C44") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d31c49a"
+      (reference "C45") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d31cc96"
+      (reference "C46") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d318b67"
+      (reference "C47") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d319178"
+      (reference "C48") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d31ada1"
+      (reference "C49") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d31b488"
+      (reference "C50") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09833"
+      (reference "C51") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09839"
+      (reference "C52") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09841"
+      (reference "C53") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09848"
+      (reference "C54") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095c6"
+      (reference "C55") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095fb"
+      (reference "C56") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095c0"
+      (reference "C57") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09605"
+      (reference "C58") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09531"
+      (reference "C59") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0958e"
+      (reference "C60") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf094e9"
+      (reference "C61") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf094f6"
+      (reference "C62") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0957e"
+      (reference "C63") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09584"
+      (reference "C64") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf094fc"
+      (reference "C65") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09569"
+      (reference "C66") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09502"
+      (reference "C67") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09508"
+      (reference "C68") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09559"
+      (reference "C69") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0955f"
+      (reference "C70") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09515"
+      (reference "C71") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09546"
+      (reference "C72") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0972d"
+      (reference "C73") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf097b1"
+      (reference "C74") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf097bd"
+      (reference "C75") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0973b"
+      (reference "C76") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09629"
+      (reference "C77") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0962f"
+      (reference "C78") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09778"
+      (reference "C79") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0963d"
+      (reference "C80") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d31848b"
+      (reference "L12") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d31bc92"
       (reference "L13") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d317c72"
       (reference "L14") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09538"
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d31a5ed"
+      (reference "L15") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d51132a"
+      (reference "L16") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095a6"
       (reference "L17") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf094f0"
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095e2"
       (reference "L18") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0950f"
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d67aa5e"
+      (reference "L19") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d511da6"
+      (reference "L20") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095ad"
+      (reference "L21") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095e9"
+      (reference "L22") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d67af09"
       (reference "L23") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf097f8"
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf097f0"
       (reference "L24") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09808"
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf097f8"
       (reference "L25") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09810"
       (reference "L26") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0982b"
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09818"
       (reference "L27") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d31bc92"
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09538"
       (reference "L28") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d31a5ed"
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09599"
       (reference "L29") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09599"
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf094f0"
       (reference "L30") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09572"
       (reference "L31") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0954f"
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0950f"
       (reference "L32") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09818"
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0954f"
       (reference "L33") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09823"
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09800"
       (reference "L34") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095e2"
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09808"
       (reference "L35") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095e9"
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0982b"
       (reference "L36") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09794"
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09823"
       (reference "L37") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0978b"
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d59172d"
       (reference "L38") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d67aa5e"
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09707"
       (reference "L39") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d67af09"
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09794"
       (reference "L40") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d6f1a8e"
       (reference "L41") (unit 1)
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d6f1e2d"
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d591f1e"
       (reference "L42") (unit 1)
     )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09717"
+      (reference "L43") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0978b"
+      (reference "L44") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d6f1e2d"
+      (reference "L45") (unit 1)
+    )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095b3"
-      (reference "R1") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095b9"
-      (reference "R2") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0971f"
-      (reference "R3") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09726"
-      (reference "R4") (unit 1)
+      (reference "R42") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095ef"
-      (reference "R21") (unit 1)
+      (reference "R43") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095b9"
+      (reference "R44") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095f5"
-      (reference "R22") (unit 1)
+      (reference "R45") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0971f"
+      (reference "R46") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0979b"
-      (reference "R23") (unit 1)
+      (reference "R47") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09726"
+      (reference "R48") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf097a1"
-      (reference "R24") (unit 1)
+      (reference "R49") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf094e3"
-      (reference "U1") (unit 1)
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09700"
-      (reference "U2") (unit 1)
+      (reference "U8") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09695"
-      (reference "U5") (unit 1)
+      (reference "U9") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09700"
+      (reference "U10") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0977e"
-      (reference "U6") (unit 1)
+      (reference "U11") (unit 1)
     )
   )
 )

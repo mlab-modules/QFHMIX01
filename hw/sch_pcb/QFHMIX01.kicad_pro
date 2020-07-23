@@ -108,7 +108,7 @@
       ],
       "via_dimensions": [
         {
-          "diameter": 0.75,
+          "diameter": 0.8,
           "drill": 0.4
         }
       ],
@@ -342,16 +342,16 @@
   },
   "sheets": [
     [
-      "46344e36-0fd6-4a5a-8839-135b4acafcf1",
+      "dfaceef2-624e-4b13-9cad-0b0adc0be7f1",
       ""
-    ],
-    [
-      "d464a012-3bbc-4755-a15c-1179d919aa40",
-      "Power"
     ],
     [
       "00000000-0000-0000-0000-00005ccb1e0f",
       "LNA"
+    ],
+    [
+      "d464a012-3bbc-4755-a15c-1179d919aa40",
+      "Power"
     ]
   ],
   "text_variables": {}

@@ -1,4 +1,4 @@
-(kicad_sch (version 20200618) (host eeschema "(5.99.0-2251-g5226d6b4d)")
+(kicad_sch (version 20201015) (generator eeschema)
 
   (page 1 3)
 
@@ -11,7 +11,7 @@
   )
 
   (lib_symbols
-    (symbol "Device:L" (pin_numbers hide) (pin_names hide)
+    (symbol "Device:L" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "L" (id 0) (at -1.27 0 90)
         (effects (font (size 1.27 1.27)))
       )
@@ -30,7 +30,7 @@
       (property "ki_description" "Inductor" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "Choke_*\n*Coil*\nInductor_*\nL_*" (id 6) (at 0 0 0)
+      (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "L_0_1"
@@ -58,7 +58,7 @@
         )
       )
     )
-    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0))
+    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (id 0) (at 2.032 0 90)
         (effects (font (size 1.27 1.27)))
       )
@@ -96,7 +96,7 @@
         )
       )
     )
-    (symbol "MLAB_IO:AD8343"
+    (symbol "MLAB_IO:AD8343" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -11.43 11.43 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -118,72 +118,128 @@
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -6.35 -5.08) (xy -5.08 -5.08))
+          (pts
+            (xy -6.35 -5.08)
+            (xy -5.08 -5.08)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -6.35 -2.54) (xy -5.08 -2.54))
+          (pts
+            (xy -6.35 -2.54)
+            (xy -5.08 -2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -6.35 0) (xy 0.127 0))
+          (pts
+            (xy -6.35 0)
+            (xy 0.127 0)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -6.35 2.54) (xy -1.27 2.54))
+          (pts
+            (xy -6.35 2.54)
+            (xy -1.27 2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -6.35 5.08) (xy 0 5.08))
+          (pts
+            (xy -6.35 5.08)
+            (xy 0 5.08)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -3.175 -1.905) (xy -3.175 0))
+          (pts
+            (xy -3.175 -1.905)
+            (xy -3.175 0)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0.381 5.334) (xy 2.159 3.556))
+          (pts
+            (xy 0.381 5.334)
+            (xy 2.159 3.556)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0.635 -5.08) (xy 0.635 -0.762))
+          (pts
+            (xy 0.635 -5.08)
+            (xy 0.635 -0.762)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0.635 0.762) (xy 0.635 3.302))
+          (pts
+            (xy 0.635 0.762)
+            (xy 0.635 3.302)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 1.905 0.762) (xy 1.905 3.302))
+          (pts
+            (xy 1.905 0.762)
+            (xy 1.905 3.302)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 2.159 5.334) (xy 0.381 3.556))
+          (pts
+            (xy 2.159 5.334)
+            (xy 0.381 3.556)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 6.35 -5.08) (xy 0.635 -5.08))
+          (pts
+            (xy 6.35 -5.08)
+            (xy 0.635 -5.08)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 6.35 5.08) (xy 2.54 5.08))
+          (pts
+            (xy 6.35 5.08)
+            (xy 2.54 5.08)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.27 2.54) (xy -1.27 3.81) (xy 0 3.81))
+          (pts
+            (xy -1.27 2.54)
+            (xy -1.27 3.81)
+            (xy 0 3.81)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 6.35 -2.54) (xy 1.905 -2.54) (xy 1.905 -0.762))
+          (pts
+            (xy 6.35 -2.54)
+            (xy 1.905 -2.54)
+            (xy 1.905 -0.762)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 6.35 2.54) (xy 3.81 2.54) (xy 3.81 3.81) (xy 2.54 3.81))
+          (pts
+            (xy 6.35 2.54)
+            (xy 3.81 2.54)
+            (xy 3.81 3.81)
+            (xy 2.54 3.81)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 1.27 1.778) (xy -0.254 -0.762) (xy 2.794 -0.762) (xy 2.159 0.254)
-               (xy 1.27 1.778)
+          (pts
+            (xy 1.27 1.778)
+            (xy -0.254 -0.762)
+            (xy 2.794 -0.762)
+            (xy 2.159 0.254)
+            (xy 1.27 1.778)
           )
           (stroke (width 0)) (fill (type none))
         )
@@ -252,7 +308,7 @@
         )
       )
     )
-    (symbol "MLAB_IO:LT6604-10"
+    (symbol "MLAB_IO:LT6604-10" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -10.16 16.51 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -285,77 +341,133 @@
           (effects (font (size 0.9906 0.9906)))
         )
         (polyline
-          (pts (xy -10.16 3.81) (xy -11.43 3.81))
+          (pts
+            (xy -10.16 3.81)
+            (xy -11.43 3.81)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -10.16 3.81) (xy -5.08 3.81))
+          (pts
+            (xy -10.16 3.81)
+            (xy -5.08 3.81)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -10.16 6.35) (xy -11.43 6.35))
+          (pts
+            (xy -10.16 6.35)
+            (xy -11.43 6.35)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -10.16 6.35) (xy -5.08 6.35))
+          (pts
+            (xy -10.16 6.35)
+            (xy -5.08 6.35)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -10.16 8.89) (xy -11.43 8.89))
+          (pts
+            (xy -10.16 8.89)
+            (xy -11.43 8.89)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -10.16 8.89) (xy -5.08 8.89))
+          (pts
+            (xy -10.16 8.89)
+            (xy -5.08 8.89)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -10.16 11.43) (xy -11.43 11.43))
+          (pts
+            (xy -10.16 11.43)
+            (xy -11.43 11.43)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -10.16 11.43) (xy -5.08 11.43))
+          (pts
+            (xy -10.16 11.43)
+            (xy -5.08 11.43)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -4.445 3.81) (xy -3.175 3.81))
+          (pts
+            (xy -4.445 3.81)
+            (xy -3.175 3.81)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -4.445 11.43) (xy -3.175 11.43))
+          (pts
+            (xy -4.445 11.43)
+            (xy -3.175 11.43)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -3.81 12.065) (xy -3.81 10.795))
+          (pts
+            (xy -3.81 12.065)
+            (xy -3.81 10.795)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 2.54 5.08) (xy 1.778 5.08))
+          (pts
+            (xy 2.54 5.08)
+            (xy 1.778 5.08)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 2.54 10.16) (xy 1.778 10.16))
+          (pts
+            (xy 2.54 10.16)
+            (xy 1.778 10.16)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 7.62 5.08) (xy 2.54 5.08))
+          (pts
+            (xy 7.62 5.08)
+            (xy 2.54 5.08)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 7.62 5.08) (xy 11.43 5.08))
+          (pts
+            (xy 7.62 5.08)
+            (xy 11.43 5.08)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 7.62 10.16) (xy 2.54 10.16))
+          (pts
+            (xy 7.62 10.16)
+            (xy 2.54 10.16)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 7.62 10.16) (xy 11.43 10.16))
+          (pts
+            (xy 7.62 10.16)
+            (xy 11.43 10.16)
+          )
           (stroke (width 0)) (fill (type none))
         )
       )
       (symbol "LT6604-10_0_1"
         (polyline
-          (pts (xy -5.08 13.97) (xy -5.08 1.27) (xy 6.35 7.62) (xy -5.08 13.97))
+          (pts
+            (xy -5.08 13.97)
+            (xy -5.08 1.27)
+            (xy 6.35 7.62)
+            (xy -5.08 13.97)
+          )
           (stroke (width 0)) (fill (type none))
         )
       )
@@ -436,7 +548,7 @@
         )
       )
     )
-    (symbol "MLAB_IO:Si53322"
+    (symbol "MLAB_IO:Si53322" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -17.78 10.16 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -459,71 +571,131 @@
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -8.89 -5.08) (xy -6.858 -5.08))
+          (pts
+            (xy -8.89 -5.08)
+            (xy -6.858 -5.08)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -8.89 -2.54) (xy -6.35 -2.54))
+          (pts
+            (xy -8.89 -2.54)
+            (xy -6.35 -2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 2.54 -5.08) (xy -3.81 -5.08))
+          (pts
+            (xy 2.54 -5.08)
+            (xy -3.81 -5.08)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 6.35 -5.08) (xy 5.842 -5.08))
+          (pts
+            (xy 6.35 -5.08)
+            (xy 5.842 -5.08)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 6.35 -2.54) (xy 5.08 -2.54))
+          (pts
+            (xy 6.35 -2.54)
+            (xy 5.08 -2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 6.35 2.54) (xy 5.842 2.54))
+          (pts
+            (xy 6.35 2.54)
+            (xy 5.842 2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 6.35 5.08) (xy 5.08 5.08))
+          (pts
+            (xy 6.35 5.08)
+            (xy 5.08 5.08)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 8.89 -5.08) (xy 6.35 -5.08))
+          (pts
+            (xy 8.89 -5.08)
+            (xy 6.35 -5.08)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 8.89 -2.54) (xy 6.35 -2.54))
+          (pts
+            (xy 8.89 -2.54)
+            (xy 6.35 -2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 8.89 2.54) (xy 6.35 2.54))
+          (pts
+            (xy 8.89 2.54)
+            (xy 6.35 2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 8.89 5.08) (xy 6.35 5.08))
+          (pts
+            (xy 8.89 5.08)
+            (xy 6.35 5.08)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 2.54 -2.54) (xy 0 -2.54) (xy -3.81 -2.54))
+          (pts
+            (xy 2.54 -2.54)
+            (xy 0 -2.54)
+            (xy -3.81 -2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 2.54 2.54) (xy 1.27 2.54) (xy 1.27 -5.08))
+          (pts
+            (xy 2.54 2.54)
+            (xy 1.27 2.54)
+            (xy 1.27 -5.08)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 2.54 5.08) (xy -0.635 5.08) (xy -0.635 -2.54))
+          (pts
+            (xy 2.54 5.08)
+            (xy -0.635 5.08)
+            (xy -0.635 -2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -6.35 -1.27) (xy -6.35 -6.35) (xy -1.27 -3.81) (xy -6.35 -1.27))
+          (pts
+            (xy -6.35 -1.27)
+            (xy -6.35 -6.35)
+            (xy -1.27 -3.81)
+            (xy -6.35 -1.27)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 2.54 -1.27) (xy 2.54 -6.35) (xy 7.62 -3.81) (xy 2.54 -1.27))
+          (pts
+            (xy 2.54 -1.27)
+            (xy 2.54 -6.35)
+            (xy 7.62 -3.81)
+            (xy 2.54 -1.27)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 2.54 6.35) (xy 2.54 1.27) (xy 7.62 3.81) (xy 2.54 6.35))
+          (pts
+            (xy 2.54 6.35)
+            (xy 2.54 1.27)
+            (xy 7.62 3.81)
+            (xy 2.54 6.35)
+          )
           (stroke (width 0)) (fill (type none))
         )
       )
@@ -566,7 +738,7 @@
         )
       )
     )
-    (symbol "QFHMIX01C-rescue:+3V3-power-QFHMIX01B-rescue" (power) (pin_names (offset 0))
+    (symbol "QFHMIX01C-rescue:+3V3-power-QFHMIX01B-rescue" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -581,15 +753,24 @@
       )
       (symbol "+3V3-power-QFHMIX01B-rescue_0_1"
         (polyline
-          (pts (xy -0.762 1.27) (xy 0 2.54))
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0 0) (xy 0 2.54))
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0 2.54) (xy 0.762 1.27))
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
           (stroke (width 0)) (fill (type none))
         )
       )
@@ -600,7 +781,7 @@
         )
       )
     )
-    (symbol "QFHMIX01C-rescue:+5V-power-QFHMIX01B-rescue" (power) (pin_names (offset 0))
+    (symbol "QFHMIX01C-rescue:+5V-power-QFHMIX01B-rescue" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -615,15 +796,24 @@
       )
       (symbol "+5V-power-QFHMIX01B-rescue_0_1"
         (polyline
-          (pts (xy -0.762 1.27) (xy 0 2.54))
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0 0) (xy 0 2.54))
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0 2.54) (xy 0.762 1.27))
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
           (stroke (width 0)) (fill (type none))
         )
       )
@@ -634,7 +824,7 @@
         )
       )
     )
-    (symbol "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue" (pin_numbers hide) (pin_names (offset 0.254) hide)
+    (symbol "QFHMIX01C-rescue:C_Small-device-QFHMIX01B-rescue" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 0.254 1.778 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -652,11 +842,17 @@
       )
       (symbol "C_Small-device-QFHMIX01B-rescue_0_1"
         (polyline
-          (pts (xy -1.524 -0.508) (xy 1.524 -0.508))
+          (pts
+            (xy -1.524 -0.508)
+            (xy 1.524 -0.508)
+          )
           (stroke (width 0.3302)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.524 0.508) (xy 1.524 0.508))
+          (pts
+            (xy -1.524 0.508)
+            (xy 1.524 0.508)
+          )
           (stroke (width 0.3048)) (fill (type none))
         )
       )
@@ -671,7 +867,7 @@
         )
       )
     )
-    (symbol "QFHMIX01C-rescue:D_Small-device-QFHMIX01B-rescue" (pin_numbers hide) (pin_names (offset 0.254) hide)
+    (symbol "QFHMIX01C-rescue:D_Small-device-QFHMIX01B-rescue" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (id 0) (at -1.27 2.032 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -684,20 +880,31 @@
       (property "Datasheet" "" (id 3) (at 0 0 90)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "TO-???*\n*SingleDiode\n*_Diode_*\n*SingleDiode*\nD_*" (id 4) (at 0 0 0)
+      (property "ki_fp_filters" "TO-???* *SingleDiode *_Diode_* *SingleDiode* D_*" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "D_Small-device-QFHMIX01B-rescue_0_1"
         (polyline
-          (pts (xy -0.762 -1.016) (xy -0.762 1.016))
+          (pts
+            (xy -0.762 -1.016)
+            (xy -0.762 1.016)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -0.762 0) (xy 0.762 0))
+          (pts
+            (xy -0.762 0)
+            (xy 0.762 0)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016))
+          (pts
+            (xy 0.762 -1.016)
+            (xy -0.762 0)
+            (xy 0.762 1.016)
+            (xy 0.762 -1.016)
+          )
           (stroke (width 0)) (fill (type none))
         )
       )
@@ -712,7 +919,7 @@
         )
       )
     )
-    (symbol "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue" (power) (pin_names (offset 0))
+    (symbol "QFHMIX01C-rescue:GND-power-QFHMIX01B-rescue" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -727,8 +934,13 @@
       )
       (symbol "GND-power-QFHMIX01B-rescue_0_1"
         (polyline
-          (pts (xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54)
-               (xy -1.27 -1.27) (xy 0 -1.27)
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
           )
           (stroke (width 0)) (fill (type none))
         )
@@ -740,7 +952,7 @@
         )
       )
     )
-    (symbol "QFHMIX01C-rescue:HEADER_1x08-MLAB_HEADER"
+    (symbol "QFHMIX01C-rescue:HEADER_1x08-MLAB_HEADER" (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 -11.43 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -766,35 +978,59 @@
           (stroke (width 0)) (fill (type background))
         )
         (polyline
-          (pts (xy -1.27 -8.89) (xy -0.381 -8.89))
+          (pts
+            (xy -1.27 -8.89)
+            (xy -0.381 -8.89)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.27 -6.35) (xy -0.381 -6.35))
+          (pts
+            (xy -1.27 -6.35)
+            (xy -0.381 -6.35)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.27 -3.81) (xy -0.381 -3.81))
+          (pts
+            (xy -1.27 -3.81)
+            (xy -0.381 -3.81)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.27 -1.27) (xy -0.381 -1.27))
+          (pts
+            (xy -1.27 -1.27)
+            (xy -0.381 -1.27)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.27 1.27) (xy -0.381 1.27))
+          (pts
+            (xy -1.27 1.27)
+            (xy -0.381 1.27)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.27 3.81) (xy -0.381 3.81))
+          (pts
+            (xy -1.27 3.81)
+            (xy -0.381 3.81)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.27 6.35) (xy -0.381 6.35))
+          (pts
+            (xy -1.27 6.35)
+            (xy -0.381 6.35)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.27 8.89) (xy -0.381 8.89))
+          (pts
+            (xy -1.27 8.89)
+            (xy -0.381 8.89)
+          )
           (stroke (width 0)) (fill (type none))
         )
       )
@@ -833,7 +1069,7 @@
         )
       )
     )
-    (symbol "QFHMIX01C-rescue:HEADER_2x03_PARALLEL-MLAB_HEADER"
+    (symbol "QFHMIX01C-rescue:HEADER_2x03_PARALLEL-MLAB_HEADER" (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 -5.08 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -857,27 +1093,45 @@
           (stroke (width 0)) (fill (type background))
         )
         (polyline
-          (pts (xy -1.651 -2.54) (xy -2.54 -2.54))
+          (pts
+            (xy -1.651 -2.54)
+            (xy -2.54 -2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.651 0) (xy -2.54 0))
+          (pts
+            (xy -1.651 0)
+            (xy -2.54 0)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.651 2.54) (xy -2.54 2.54))
+          (pts
+            (xy -1.651 2.54)
+            (xy -2.54 2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -0.889 -2.54) (xy 0.889 -2.54))
+          (pts
+            (xy -0.889 -2.54)
+            (xy 0.889 -2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -0.889 0) (xy 0.889 0))
+          (pts
+            (xy -0.889 0)
+            (xy 0.889 0)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -0.889 2.54) (xy 0.889 2.54))
+          (pts
+            (xy -0.889 2.54)
+            (xy 0.889 2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
       )
@@ -908,7 +1162,7 @@
         )
       )
     )
-    (symbol "QFHMIX01C-rescue:HOLE-MLAB_MECHANICAL" (pin_numbers hide) (pin_names hide)
+    (symbol "QFHMIX01C-rescue:HOLE-MLAB_MECHANICAL" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "M" (id 0) (at 0 2.54 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -931,7 +1185,7 @@
         )
       )
     )
-    (symbol "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue" (pin_numbers hide) (pin_names hide)
+    (symbol "QFHMIX01C-rescue:L-device-QFHMIX01B-rescue" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "L" (id 0) (at -1.27 0 90)
         (effects (font (size 1.27 1.27)))
       )
@@ -944,7 +1198,7 @@
       (property "Datasheet" "" (id 3) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "Choke_*\n*Coil*\nInductor_*\nL_*" (id 4) (at 0 0 0)
+      (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "L-device-QFHMIX01B-rescue_0_1"
@@ -972,7 +1226,7 @@
         )
       )
     )
-    (symbol "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue" (pin_numbers hide) (pin_names (offset 0))
+    (symbol "QFHMIX01C-rescue:R-device-QFHMIX01B-rescue" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (id 0) (at 2.032 0 90)
         (effects (font (size 1.27 1.27)))
       )
@@ -985,7 +1239,7 @@
       (property "Datasheet" "" (id 3) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "R_*\nR_*" (id 4) (at 0 0 0)
+      (property "ki_fp_filters" "R_* R_*" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "R-device-QFHMIX01B-rescue_0_1"
@@ -1004,7 +1258,7 @@
         )
       )
     )
-    (symbol "QFHMIX01C-rescue:VCC-power-QFHMIX01B-rescue" (power) (pin_names (offset 0))
+    (symbol "QFHMIX01C-rescue:VCC-power-QFHMIX01B-rescue" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -1020,7 +1274,10 @@
       (symbol "VCC-power-QFHMIX01B-rescue_0_1"
         (circle (center 0 1.905) (radius 0.635) (stroke (width 0)) (fill (type none)))
         (polyline
-          (pts (xy 0 0) (xy 0 1.27))
+          (pts
+            (xy 0 0)
+            (xy 0 1.27)
+          )
           (stroke (width 0)) (fill (type none))
         )
       )
@@ -1033,48 +1290,48 @@
     )
   )
 
-  (junction (at 22.987 76.962) (diameter 0) (color 0 0 0 0))
-  (junction (at 22.987 92.075) (diameter 0) (color 0 0 0 0))
-  (junction (at 22.987 97.155) (diameter 0) (color 0 0 0 0))
-  (junction (at 37.338 175.768) (diameter 0) (color 0 0 0 0))
-  (junction (at 37.338 183.388) (diameter 0) (color 0 0 0 0))
-  (junction (at 55.245 162.56) (diameter 0) (color 0 0 0 0))
-  (junction (at 76.708 102.87) (diameter 0) (color 0 0 0 0))
-  (junction (at 77.851 65.405) (diameter 0) (color 0 0 0 0))
-  (junction (at 84.201 100.33) (diameter 0) (color 0 0 0 0))
-  (junction (at 85.344 67.945) (diameter 0) (color 0 0 0 0))
-  (junction (at 94.869 170.18) (diameter 0) (color 0 0 0 0))
-  (junction (at 94.869 180.34) (diameter 0) (color 0 0 0 0))
-  (junction (at 98.679 72.898) (diameter 0) (color 0 0 0 0))
-  (junction (at 98.679 172.72) (diameter 0) (color 0 0 0 0))
-  (junction (at 98.679 177.8) (diameter 0) (color 0 0 0 0))
-  (junction (at 98.806 107.95) (diameter 0) (color 0 0 0 0))
-  (junction (at 108.204 73.025) (diameter 0) (color 0 0 0 0))
-  (junction (at 108.331 107.95) (diameter 0) (color 0 0 0 0))
-  (junction (at 165.354 102.87) (diameter 0) (color 0 0 0 0))
-  (junction (at 165.354 143.256) (diameter 0) (color 0 0 0 0))
-  (junction (at 166.37 24.765) (diameter 0) (color 0 0 0 0))
-  (junction (at 166.37 65.405) (diameter 0) (color 0 0 0 0))
-  (junction (at 169.164 100.33) (diameter 0) (color 0 0 0 0))
-  (junction (at 169.164 135.001) (diameter 0) (color 0 0 0 0))
-  (junction (at 169.164 146.431) (diameter 0) (color 0 0 0 0))
-  (junction (at 170.18 21.59) (diameter 0) (color 0 0 0 0))
-  (junction (at 170.18 33.02) (diameter 0) (color 0 0 0 0))
-  (junction (at 170.18 67.945) (diameter 0) (color 0 0 0 0))
-  (junction (at 203.2 74.93) (diameter 0) (color 0 0 0 0))
-  (junction (at 204.978 101.473) (diameter 0) (color 0 0 0 0))
-  (junction (at 223.647 59.944) (diameter 0) (color 0 0 0 0))
-  (junction (at 225.679 84.963) (diameter 0) (color 0 0 0 0))
-  (junction (at 242.57 21.59) (diameter 0) (color 0 0 0 0))
-  (junction (at 242.57 29.21) (diameter 0) (color 0 0 0 0))
-  (junction (at 250.19 21.59) (diameter 0) (color 0 0 0 0))
-  (junction (at 250.19 29.21) (diameter 0) (color 0 0 0 0))
-  (junction (at 257.81 21.59) (diameter 0) (color 0 0 0 0))
-  (junction (at 257.81 29.21) (diameter 0) (color 0 0 0 0))
-  (junction (at 265.43 24.13) (diameter 0) (color 0 0 0 0))
-  (junction (at 265.43 41.275) (diameter 0) (color 0 0 0 0))
-  (junction (at 270.51 41.275) (diameter 0) (color 0 0 0 0))
-  (junction (at 275.59 41.275) (diameter 0) (color 0 0 0 0))
+  (junction (at 22.987 76.962) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 22.987 92.075) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 22.987 97.155) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 37.338 175.768) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 37.338 183.388) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 55.245 162.56) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 76.708 102.87) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 77.851 65.405) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 84.201 100.33) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 85.344 67.945) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 94.869 170.18) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 94.869 180.34) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 98.679 72.898) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 98.679 172.72) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 98.679 177.8) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 98.806 107.95) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 108.204 73.025) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 108.331 107.95) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 165.354 102.87) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 165.354 143.256) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 166.37 24.765) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 166.37 65.405) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 169.164 100.33) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 169.164 135.001) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 169.164 146.431) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 170.18 21.59) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 170.18 33.02) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 170.18 67.945) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 203.2 74.93) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 204.978 101.473) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 223.647 59.944) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 225.679 84.963) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 242.57 21.59) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 242.57 29.21) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 250.19 21.59) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 250.19 29.21) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 257.81 21.59) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 257.81 29.21) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 265.43 24.13) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 265.43 41.275) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 270.51 41.275) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 275.59 41.275) (diameter 1.016) (color 0 0 0 0))
 
   (wire (pts (xy 19.05 71.755) (xy 22.987 71.755))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -2872,7 +3129,7 @@
     (property "Reference" "R?" (id 0) (at 39.1161 178.4286 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100R" (id 1) (at 37.338 181.991 90)
+    (property "Value" "100" (id 1) (at 37.338 181.991 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 35.56 179.578 90)
@@ -3137,7 +3394,7 @@
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a4c5f52")
     (property "Reference" "R27" (id 0) (at 198.12 69.85 90))
-    (property "Value" "200" (id 1) (at 198.12 72.39 90))
+    (property "Value" "100" (id 1) (at 198.12 72.39 90))
     (property "Footprint" "Mlab_R:SMD-0603" (id 2) (at 198.12 70.612 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3150,7 +3407,7 @@
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a4c6045")
     (property "Reference" "R28" (id 0) (at 198.12 77.47 90))
-    (property "Value" "200" (id 1) (at 198.12 80.01 90))
+    (property "Value" "100" (id 1) (at 198.12 80.01 90))
     (property "Footprint" "Mlab_R:SMD-0603" (id 2) (at 198.12 78.232 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3163,7 +3420,7 @@
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a4d0c2b")
     (property "Reference" "R29" (id 0) (at 199.898 93.853 90))
-    (property "Value" "200" (id 1) (at 199.898 96.393 90))
+    (property "Value" "100" (id 1) (at 199.898 96.393 90))
     (property "Footprint" "Mlab_R:SMD-0603" (id 2) (at 199.898 94.615 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3176,7 +3433,7 @@
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005a4d0c91")
     (property "Reference" "R30" (id 0) (at 199.898 101.473 90))
-    (property "Value" "200" (id 1) (at 199.898 104.013 90))
+    (property "Value" "100" (id 1) (at 199.898 104.013 90))
     (property "Footprint" "Mlab_R:SMD-0603" (id 2) (at 199.898 102.235 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3817,8 +4074,9 @@
 
   (sheet (at 22.987 67.31) (size 46.99 34.29)
     (stroke (width 0) (type solid) (color 132 0 132 1))
-    (fill (color 255 255 255 0.0000))    (uuid 00000000-0000-0000-0000-00005ccb1e0f)
-    (property "Název listu" "LNA" (id 0) (at 22.987 66.5475 0)
+    (fill (color 255 255 255 0.0000))
+    (uuid 00000000-0000-0000-0000-00005ccb1e0f)
+    (property "Sheet name" "LNA" (id 0) (at 22.987 66.5475 0)
       (effects (font (size 1.524 1.524)) (justify left bottom))
     )
     (property "Sheet file" "LNA.kicad_sch" (id 1) (at 22.987 102.2101 0)
@@ -3852,8 +4110,9 @@
 
   (sheet (at 259.969 150.7744) (size 13.3096 7.4676)
     (stroke (width 0.001) (type solid) (color 132 0 132 1))
-    (fill (color 255 255 255 0.0000))    (uuid d464a012-3bbc-4755-a15c-1179d919aa40)
-    (property "Název listu" "Power" (id 0) (at 259.969 150.1385 0)
+    (fill (color 255 255 255 0.0000))
+    (uuid d464a012-3bbc-4755-a15c-1179d919aa40)
+    (property "Sheet name" "Power" (id 0) (at 259.969 150.1385 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheet file" "Power.kicad_sch" (id 1) (at 259.969 158.7509 0)
@@ -3861,873 +4120,879 @@
     )
   )
 
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/" (page "2"))
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/" (page "3"))
+  )
+
   (symbol_instances
     (path "/00000000-0000-0000-0000-00005a91a7e1"
-      (reference "#PWR01") (unit 1)
+      (reference "#PWR01") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005a59771f"
-      (reference "#PWR03") (unit 1)
+      (reference "#PWR03") (unit 1) (value "GND") (footprint "")
     )
     (path "/11bfbf0b-9931-4a54-b394-948be3ff441c"
-      (reference "#PWR04") (unit 1)
+      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
     )
     (path "/0df65bc9-ef0a-483f-94ec-0a70fcbaa1e2"
-      (reference "#PWR05") (unit 1)
+      (reference "#PWR05") (unit 1) (value "GND") (footprint "")
     )
     (path "/373904e5-0228-45d3-bd08-7e18aee2171d"
-      (reference "#PWR06") (unit 1)
+      (reference "#PWR06") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005a8cc6d7"
-      (reference "#PWR07") (unit 1)
+      (reference "#PWR07") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005a8cc4b4"
-      (reference "#PWR08") (unit 1)
+      (reference "#PWR08") (unit 1) (value "GND") (footprint "")
     )
     (path "/8be7c424-2880-418d-9f71-bec92a6fe33b"
-      (reference "#PWR09") (unit 1)
+      (reference "#PWR09") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005a8cca1b"
-      (reference "#PWR010") (unit 1)
+      (reference "#PWR010") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005a8cc555"
-      (reference "#PWR011") (unit 1)
+      (reference "#PWR011") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005a57f614"
-      (reference "#PWR012") (unit 1)
+      (reference "#PWR012") (unit 1) (value "+5V") (footprint "")
     )
     (path "/d9f48a3c-3635-49c2-85e0-f7096c8bbef8"
-      (reference "#PWR013") (unit 1)
+      (reference "#PWR013") (unit 1) (value "+5V") (footprint "")
     )
     (path "/7147697e-a285-4016-abe9-56e5b0606d3b"
-      (reference "#PWR014") (unit 1)
+      (reference "#PWR014") (unit 1) (value "GND") (footprint "")
     )
     (path "/956259d6-c09b-4602-967a-b325bab533db"
-      (reference "#PWR015") (unit 1)
+      (reference "#PWR015") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005a8a006d"
-      (reference "#PWR016") (unit 1)
+      (reference "#PWR016") (unit 1) (value "VCC") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005a873880"
-      (reference "#PWR017") (unit 1)
+      (reference "#PWR017") (unit 1) (value "GND") (footprint "")
     )
     (path "/eeb0433c-2638-4745-bace-229dcee90fed"
-      (reference "#PWR018") (unit 1)
+      (reference "#PWR018") (unit 1) (value "GND") (footprint "")
     )
     (path "/ea65522a-e1f0-4114-b2b9-3fe041143fc4"
-      (reference "#PWR019") (unit 1)
+      (reference "#PWR019") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005a69b1d8"
-      (reference "#PWR020") (unit 1)
+      (reference "#PWR020") (unit 1) (value "GND") (footprint "")
     )
     (path "/90383295-98e7-42d2-a7eb-ca41bd4e5380"
-      (reference "#PWR021") (unit 1)
+      (reference "#PWR021") (unit 1) (value "GND") (footprint "")
     )
     (path "/17d2263b-ae19-42a7-bad5-f33f202075f1"
-      (reference "#PWR022") (unit 1)
+      (reference "#PWR022") (unit 1) (value "GND") (footprint "")
     )
     (path "/246865b8-4962-45e0-9694-640f94b808f8"
-      (reference "#PWR023") (unit 1)
+      (reference "#PWR023") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005a594557"
-      (reference "#PWR027") (unit 1)
+      (reference "#PWR027") (unit 1) (value "GND") (footprint "")
     )
     (path "/cecc3094-27c8-4bec-a758-d93bb382b431"
-      (reference "#PWR028") (unit 1)
+      (reference "#PWR028") (unit 1) (value "GND") (footprint "")
     )
     (path "/e8d6c467-7e00-4029-a559-0fadfcdac037"
-      (reference "#PWR032") (unit 1)
+      (reference "#PWR032") (unit 1) (value "GND") (footprint "")
     )
     (path "/1acd19f0-5a68-4236-97c0-73d42beaece5"
-      (reference "#PWR033") (unit 1)
+      (reference "#PWR033") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005a5ff828"
-      (reference "#PWR034") (unit 1)
+      (reference "#PWR034") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005a5ff19f"
-      (reference "#PWR035") (unit 1)
+      (reference "#PWR035") (unit 1) (value "GND") (footprint "")
     )
     (path "/60f143ee-c95c-4046-917b-95844ea5babb"
-      (reference "#PWR036") (unit 1)
+      (reference "#PWR036") (unit 1) (value "+5V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005a6371e6"
-      (reference "#PWR037") (unit 1)
+      (reference "#PWR037") (unit 1) (value "+5V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005a610dec"
-      (reference "#PWR038") (unit 1)
+      (reference "#PWR038") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005a610d2f"
-      (reference "#PWR039") (unit 1)
+      (reference "#PWR039") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005a7a7430"
-      (reference "#PWR040") (unit 1)
+      (reference "#PWR040") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005a624e79"
-      (reference "#PWR041") (unit 1)
+      (reference "#PWR041") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005a6aed26"
-      (reference "#PWR042") (unit 1)
+      (reference "#PWR042") (unit 1) (value "GND") (footprint "")
     )
     (path "/9b2d44f1-df69-439c-a18a-fc62548f0255"
-      (reference "#PWR043") (unit 1)
+      (reference "#PWR043") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005a806993"
-      (reference "#PWR044") (unit 1)
+      (reference "#PWR044") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000549d7353"
-      (reference "#PWR045") (unit 1)
+      (reference "#PWR045") (unit 1) (value "VCC") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000549d73b2"
-      (reference "#PWR046") (unit 1)
+      (reference "#PWR046") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000549d770f"
-      (reference "#PWR047") (unit 1)
+      (reference "#PWR047") (unit 1) (value "GND") (footprint "")
     )
     (path "/63b74537-a6a3-449d-b8c4-0a6977efeab0"
-      (reference "#PWR0101") (unit 1)
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005a91ad9b"
-      (reference "C1") (unit 1)
+      (reference "C1") (unit 1) (value "100nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005a91acad"
-      (reference "C2") (unit 1)
+      (reference "C2") (unit 1) (value "100nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005a597667"
-      (reference "C3") (unit 1)
+      (reference "C3") (unit 1) (value "10nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005a52f807"
-      (reference "C4") (unit 1)
+      (reference "C4") (unit 1) (value "10nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005a832df0"
-      (reference "C5") (unit 1)
+      (reference "C5") (unit 1) (value "10nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005a4ebffa"
-      (reference "C6") (unit 1)
+      (reference "C6") (unit 1) (value "10nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005a52f8ab"
-      (reference "C7") (unit 1)
+      (reference "C7") (unit 1) (value "10nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/3368ccda-df3c-498d-a987-7417a9d20007"
-      (reference "C8") (unit 1)
+      (reference "C8") (unit 1) (value "100nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/87178bbd-824f-48f6-a0ac-6514d271db8b"
-      (reference "C9") (unit 1)
+      (reference "C9") (unit 1) (value "100nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/2db3508e-0b7d-4eed-9fc8-e4fb600d4bfe"
-      (reference "C10") (unit 1)
+      (reference "C10") (unit 1) (value "10nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/3b06eb35-1214-442b-ac6c-532615892044"
-      (reference "C11") (unit 1)
+      (reference "C11") (unit 1) (value "10nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005a57f7c4"
-      (reference "C12") (unit 1)
+      (reference "C12") (unit 1) (value "100nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/fa7a0e78-8d6a-4da9-81a0-34a9c7da9b93"
-      (reference "C13") (unit 1)
+      (reference "C13") (unit 1) (value "100nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/f893f7ab-2f24-4a13-b050-d3af6bad5e6c"
-      (reference "C15") (unit 1)
+      (reference "C15") (unit 1) (value "10nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/5469a8b4-0a84-4264-a396-89f00f4a17b0"
-      (reference "C16") (unit 1)
+      (reference "C16") (unit 1) (value "10nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005a5e3ea9"
-      (reference "C17") (unit 1)
+      (reference "C17") (unit 1) (value "10nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005a5ff702"
-      (reference "C18") (unit 1)
+      (reference "C18") (unit 1) (value "10nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005a6952ff"
-      (reference "C19") (unit 1)
+      (reference "C19") (unit 1) (value "100nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005a69544d"
-      (reference "C20") (unit 1)
+      (reference "C20") (unit 1) (value "100nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005a69557d"
-      (reference "C21") (unit 1)
+      (reference "C21") (unit 1) (value "100nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005a6956af"
-      (reference "C22") (unit 1)
+      (reference "C22") (unit 1) (value "100nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005a5ea454"
-      (reference "C23") (unit 1)
+      (reference "C23") (unit 1) (value "10nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005a5fd855"
-      (reference "C24") (unit 1)
+      (reference "C24") (unit 1) (value "10nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005a6ae877"
-      (reference "C25") (unit 1)
+      (reference "C25") (unit 1) (value "100nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005a806833"
-      (reference "C26") (unit 1)
+      (reference "C26") (unit 1) (value "100nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005a69a30c"
-      (reference "C27") (unit 1)
+      (reference "C27") (unit 1) (value "10uF/16V") (footprint "Capacitors_SMD:C_1210_HandSoldering")
     )
     (path "/00000000-0000-0000-0000-00005562302c"
-      (reference "C28") (unit 1)
+      (reference "C28") (unit 1) (value "100nF") (footprint "Mlab_C:C_0805")
     )
     (path "/00000000-0000-0000-0000-000055622fb7"
-      (reference "D1") (unit 1)
+      (reference "D1") (unit 1) (value "M4") (footprint "Diodes_SMD:D_SMA")
     )
     (path "/00000000-0000-0000-0000-00005a87055f"
-      (reference "J1") (unit 1)
+      (reference "J1") (unit 1) (value "HEADER_1x08") (footprint "maxrez:IDC381-8-110")
     )
     (path "/00000000-0000-0000-0000-0000549d65bc"
-      (reference "J2") (unit 1)
+      (reference "J2") (unit 1) (value "+9V") (footprint "Mlab_Pin_Headers:Straight_2x03")
     )
     (path "/64e0c955-df67-4b20-8ca1-cb0eff064923"
-      (reference "L1") (unit 1)
+      (reference "L1") (unit 1) (value "56nH") (footprint "")
     )
     (path "/5b0e7ad2-43a5-4df2-8bd6-3d6ba0e5939b"
-      (reference "L2") (unit 1)
+      (reference "L2") (unit 1) (value "56nH") (footprint "")
     )
     (path "/41381169-9fe6-4eee-a9fc-5ba448aa4e01"
-      (reference "L3") (unit 1)
+      (reference "L3") (unit 1) (value "56nH") (footprint "")
     )
     (path "/063e4a40-e2bf-452d-87f3-64bcb16e26d0"
-      (reference "L4") (unit 1)
+      (reference "L4") (unit 1) (value "56nH") (footprint "")
     )
     (path "/1c9d25a3-b8cd-48ec-b4eb-c1a4f39fa341"
-      (reference "L6") (unit 1)
+      (reference "L6") (unit 1) (value "270nH") (footprint "Inductors_SMD:L_0805")
     )
     (path "/ce63781b-1a9e-466c-a050-22abc37c4a16"
-      (reference "L7") (unit 1)
+      (reference "L7") (unit 1) (value "820nH") (footprint "")
     )
     (path "/e24e3da2-eea7-4457-97c7-a83f9f198f98"
-      (reference "L8") (unit 1)
+      (reference "L8") (unit 1) (value "820nH") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ac5f47a"
-      (reference "L9") (unit 1)
+      (reference "L9") (unit 1) (value "270nH") (footprint "Inductors_SMD:L_0805")
     )
     (path "/3ea182c7-9414-47ca-96d3-1c64c172a41f"
-      (reference "L10") (unit 1)
+      (reference "L10") (unit 1) (value "270nH") (footprint "Inductors_SMD:L_0805")
     )
     (path "/638e78f3-4274-4a1a-aef1-7bfaeeb857f2"
-      (reference "L11") (unit 1)
+      (reference "L11") (unit 1) (value "820nH") (footprint "")
     )
     (path "/ea49c32b-fcc6-4439-bec0-60288f0cfcd5"
-      (reference "L12") (unit 1)
+      (reference "L12") (unit 1) (value "820nH") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005acfdbc8"
-      (reference "L13") (unit 1)
+      (reference "L13") (unit 1) (value "270nH") (footprint "Inductors_SMD:L_0805")
     )
     (path "/00000000-0000-0000-0000-00005c1db7a3"
-      (reference "M1") (unit 1)
+      (reference "M1") (unit 1) (value "HOLE") (footprint "Mlab_Mechanical:MountingHole_3mm")
     )
     (path "/00000000-0000-0000-0000-00005c1dc4ab"
-      (reference "M2") (unit 1)
+      (reference "M2") (unit 1) (value "HOLE") (footprint "Mlab_Mechanical:MountingHole_3mm")
     )
     (path "/00000000-0000-0000-0000-00005c1dc613"
-      (reference "M3") (unit 1)
+      (reference "M3") (unit 1) (value "HOLE") (footprint "Mlab_Mechanical:MountingHole_3mm")
     )
     (path "/00000000-0000-0000-0000-00005c1dca4f"
-      (reference "M4") (unit 1)
+      (reference "M4") (unit 1) (value "HOLE") (footprint "Mlab_Mechanical:MountingHole_3mm")
     )
     (path "/00000000-0000-0000-0000-0000549d7549"
-      (reference "M5") (unit 1)
+      (reference "M5") (unit 1) (value "HOLE") (footprint "Mlab_Mechanical:MountingHole_3mm")
     )
     (path "/00000000-0000-0000-0000-0000549d7628"
-      (reference "M6") (unit 1)
+      (reference "M6") (unit 1) (value "HOLE") (footprint "Mlab_Mechanical:MountingHole_3mm")
     )
     (path "/00000000-0000-0000-0000-0000549d7646"
-      (reference "M7") (unit 1)
+      (reference "M7") (unit 1) (value "HOLE") (footprint "Mlab_Mechanical:MountingHole_3mm")
     )
     (path "/00000000-0000-0000-0000-0000549d7665"
-      (reference "M8") (unit 1)
+      (reference "M8") (unit 1) (value "HOLE") (footprint "Mlab_Mechanical:MountingHole_3mm")
     )
     (path "/4b5f2276-bdf3-4db0-b5f3-3f3f630d9478"
-      (reference "R1") (unit 1)
+      (reference "R1") (unit 1) (value "68R") (footprint "Mlab_R:SMD-0603")
     )
     (path "/91cd0fb0-0324-49c6-bae9-511435786a52"
-      (reference "R2") (unit 1)
+      (reference "R2") (unit 1) (value "68R") (footprint "Mlab_R:SMD-0603")
     )
     (path "/5b86a460-3aa7-4a6d-8854-4bce4a2577fd"
-      (reference "R3") (unit 1)
+      (reference "R3") (unit 1) (value "68R") (footprint "Mlab_R:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005a7d314e"
-      (reference "R4") (unit 1)
+      (reference "R4") (unit 1) (value "68") (footprint "Mlab_R:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005a881a05"
-      (reference "R5") (unit 1)
+      (reference "R5") (unit 1) (value "68") (footprint "Mlab_R:SMD-0603")
     )
     (path "/5b19e399-8b47-4131-8cdb-62e81afc928b"
-      (reference "R6") (unit 1)
+      (reference "R6") (unit 1) (value "68R") (footprint "Mlab_R:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005a7d321c"
-      (reference "R7") (unit 1)
+      (reference "R7") (unit 1) (value "68") (footprint "Mlab_R:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005a881b15"
-      (reference "R8") (unit 1)
+      (reference "R8") (unit 1) (value "68") (footprint "Mlab_R:SMD-0603")
     )
     (path "/11c19efe-b619-4fcc-bf21-105e1bd4b698"
-      (reference "R9") (unit 1)
+      (reference "R9") (unit 1) (value "3R9") (footprint "Mlab_R:SMD-0603")
     )
     (path "/272351e4-3970-4c6b-bf83-d55ecdcf8e4b"
-      (reference "R10") (unit 1)
+      (reference "R10") (unit 1) (value "3R9") (footprint "Mlab_R:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005a59ce06"
-      (reference "R11") (unit 1)
+      (reference "R11") (unit 1) (value "130R") (footprint "Mlab_R:SMD-0603")
     )
     (path "/c9c4ae36-4d52-41b6-8a8e-5a8eced14e8c"
-      (reference "R23") (unit 1)
+      (reference "R23") (unit 1) (value "0R") (footprint "")
     )
     (path "/c1b38147-ce0b-443d-bcef-1cc25b3da275"
-      (reference "R24") (unit 1)
+      (reference "R24") (unit 1) (value "0R") (footprint "")
     )
     (path "/a32d73f4-fea4-45bc-91e2-81cd157f5afe"
-      (reference "R25") (unit 1)
+      (reference "R25") (unit 1) (value "0R") (footprint "")
     )
     (path "/fcd9b97e-a2c5-4c3a-bc0b-822263dba84c"
-      (reference "R26") (unit 1)
+      (reference "R26") (unit 1) (value "0R") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005a4c5f52"
-      (reference "R27") (unit 1)
+      (reference "R27") (unit 1) (value "100") (footprint "Mlab_R:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005a4c6045"
-      (reference "R28") (unit 1)
+      (reference "R28") (unit 1) (value "100") (footprint "Mlab_R:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005a4d0c2b"
-      (reference "R29") (unit 1)
+      (reference "R29") (unit 1) (value "100") (footprint "Mlab_R:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005a4d0c91"
-      (reference "R30") (unit 1)
+      (reference "R30") (unit 1) (value "100") (footprint "Mlab_R:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005af49818"
-      (reference "R31") (unit 1)
+      (reference "R31") (unit 1) (value "50") (footprint "Mlab_R:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005af4999e"
-      (reference "R32") (unit 1)
+      (reference "R32") (unit 1) (value "50") (footprint "Mlab_R:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005af9379a"
-      (reference "R33") (unit 1)
+      (reference "R33") (unit 1) (value "50") (footprint "Mlab_R:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005af9363c"
-      (reference "R34") (unit 1)
+      (reference "R34") (unit 1) (value "50") (footprint "Mlab_R:SMD-0603")
     )
     (path "/1183e59c-4867-429d-a9c5-a4810ef1ca1b"
-      (reference "R?") (unit 1)
+      (reference "R?") (unit 1) (value "130R") (footprint "Mlab_R:SMD-0603")
     )
     (path "/332a9ca3-8228-4899-89ea-6c158d21373f"
-      (reference "R?") (unit 1)
+      (reference "R?") (unit 1) (value "130R") (footprint "Mlab_R:SMD-0603")
     )
     (path "/dac5af7a-3fba-4d0d-990d-777308417f79"
-      (reference "R?") (unit 1)
+      (reference "R?") (unit 1) (value "130R") (footprint "Mlab_R:SMD-0603")
     )
     (path "/f4fd9589-bc7f-43e6-bd9b-d55dcf5a4e56"
-      (reference "R?") (unit 1)
+      (reference "R?") (unit 1) (value "100") (footprint "")
     )
     (path "/9e403048-126f-40d0-be3e-0b23792c8554"
-      (reference "U2") (unit 1)
+      (reference "U2") (unit 1) (value "AD8343") (footprint "Package_SO:TSSOP-14_4.4x5mm_P0.65mm")
     )
     (path "/3e2f8b3a-73b4-4ed5-8b05-40e6eb2033ae"
-      (reference "U3") (unit 1)
+      (reference "U3") (unit 1) (value "AD8343") (footprint "Package_SO:TSSOP-14_4.4x5mm_P0.65mm")
     )
     (path "/bef43be7-ca72-4d07-996b-877c1990a309"
-      (reference "U5") (unit 1)
+      (reference "U5") (unit 1) (value "LT6604-10") (footprint "Mlab_IO:UFF_QFN34")
     )
     (path "/d5a1c65c-50ea-4b5b-b77d-734a379bde8b"
-      (reference "U5") (unit 2)
+      (reference "U5") (unit 2) (value "LT6604-10") (footprint "Mlab_IO:UFF_QFN34")
     )
     (path "/56f2ec6e-fe98-4b0d-b616-4ef6d11901fd"
-      (reference "U12") (unit 1)
+      (reference "U12") (unit 1) (value "Si53322") (footprint "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm_ThermalVias")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf096f8"
-      (reference "#PWR048") (unit 1)
+      (reference "#PWR048") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09770"
-      (reference "#PWR049") (unit 1)
+      (reference "#PWR049") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095cf"
-      (reference "#PWR050") (unit 1)
+      (reference "#PWR050") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0960d"
-      (reference "#PWR051") (unit 1)
+      (reference "#PWR051") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09689"
-      (reference "#PWR052") (unit 1)
+      (reference "#PWR052") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0968f"
-      (reference "#PWR053") (unit 1)
+      (reference "#PWR053") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095db"
-      (reference "#PWR054") (unit 1)
+      (reference "#PWR054") (unit 1) (value "+5V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09619"
-      (reference "#PWR055") (unit 1)
+      (reference "#PWR055") (unit 1) (value "+5V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095d5"
-      (reference "#PWR056") (unit 1)
+      (reference "#PWR056") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09613"
-      (reference "#PWR057") (unit 1)
+      (reference "#PWR057") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0970f"
-      (reference "#PWR058") (unit 1)
+      (reference "#PWR058") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0969b"
-      (reference "#PWR059") (unit 1)
+      (reference "#PWR059") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09735"
-      (reference "#PWR060") (unit 1)
+      (reference "#PWR060") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf097d4"
-      (reference "#PWR061") (unit 1)
+      (reference "#PWR061") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0975f"
-      (reference "#PWR062") (unit 1)
+      (reference "#PWR062") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf097e5"
-      (reference "#PWR063") (unit 1)
+      (reference "#PWR063") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09765"
-      (reference "#PWR064") (unit 1)
+      (reference "#PWR064") (unit 1) (value "+5V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf097c8"
-      (reference "#PWR065") (unit 1)
+      (reference "#PWR065") (unit 1) (value "+5V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf097ce"
-      (reference "#PWR066") (unit 1)
+      (reference "#PWR066") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09753"
-      (reference "#PWR067") (unit 1)
+      (reference "#PWR067") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d319877"
-      (reference "C29") (unit 1)
+      (reference "C29") (unit 1) (value "8.2pF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d319f0c"
-      (reference "C30") (unit 1)
+      (reference "C30") (unit 1) (value "8.2pF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d31c49a"
-      (reference "C31") (unit 1)
+      (reference "C31") (unit 1) (value "8.2pF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d31cc96"
-      (reference "C32") (unit 1)
+      (reference "C32") (unit 1) (value "8.2pF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d318b67"
-      (reference "C33") (unit 1)
+      (reference "C33") (unit 1) (value "4.7pF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d319178"
-      (reference "C34") (unit 1)
+      (reference "C34") (unit 1) (value "4.7pF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d31ada1"
-      (reference "C35") (unit 1)
+      (reference "C35") (unit 1) (value "4.7pF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d31b488"
-      (reference "C36") (unit 1)
+      (reference "C36") (unit 1) (value "4.7pF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09833"
-      (reference "C37") (unit 1)
+      (reference "C37") (unit 1) (value "8.2pF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09839"
-      (reference "C38") (unit 1)
+      (reference "C38") (unit 1) (value "8.2pF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09841"
-      (reference "C39") (unit 1)
+      (reference "C39") (unit 1) (value "8.2pF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09848"
-      (reference "C40") (unit 1)
+      (reference "C40") (unit 1) (value "8.2pF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095c6"
-      (reference "C41") (unit 1)
+      (reference "C41") (unit 1) (value "10nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095fb"
-      (reference "C42") (unit 1)
+      (reference "C42") (unit 1) (value "10nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095c0"
-      (reference "C43") (unit 1)
+      (reference "C43") (unit 1) (value "10nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09605"
-      (reference "C44") (unit 1)
+      (reference "C44") (unit 1) (value "10nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09531"
-      (reference "C45") (unit 1)
+      (reference "C45") (unit 1) (value "6.8pF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0958e"
-      (reference "C46") (unit 1)
+      (reference "C46") (unit 1) (value "6.8pF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf094e9"
-      (reference "C47") (unit 1)
+      (reference "C47") (unit 1) (value "3.3pF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf094f6"
-      (reference "C48") (unit 1)
+      (reference "C48") (unit 1) (value "3.3pF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0957e"
-      (reference "C49") (unit 1)
+      (reference "C49") (unit 1) (value "3.3pF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09584"
-      (reference "C50") (unit 1)
+      (reference "C50") (unit 1) (value "3.3pF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf094fc"
-      (reference "C51") (unit 1)
+      (reference "C51") (unit 1) (value "3.9pF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09569"
-      (reference "C52") (unit 1)
+      (reference "C52") (unit 1) (value "3.9pF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09502"
-      (reference "C53") (unit 1)
+      (reference "C53") (unit 1) (value "3.3pF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09508"
-      (reference "C54") (unit 1)
+      (reference "C54") (unit 1) (value "3.3pF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09559"
-      (reference "C55") (unit 1)
+      (reference "C55") (unit 1) (value "3.3pF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0955f"
-      (reference "C56") (unit 1)
+      (reference "C56") (unit 1) (value "3.3pF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09515"
-      (reference "C57") (unit 1)
+      (reference "C57") (unit 1) (value "6.8pF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09546"
-      (reference "C58") (unit 1)
+      (reference "C58") (unit 1) (value "6.8pF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0972d"
-      (reference "C59") (unit 1)
+      (reference "C59") (unit 1) (value "10nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf097b1"
-      (reference "C60") (unit 1)
+      (reference "C60") (unit 1) (value "10nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf097bd"
-      (reference "C61") (unit 1)
+      (reference "C61") (unit 1) (value "10nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0973b"
-      (reference "C62") (unit 1)
+      (reference "C62") (unit 1) (value "10nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09629"
-      (reference "C63") (unit 1)
+      (reference "C63") (unit 1) (value "10nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0962f"
-      (reference "C64") (unit 1)
+      (reference "C64") (unit 1) (value "10nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09778"
-      (reference "C65") (unit 1)
+      (reference "C65") (unit 1) (value "10nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0963d"
-      (reference "C66") (unit 1)
+      (reference "C66") (unit 1) (value "10nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d31848b"
-      (reference "L14") (unit 1)
+      (reference "L14") (unit 1) (value "27nH") (footprint "Inductors_SMD:L_0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d31bc92"
-      (reference "L15") (unit 1)
+      (reference "L15") (unit 1) (value "27nH") (footprint "Inductors_SMD:L_0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d317c72"
-      (reference "L16") (unit 1)
+      (reference "L16") (unit 1) (value "27nH") (footprint "Inductors_SMD:L_0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d31a5ed"
-      (reference "L17") (unit 1)
+      (reference "L17") (unit 1) (value "27nH") (footprint "Inductors_SMD:L_0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d51132a"
-      (reference "L18") (unit 1)
+      (reference "L18") (unit 1) (value "820nH") (footprint "Mlab_L:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095a6"
-      (reference "L19") (unit 1)
+      (reference "L19") (unit 1) (value "270nH") (footprint "Mlab_L:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095e2"
-      (reference "L20") (unit 1)
+      (reference "L20") (unit 1) (value "270nH") (footprint "Mlab_L:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d67aa5e"
-      (reference "L21") (unit 1)
+      (reference "L21") (unit 1) (value "820nH") (footprint "Mlab_L:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d511da6"
-      (reference "L22") (unit 1)
+      (reference "L22") (unit 1) (value "820nH") (footprint "Mlab_L:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095ad"
-      (reference "L23") (unit 1)
+      (reference "L23") (unit 1) (value "270nH") (footprint "Mlab_L:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095e9"
-      (reference "L24") (unit 1)
+      (reference "L24") (unit 1) (value "270nH") (footprint "Mlab_L:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d67af09"
-      (reference "L25") (unit 1)
+      (reference "L25") (unit 1) (value "820nH") (footprint "Mlab_L:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf097f0"
-      (reference "L26") (unit 1)
+      (reference "L26") (unit 1) (value "12nH") (footprint "Mlab_L:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf097f8"
-      (reference "L27") (unit 1)
+      (reference "L27") (unit 1) (value "12nH") (footprint "Mlab_L:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09810"
-      (reference "L28") (unit 1)
+      (reference "L28") (unit 1) (value "12nH") (footprint "Mlab_L:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09818"
-      (reference "L29") (unit 1)
+      (reference "L29") (unit 1) (value "12nH") (footprint "Mlab_L:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09538"
-      (reference "L30") (unit 1)
+      (reference "L30") (unit 1) (value "15nH") (footprint "Inductors_SMD:L_0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09599"
-      (reference "L31") (unit 1)
+      (reference "L31") (unit 1) (value "15nH") (footprint "Inductors_SMD:L_0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf094f0"
-      (reference "L32") (unit 1)
+      (reference "L32") (unit 1) (value "15nH") (footprint "Inductors_SMD:L_0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09572"
-      (reference "L33") (unit 1)
+      (reference "L33") (unit 1) (value "15nH") (footprint "Inductors_SMD:L_0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0950f"
-      (reference "L34") (unit 1)
+      (reference "L34") (unit 1) (value "15nH") (footprint "Inductors_SMD:L_0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0954f"
-      (reference "L35") (unit 1)
+      (reference "L35") (unit 1) (value "15nH") (footprint "Inductors_SMD:L_0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09800"
-      (reference "L36") (unit 1)
+      (reference "L36") (unit 1) (value "12nH") (footprint "Mlab_L:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09808"
-      (reference "L37") (unit 1)
+      (reference "L37") (unit 1) (value "12nH") (footprint "Mlab_L:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0982b"
-      (reference "L38") (unit 1)
+      (reference "L38") (unit 1) (value "12nH") (footprint "Mlab_L:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09823"
-      (reference "L39") (unit 1)
+      (reference "L39") (unit 1) (value "12nH") (footprint "Mlab_L:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d59172d"
-      (reference "L40") (unit 1)
+      (reference "L40") (unit 1) (value "820nH") (footprint "Mlab_L:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09707"
-      (reference "L41") (unit 1)
+      (reference "L41") (unit 1) (value "270nH") (footprint "Mlab_L:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09794"
-      (reference "L42") (unit 1)
+      (reference "L42") (unit 1) (value "270nH") (footprint "Mlab_L:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d6f1a8e"
-      (reference "L43") (unit 1)
+      (reference "L43") (unit 1) (value "820nH") (footprint "Mlab_L:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d591f1e"
-      (reference "L44") (unit 1)
+      (reference "L44") (unit 1) (value "820nH") (footprint "Mlab_L:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09717"
-      (reference "L45") (unit 1)
+      (reference "L45") (unit 1) (value "270nH") (footprint "Mlab_L:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0978b"
-      (reference "L46") (unit 1)
+      (reference "L46") (unit 1) (value "270nH") (footprint "Mlab_L:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d6f1e2d"
-      (reference "L47") (unit 1)
+      (reference "L47") (unit 1) (value "820nH") (footprint "Mlab_L:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095b3"
-      (reference "R35") (unit 1)
+      (reference "R35") (unit 1) (value "0") (footprint "Mlab_R:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095ef"
-      (reference "R36") (unit 1)
+      (reference "R36") (unit 1) (value "0") (footprint "Mlab_R:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095b9"
-      (reference "R37") (unit 1)
+      (reference "R37") (unit 1) (value "0") (footprint "Mlab_R:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095f5"
-      (reference "R38") (unit 1)
+      (reference "R38") (unit 1) (value "0") (footprint "Mlab_R:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0971f"
-      (reference "R39") (unit 1)
+      (reference "R39") (unit 1) (value "0") (footprint "Mlab_R:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0979b"
-      (reference "R40") (unit 1)
+      (reference "R40") (unit 1) (value "0") (footprint "Mlab_R:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09726"
-      (reference "R41") (unit 1)
+      (reference "R41") (unit 1) (value "0") (footprint "Mlab_R:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf097a1"
-      (reference "R42") (unit 1)
+      (reference "R42") (unit 1) (value "0") (footprint "Mlab_R:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf094e3"
-      (reference "U6") (unit 1)
+      (reference "U6") (unit 1) (value "MPGA-105+") (footprint "maxrez:DL1020")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09695"
-      (reference "U7") (unit 1)
+      (reference "U7") (unit 1) (value "MPGA-105+") (footprint "maxrez:DL1020")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09700"
-      (reference "U8") (unit 1)
+      (reference "U8") (unit 1) (value "MGVA-63+") (footprint "maxrez:DL1020")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0977e"
-      (reference "U9") (unit 1)
+      (reference "U9") (unit 1) (value "MGVA-63+") (footprint "maxrez:DL1020")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced793c"
-      (reference "#PWR068") (unit 1)
+      (reference "#PWR068") (unit 1) (value "VCC") (footprint "")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/6e2aa5a1-afdb-40c2-ad68-ac152618e62a"
-      (reference "#PWR069") (unit 1)
+      (reference "#PWR069") (unit 1) (value "VCC") (footprint "")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced78fe"
-      (reference "#PWR070") (unit 1)
+      (reference "#PWR070") (unit 1) (value "GND") (footprint "")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/d44fa271-5f73-412b-9639-2ee1aabbfaa6"
-      (reference "#PWR071") (unit 1)
+      (reference "#PWR071") (unit 1) (value "GND") (footprint "")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced7904"
-      (reference "#PWR072") (unit 1)
+      (reference "#PWR072") (unit 1) (value "GND") (footprint "")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/2a787427-d00f-43b0-8b39-023c67ea638b"
-      (reference "#PWR073") (unit 1)
+      (reference "#PWR073") (unit 1) (value "GND") (footprint "")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced7921"
-      (reference "#PWR074") (unit 1)
+      (reference "#PWR074") (unit 1) (value "GND") (footprint "")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/27cb520f-7549-4722-a0de-056be9a6c1ef"
-      (reference "#PWR075") (unit 1)
+      (reference "#PWR075") (unit 1) (value "GND") (footprint "")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced7912"
-      (reference "#PWR076") (unit 1)
+      (reference "#PWR076") (unit 1) (value "GND") (footprint "")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/bbbc65c0-59dc-47ff-bdd8-fe0b6cd522bb"
-      (reference "#PWR077") (unit 1)
+      (reference "#PWR077") (unit 1) (value "GND") (footprint "")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced78d4"
-      (reference "#PWR078") (unit 1)
+      (reference "#PWR078") (unit 1) (value "GND") (footprint "")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/b3ce2a03-c903-4f40-b637-ac02b71746a5"
-      (reference "#PWR079") (unit 1)
+      (reference "#PWR079") (unit 1) (value "GND") (footprint "")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced78da"
-      (reference "#PWR080") (unit 1)
+      (reference "#PWR080") (unit 1) (value "GND") (footprint "")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/3e321f40-4693-4b18-8811-901ddfe3dd73"
-      (reference "#PWR081") (unit 1)
+      (reference "#PWR081") (unit 1) (value "GND") (footprint "")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced78e0"
-      (reference "#PWR082") (unit 1)
+      (reference "#PWR082") (unit 1) (value "GND") (footprint "")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/69c038f8-41c9-47d2-9acc-fa49aae7577e"
-      (reference "#PWR083") (unit 1)
+      (reference "#PWR083") (unit 1) (value "GND") (footprint "")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced7964"
-      (reference "#PWR084") (unit 1)
+      (reference "#PWR084") (unit 1) (value "GND") (footprint "")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/db3c7ca0-b813-4b8f-9440-09b78054daf8"
-      (reference "#PWR085") (unit 1)
+      (reference "#PWR085") (unit 1) (value "GND") (footprint "")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/0030dd90-9b55-465d-8643-f1ff701f50ad"
-      (reference "#PWR086") (unit 1)
+      (reference "#PWR086") (unit 1) (value "GND") (footprint "")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/5969513d-fb5c-4e47-9a93-a3c3a43a8c9f"
-      (reference "#PWR087") (unit 1)
+      (reference "#PWR087") (unit 1) (value "GND") (footprint "")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/7928b0d8-cfea-4a26-85fc-be1cdc25bc76"
-      (reference "#PWR088") (unit 1)
+      (reference "#PWR088") (unit 1) (value "GND") (footprint "")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/4462500b-006b-4cb5-8990-6986ccd61540"
-      (reference "#PWR089") (unit 1)
+      (reference "#PWR089") (unit 1) (value "GND") (footprint "")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/ea228446-12f6-4d5e-8ffd-43b92eb65210"
-      (reference "#PWR090") (unit 1)
+      (reference "#PWR090") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005cf08723"
-      (reference "#PWR091") (unit 1)
+      (reference "#PWR091") (unit 1) (value "GND") (footprint "")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/285d128b-cab3-4981-96ed-673bab6041a9"
-      (reference "#PWR092") (unit 1)
+      (reference "#PWR092") (unit 1) (value "+5V") (footprint "")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/afac0bdb-f6b7-41a0-9315-4b7f19ab0bd1"
-      (reference "#PWR093") (unit 1)
+      (reference "#PWR093") (unit 1) (value "GND") (footprint "")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced78ef"
-      (reference "C67") (unit 1)
+      (reference "C67") (unit 1) (value "10uF") (footprint "Mlab_R:SMD-0805")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/cfdd0ffb-6946-4c8f-a936-8a10f7a035d2"
-      (reference "C68") (unit 1)
+      (reference "C68") (unit 1) (value "10uF") (footprint "Mlab_R:SMD-0805")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced78f7"
-      (reference "C69") (unit 1)
+      (reference "C69") (unit 1) (value "100nF") (footprint "Mlab_R:SMD-0805")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/cf49ba98-256c-4f60-bb75-5dfbc6cdde4b"
-      (reference "C70") (unit 1)
+      (reference "C70") (unit 1) (value "100nF") (footprint "Mlab_R:SMD-0805")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced7898"
-      (reference "C71") (unit 1)
+      (reference "C71") (unit 1) (value "100nF") (footprint "Mlab_R:SMD-0805")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/13ddbc04-41f2-4c1b-a5c6-1ab988bf5d93"
-      (reference "C72") (unit 1)
+      (reference "C72") (unit 1) (value "100nF") (footprint "Mlab_R:SMD-0805")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced78af"
-      (reference "C73") (unit 1)
+      (reference "C73") (unit 1) (value "10uF") (footprint "Mlab_R:SMD-0805")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/6ba1f7df-314a-490f-bdc0-f9146a29744e"
-      (reference "C74") (unit 1)
+      (reference "C74") (unit 1) (value "10uF") (footprint "Mlab_R:SMD-0805")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced78b7"
-      (reference "C75") (unit 1)
+      (reference "C75") (unit 1) (value "10uF") (footprint "Mlab_R:SMD-0805")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/054d3717-8563-414e-97cb-6b55fe7fb152"
-      (reference "C76") (unit 1)
+      (reference "C76") (unit 1) (value "10uF") (footprint "Mlab_R:SMD-0805")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/788eea8f-c8c3-4998-9124-683fbcc94de8"
-      (reference "C77") (unit 1)
+      (reference "C77") (unit 1) (value "47uF/6,3V") (footprint "Mlab_R:SMD-0805")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/356bfcca-ddf9-451d-9c14-46b71c78a9f3"
-      (reference "C78") (unit 1)
+      (reference "C78") (unit 1) (value "47uF/16") (footprint "Mlab_C:TantalC_SizeC_Reflow")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/b0d897e5-1f98-4b6c-a743-94ffe9f12d9f"
-      (reference "C79") (unit 1)
+      (reference "C79") (unit 1) (value "47uF/6,3V") (footprint "Mlab_R:SMD-0805")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/2f5d758d-745d-4d9b-97ea-9a00954b1498"
-      (reference "C80") (unit 1)
+      (reference "C80") (unit 1) (value "47uF/6,3V") (footprint "Mlab_R:SMD-0805")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/35bf205f-0c1d-40de-aeaf-c476d39e376a"
-      (reference "C81") (unit 1)
+      (reference "C81") (unit 1) (value "100nF") (footprint "Mlab_R:SMD-0805")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/fce05d62-4380-4e09-b731-654d0dceaf00"
-      (reference "C82") (unit 1)
+      (reference "C82") (unit 1) (value "100nF") (footprint "Mlab_R:SMD-0805")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005cf0871c"
-      (reference "D2") (unit 1)
+      (reference "D2") (unit 1) (value "RED") (footprint "Mlab_D:LED_1206")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/88c7f9b5-6d1a-4f65-8f35-ba983b8c5731"
-      (reference "D3") (unit 1)
+      (reference "D3") (unit 1) (value "RED") (footprint "Mlab_D:LED_1206")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced7890"
-      (reference "L48") (unit 1)
+      (reference "L48") (unit 1) (value "1uH") (footprint "Mlab_L:DE1205-10")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/43745de9-28e6-466c-8a31-2adbb2e6e00f"
-      (reference "L49") (unit 1)
+      (reference "L49") (unit 1) (value "1uH") (footprint "Mlab_L:DE1205-10")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/ff26309f-e1d0-41be-b847-aeb9ebc5e4fc"
-      (reference "L50") (unit 1)
+      (reference "L50") (unit 1) (value "BLM21PG331SN1D") (footprint "")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/1c368aff-fe1c-413c-a92e-86c97cad24d3"
-      (reference "L51") (unit 1)
+      (reference "L51") (unit 1) (value "BLM21PG331SN1D") (footprint "")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced7943"
-      (reference "R43") (unit 1)
+      (reference "R43") (unit 1) (value "100k") (footprint "Mlab_R:SMD-0805")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced791a"
-      (reference "R44") (unit 1)
+      (reference "R44") (unit 1) (value "-") (footprint "Mlab_R:SMD-0805")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/344625a4-3806-4f70-bc9b-4d4bae922428"
-      (reference "R45") (unit 1)
+      (reference "R45") (unit 1) (value "100k") (footprint "Mlab_R:SMD-0805")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/ff2e67e6-9c7d-4a39-9cc4-d1bfc2668cc6"
-      (reference "R46") (unit 1)
+      (reference "R46") (unit 1) (value "-") (footprint "Mlab_R:SMD-0805")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced78bf"
-      (reference "R47") (unit 1)
+      (reference "R47") (unit 1) (value "10k") (footprint "Mlab_R:SMD-0805")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/dcf57771-be28-4cff-a9b6-550f77221fc6"
-      (reference "R48") (unit 1)
+      (reference "R48") (unit 1) (value "10k") (footprint "Mlab_R:SMD-0805")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced78a1"
-      (reference "R49") (unit 1)
+      (reference "R49") (unit 1) (value "0R") (footprint "Mlab_R:SMD-0805")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/70ca4b9c-d42a-4621-9f1f-918dfcf0d888"
-      (reference "R50") (unit 1)
+      (reference "R50") (unit 1) (value "0R") (footprint "Mlab_R:SMD-0805")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced78c6"
-      (reference "R51") (unit 1)
+      (reference "R51") (unit 1) (value "45k3") (footprint "Mlab_R:SMD-0805")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/5f119f6e-86e1-444c-80fc-257a1b52c129"
-      (reference "R52") (unit 1)
+      (reference "R52") (unit 1) (value "73k2") (footprint "Mlab_R:SMD-0805")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005cf08715"
-      (reference "R53") (unit 1)
+      (reference "R53") (unit 1) (value "240R") (footprint "Mlab_R:SMD-0805")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/e3263593-0fe7-4a91-ad52-9cb0c7cb3a97"
-      (reference "R54") (unit 1)
+      (reference "R54") (unit 1) (value "240R") (footprint "Mlab_R:SMD-0805")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced7888"
-      (reference "U10") (unit 1)
+      (reference "U10") (unit 1) (value "TPS563249") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/71e3aea4-e6cf-446d-b186-0994371ebf1f"
-      (reference "U11") (unit 1)
+      (reference "U11") (unit 1) (value "TPS563249") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
   )
 )

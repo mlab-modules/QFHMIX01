@@ -1290,6 +1290,7 @@
     )
   )
 
+
   (junction (at 45.593 168.148) (diameter 1.016) (color 0 0 0 0))
   (junction (at 45.593 175.768) (diameter 1.016) (color 0 0 0 0))
   (junction (at 63.5 154.94) (diameter 1.016) (color 0 0 0 0))
@@ -3231,7 +3232,7 @@
     (property "Value" "56nH" (id 1) (at 78.613 107.315 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 76.708 108.585 0)
+    (property "Footprint" "Inductor_SMD:L_0805_2012Metric" (id 2) (at 76.708 108.585 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 76.708 108.585 0)
@@ -3250,7 +3251,7 @@
     (property "Value" "56nH" (id 1) (at 79.756 58.928 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 77.851 57.658 0)
+    (property "Footprint" "Inductor_SMD:L_0805_2012Metric" (id 2) (at 77.851 57.658 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 77.851 57.658 0)
@@ -3269,7 +3270,7 @@
     (property "Value" "56nH" (id 1) (at 86.106 107.315 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 84.201 108.585 0)
+    (property "Footprint" "Inductor_SMD:L_0805_2012Metric" (id 2) (at 84.201 108.585 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 84.201 108.585 0)
@@ -3288,7 +3289,7 @@
     (property "Value" "56nH" (id 1) (at 87.249 58.928 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 85.344 57.658 0)
+    (property "Footprint" "Inductor_SMD:L_0805_2012Metric" (id 2) (at 85.344 57.658 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 85.344 57.658 0)
@@ -3307,7 +3308,7 @@
     (property "Value" "270nH" (id 1) (at 167.259 106.426 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Inductors_SMD:L_0805" (id 2) (at 165.354 108.331 0)
+    (property "Footprint" "Inductor_SMD:L_0805_2012Metric" (id 2) (at 165.354 108.331 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 165.354 108.331 0)
@@ -3329,7 +3330,7 @@
     (property "Value" "820nH" (id 1) (at 167.259 117.221 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 165.354 118.491 0)
+    (property "Footprint" "Inductor_SMD:L_0805_2012Metric" (id 2) (at 165.354 118.491 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 165.354 118.491 0)
@@ -3348,7 +3349,7 @@
     (property "Value" "820nH" (id 1) (at 168.275 50.8 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 166.37 49.53 0)
+    (property "Footprint" "Inductor_SMD:L_0805_2012Metric" (id 2) (at 166.37 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 166.37 49.53 0)
@@ -3367,7 +3368,7 @@
     (property "Value" "270nH" (id 1) (at 168.275 61.595 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Inductors_SMD:L_0805" (id 2) (at 166.37 59.69 0)
+    (property "Footprint" "Inductor_SMD:L_0805_2012Metric" (id 2) (at 166.37 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 166.37 59.69 0)
@@ -3389,7 +3390,7 @@
     (property "Value" "270nH" (id 1) (at 171.069 106.426 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Inductors_SMD:L_0805" (id 2) (at 169.164 108.331 0)
+    (property "Footprint" "Inductor_SMD:L_0805_2012Metric" (id 2) (at 169.164 108.331 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 169.164 108.331 0)
@@ -3411,7 +3412,7 @@
     (property "Value" "820nH" (id 1) (at 171.069 117.221 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 169.164 118.491 0)
+    (property "Footprint" "Inductor_SMD:L_0805_2012Metric" (id 2) (at 169.164 118.491 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 169.164 118.491 0)
@@ -3430,7 +3431,7 @@
     (property "Value" "820nH" (id 1) (at 172.085 50.8 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 170.18 49.53 0)
+    (property "Footprint" "Inductor_SMD:L_0805_2012Metric" (id 2) (at 170.18 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 170.18 49.53 0)
@@ -3449,7 +3450,7 @@
     (property "Value" "270nH" (id 1) (at 172.085 61.595 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Inductors_SMD:L_0805" (id 2) (at 170.18 59.69 0)
+    (property "Footprint" "Inductor_SMD:L_0805_2012Metric" (id 2) (at 170.18 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 170.18 59.69 0)
@@ -3490,10 +3491,10 @@
     (property "Value" "100" (id 1) (at 45.593 174.371 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 43.815 171.958 90)
+    (property "Footprint" "Mlab_R:SMD-0603" (id 2) (at 43.815 171.958 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 45.593 171.958 0)
+    (property "Datasheet" "" (id 3) (at 45.593 171.958 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 15b25087-1bc2-4e97-9663-a0ab4e683676))
@@ -3719,7 +3720,7 @@
     (property "Value" "0R" (id 1) (at 165.354 126.746 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 163.576 128.016 90)
+    (property "Footprint" "Mlab_R:SMD-0603" (id 2) (at 163.576 128.016 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 165.354 128.016 0)
@@ -3738,7 +3739,7 @@
     (property "Value" "0R" (id 1) (at 166.37 41.275 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 164.592 40.005 90)
+    (property "Footprint" "Mlab_R:SMD-0603" (id 2) (at 164.592 40.005 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 166.37 40.005 0)
@@ -3757,7 +3758,7 @@
     (property "Value" "0R" (id 1) (at 169.164 126.746 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 167.386 128.016 90)
+    (property "Footprint" "Mlab_R:SMD-0603" (id 2) (at 167.386 128.016 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 169.164 128.016 0)
@@ -3776,7 +3777,7 @@
     (property "Value" "0R" (id 1) (at 170.18 41.275 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 168.402 40.005 90)
+    (property "Footprint" "Mlab_R:SMD-0603" (id 2) (at 168.402 40.005 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 170.18 40.005 0)
@@ -4387,10 +4388,10 @@
     (property "Reference" "C27" (id 0) (at 242.57 22.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10uF/16V" (id 1) (at 240.03 30.48 90)
+    (property "Value" "10uF/16" (id 1) (at 240.03 30.48 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitors_SMD:C_1210_HandSoldering" (id 2) (at 242.57 25.4 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at 242.57 25.4 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 242.57 25.4 0)
@@ -4409,7 +4410,7 @@
     (property "Value" "100nF" (id 1) (at 250.19 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Mlab_C:C_0805" (id 2) (at 250.19 25.4 0)
+    (property "Footprint" "Mlab_C:SMD-0603" (id 2) (at 250.19 25.4 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 250.19 25.4 0)
@@ -4611,10 +4612,10 @@
     (stroke (width 0) (type solid) (color 132 0 132 1))
     (fill (color 255 255 255 0.0000))
     (uuid 00000000-0000-0000-0000-00005ccb1e0f)
-    (property "Sheet name" "LNA" (id 0) (at 22.987 66.5475 0)
+    (property "Název listu" "LNA" (id 0) (at 22.987 66.5475 0)
       (effects (font (size 1.524 1.524)) (justify left bottom))
     )
-    (property "Sheet file" "LNA.kicad_sch" (id 1) (at 22.987 102.2101 0)
+    (property "Soubor listu" "LNA.kicad_sch" (id 1) (at 22.987 102.2101 0)
       (effects (font (size 1.524 1.524)) (justify left top))
     )
     (pin "QFH_IN_1_P" input (at 22.987 71.755 180)
@@ -4655,10 +4656,10 @@
     (stroke (width 0.001) (type solid) (color 132 0 132 1))
     (fill (color 255 255 255 0.0000))
     (uuid d464a012-3bbc-4755-a15c-1179d919aa40)
-    (property "Sheet name" "Power" (id 0) (at 237.109 136.8035 0)
+    (property "Název listu" "Power" (id 0) (at 237.109 136.8035 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "Power.kicad_sch" (id 1) (at 240.919 144.7809 0)
+    (property "Soubor listu" "Power.kicad_sch" (id 1) (at 240.919 144.7809 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -4869,10 +4870,10 @@
       (reference "C26") (unit 1) (value "100nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005a69a30c"
-      (reference "C27") (unit 1) (value "10uF/16V") (footprint "Capacitors_SMD:C_1210_HandSoldering")
+      (reference "C27") (unit 1) (value "10uF/16") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005562302c"
-      (reference "C28") (unit 1) (value "100nF") (footprint "Mlab_C:C_0805")
+      (reference "C28") (unit 1) (value "100nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-000055622fb7"
       (reference "D1") (unit 1) (value "M4") (footprint "Diodes_SMD:D_SMA")
@@ -4884,40 +4885,40 @@
       (reference "J2") (unit 1) (value "+9V") (footprint "Mlab_Pin_Headers:Straight_2x03")
     )
     (path "/64e0c955-df67-4b20-8ca1-cb0eff064923"
-      (reference "L1") (unit 1) (value "56nH") (footprint "")
+      (reference "L1") (unit 1) (value "56nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/5b0e7ad2-43a5-4df2-8bd6-3d6ba0e5939b"
-      (reference "L2") (unit 1) (value "56nH") (footprint "")
+      (reference "L2") (unit 1) (value "56nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/41381169-9fe6-4eee-a9fc-5ba448aa4e01"
-      (reference "L3") (unit 1) (value "56nH") (footprint "")
+      (reference "L3") (unit 1) (value "56nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/063e4a40-e2bf-452d-87f3-64bcb16e26d0"
-      (reference "L4") (unit 1) (value "56nH") (footprint "")
+      (reference "L4") (unit 1) (value "56nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/1c9d25a3-b8cd-48ec-b4eb-c1a4f39fa341"
-      (reference "L6") (unit 1) (value "270nH") (footprint "Inductors_SMD:L_0805")
+      (reference "L6") (unit 1) (value "270nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/ce63781b-1a9e-466c-a050-22abc37c4a16"
-      (reference "L7") (unit 1) (value "820nH") (footprint "")
+      (reference "L7") (unit 1) (value "820nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/e24e3da2-eea7-4457-97c7-a83f9f198f98"
-      (reference "L8") (unit 1) (value "820nH") (footprint "")
+      (reference "L8") (unit 1) (value "820nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ac5f47a"
-      (reference "L9") (unit 1) (value "270nH") (footprint "Inductors_SMD:L_0805")
+      (reference "L9") (unit 1) (value "270nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/3ea182c7-9414-47ca-96d3-1c64c172a41f"
-      (reference "L10") (unit 1) (value "270nH") (footprint "Inductors_SMD:L_0805")
+      (reference "L10") (unit 1) (value "270nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/638e78f3-4274-4a1a-aef1-7bfaeeb857f2"
-      (reference "L11") (unit 1) (value "820nH") (footprint "")
+      (reference "L11") (unit 1) (value "820nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/ea49c32b-fcc6-4439-bec0-60288f0cfcd5"
-      (reference "L12") (unit 1) (value "820nH") (footprint "")
+      (reference "L12") (unit 1) (value "820nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005acfdbc8"
-      (reference "L13") (unit 1) (value "270nH") (footprint "Inductors_SMD:L_0805")
+      (reference "L13") (unit 1) (value "270nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005c1db7a3"
       (reference "M1") (unit 1) (value "HOLE") (footprint "Mlab_Mechanical:MountingHole_3mm")
@@ -4977,7 +4978,7 @@
       (reference "R11") (unit 1) (value "130R") (footprint "Mlab_R:SMD-0603")
     )
     (path "/f4fd9589-bc7f-43e6-bd9b-d55dcf5a4e56"
-      (reference "R12") (unit 1) (value "100") (footprint "")
+      (reference "R12") (unit 1) (value "100") (footprint "Mlab_R:SMD-0603")
     )
     (path "/1183e59c-4867-429d-a9c5-a4810ef1ca1b"
       (reference "R13") (unit 1) (value "130R") (footprint "Mlab_R:SMD-0603")
@@ -4989,16 +4990,16 @@
       (reference "R15") (unit 1) (value "130R") (footprint "Mlab_R:SMD-0603")
     )
     (path "/c9c4ae36-4d52-41b6-8a8e-5a8eced14e8c"
-      (reference "R23") (unit 1) (value "0R") (footprint "")
+      (reference "R23") (unit 1) (value "0R") (footprint "Mlab_R:SMD-0603")
     )
     (path "/c1b38147-ce0b-443d-bcef-1cc25b3da275"
-      (reference "R24") (unit 1) (value "0R") (footprint "")
+      (reference "R24") (unit 1) (value "0R") (footprint "Mlab_R:SMD-0603")
     )
     (path "/a32d73f4-fea4-45bc-91e2-81cd157f5afe"
-      (reference "R25") (unit 1) (value "0R") (footprint "")
+      (reference "R25") (unit 1) (value "0R") (footprint "Mlab_R:SMD-0603")
     )
     (path "/fcd9b97e-a2c5-4c3a-bc0b-822263dba84c"
-      (reference "R26") (unit 1) (value "0R") (footprint "")
+      (reference "R26") (unit 1) (value "0R") (footprint "Mlab_R:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005a4c5f52"
       (reference "R27") (unit 1) (value "100") (footprint "Mlab_R:SMD-0603")
@@ -5042,9 +5043,6 @@
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf096f8"
       (reference "#PWR02") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09770"
-      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095cf"
       (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
     )
@@ -5059,9 +5057,6 @@
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09613"
       (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09689"
-      (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095db"
       (reference "#PWR0109") (unit 1) (value "+5V") (footprint "")
@@ -5214,166 +5209,166 @@
       (reference "C65") (unit 1) (value "18pF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/a20bc519-649a-43f3-8b4b-3fe410d13d16"
-      (reference "L5") (unit 1) (value "22nH") (footprint "Inductors_SMD:L_0805")
+      (reference "L5") (unit 1) (value "22nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/f3bc94a3-ece4-4f14-9ed1-81761a651a3a"
-      (reference "L14") (unit 1) (value "22nH") (footprint "Inductors_SMD:L_0805")
+      (reference "L14") (unit 1) (value "22nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/f8e902b3-3556-47b0-97d3-cf3ef0ae2694"
-      (reference "L15") (unit 1) (value "22nH") (footprint "Inductors_SMD:L_0805")
+      (reference "L15") (unit 1) (value "22nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/84ed683c-feaf-4c05-859f-ace6a0d5b1cb"
-      (reference "L16") (unit 1) (value "22nH") (footprint "Inductors_SMD:L_0805")
+      (reference "L16") (unit 1) (value "22nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d31848b"
-      (reference "L17") (unit 1) (value "5.6nH") (footprint "Inductors_SMD:L_0805")
+      (reference "L17") (unit 1) (value "5.6nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d51132a"
-      (reference "L18") (unit 1) (value "820nH") (footprint "Mlab_L:SMD-0805")
+      (reference "L18") (unit 1) (value "820nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095a6"
-      (reference "L19") (unit 1) (value "270nH") (footprint "Mlab_L:SMD-0805")
+      (reference "L19") (unit 1) (value "270nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095e2"
-      (reference "L20") (unit 1) (value "270nH") (footprint "Mlab_L:SMD-0805")
+      (reference "L20") (unit 1) (value "270nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d67aa5e"
-      (reference "L21") (unit 1) (value "820nH") (footprint "Mlab_L:SMD-0805")
+      (reference "L21") (unit 1) (value "820nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d511da6"
-      (reference "L22") (unit 1) (value "820nH") (footprint "Mlab_L:SMD-0805")
+      (reference "L22") (unit 1) (value "820nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095ad"
-      (reference "L23") (unit 1) (value "270nH") (footprint "Mlab_L:SMD-0805")
+      (reference "L23") (unit 1) (value "270nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095e9"
-      (reference "L24") (unit 1) (value "270nH") (footprint "Mlab_L:SMD-0805")
+      (reference "L24") (unit 1) (value "270nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d67af09"
-      (reference "L25") (unit 1) (value "820nH") (footprint "Mlab_L:SMD-0805")
+      (reference "L25") (unit 1) (value "820nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/a52afc3d-44a1-4f8e-8cfe-705e6dbbd9d1"
-      (reference "L26") (unit 1) (value "27nH") (footprint "Mlab_L:SMD-0805")
+      (reference "L26") (unit 1) (value "27nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/65e084c7-cbe1-49b1-8285-3fe1e9cd583e"
-      (reference "L27") (unit 1) (value "39nH") (footprint "Inductors_SMD:L_0805")
+      (reference "L27") (unit 1) (value "39nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/a1b28fba-058d-4ff9-99f0-d2d0d2369251"
-      (reference "L28") (unit 1) (value "39nH") (footprint "Inductors_SMD:L_0805")
+      (reference "L28") (unit 1) (value "39nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/4e9fb9a4-876d-47e0-bb8f-fe3d9e29d08c"
-      (reference "L29") (unit 1) (value "10nH") (footprint "Inductors_SMD:L_0805")
+      (reference "L29") (unit 1) (value "10nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09538"
-      (reference "L30") (unit 1) (value "10nH") (footprint "Inductors_SMD:L_0805")
+      (reference "L30") (unit 1) (value "10nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/288e5345-1771-4517-8a91-62da63b4472f"
-      (reference "L31") (unit 1) (value "82nH") (footprint "Mlab_L:SMD-0805")
+      (reference "L31") (unit 1) (value "82nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/3428f50c-f6aa-4ff1-b706-c6a69fb7ffed"
-      (reference "L32") (unit 1) (value "82nH") (footprint "Mlab_L:SMD-0805")
+      (reference "L32") (unit 1) (value "82nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/48bf1994-90dd-48bf-9113-080a7c601f86"
-      (reference "L33") (unit 1) (value "4.7nH") (footprint "Inductors_SMD:L_0805")
+      (reference "L33") (unit 1) (value "4.7nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/f460c0bc-81c7-40f2-95ac-1d8b64c8631b"
-      (reference "L34") (unit 1) (value "18nH") (footprint "Inductors_SMD:L_0805")
+      (reference "L34") (unit 1) (value "18nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/8f015da6-748e-4e54-ac9b-36f5362a0ecd"
-      (reference "L35") (unit 1) (value "10nH") (footprint "Inductors_SMD:L_0805")
+      (reference "L35") (unit 1) (value "10nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf094f0"
-      (reference "L36") (unit 1) (value "10nH") (footprint "Inductors_SMD:L_0805")
+      (reference "L36") (unit 1) (value "10nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/44b3b508-2745-4c67-a671-09839e1a914a"
-      (reference "L37") (unit 1) (value "82nH") (footprint "Mlab_L:SMD-0805")
+      (reference "L37") (unit 1) (value "82nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/dadf25ff-dc04-4996-a853-13ca5610958a"
-      (reference "L38") (unit 1) (value "82nH") (footprint "Mlab_L:SMD-0805")
+      (reference "L38") (unit 1) (value "82nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/eaa7f6ad-066e-4493-8d08-8e94b54020c5"
-      (reference "L39") (unit 1) (value "82nH") (footprint "Mlab_L:SMD-0805")
+      (reference "L39") (unit 1) (value "82nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d59172d"
-      (reference "L40") (unit 1) (value "820nH") (footprint "Mlab_L:SMD-0805")
+      (reference "L40") (unit 1) (value "820nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09707"
-      (reference "L41") (unit 1) (value "270nH") (footprint "Mlab_L:SMD-0805")
+      (reference "L41") (unit 1) (value "270nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09794"
-      (reference "L42") (unit 1) (value "270nH") (footprint "Mlab_L:SMD-0805")
+      (reference "L42") (unit 1) (value "270nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d6f1a8e"
-      (reference "L43") (unit 1) (value "820nH") (footprint "Mlab_L:SMD-0805")
+      (reference "L43") (unit 1) (value "820nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d591f1e"
-      (reference "L44") (unit 1) (value "820nH") (footprint "Mlab_L:SMD-0805")
+      (reference "L44") (unit 1) (value "820nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09717"
-      (reference "L45") (unit 1) (value "270nH") (footprint "Mlab_L:SMD-0805")
+      (reference "L45") (unit 1) (value "270nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0978b"
-      (reference "L46") (unit 1) (value "270nH") (footprint "Mlab_L:SMD-0805")
+      (reference "L46") (unit 1) (value "270nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d6f1e2d"
-      (reference "L47") (unit 1) (value "820nH") (footprint "Mlab_L:SMD-0805")
+      (reference "L47") (unit 1) (value "820nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/2e560087-3bde-4623-b836-52049aa70f5a"
-      (reference "L52") (unit 1) (value "39nH") (footprint "Inductors_SMD:L_0805")
+      (reference "L52") (unit 1) (value "39nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/30c4146a-1f80-410a-b915-9f0bacc2dc8d"
-      (reference "L53") (unit 1) (value "39nH") (footprint "Inductors_SMD:L_0805")
+      (reference "L53") (unit 1) (value "39nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d317c72"
-      (reference "L54") (unit 1) (value "4.7nH") (footprint "Inductors_SMD:L_0805")
+      (reference "L54") (unit 1) (value "4.7nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/1b676332-255f-4709-a128-087438df37dc"
-      (reference "L55") (unit 1) (value "18nH") (footprint "Inductors_SMD:L_0805")
+      (reference "L55") (unit 1) (value "18nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/b5842de0-c92b-42c4-8242-6f761b5564ad"
-      (reference "L56") (unit 1) (value "18nH") (footprint "Inductors_SMD:L_0805")
+      (reference "L56") (unit 1) (value "18nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/b2e6c1c8-a920-4b0b-8b4b-ee88008410eb"
-      (reference "L57") (unit 1) (value "18nH") (footprint "Inductors_SMD:L_0805")
+      (reference "L57") (unit 1) (value "18nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf097f0"
-      (reference "L58") (unit 1) (value "27nH") (footprint "Mlab_L:SMD-0805")
+      (reference "L58") (unit 1) (value "27nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf097f8"
-      (reference "L59") (unit 1) (value "27nH") (footprint "Mlab_L:SMD-0805")
+      (reference "L59") (unit 1) (value "27nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/f57070e4-dbd7-483f-a1a6-e0709c6f2f83"
-      (reference "L60") (unit 1) (value "82nH") (footprint "Mlab_L:SMD-0805")
+      (reference "L60") (unit 1) (value "82nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/f347b272-df40-4e6b-87e4-18eb7179220f"
-      (reference "L61") (unit 1) (value "82nH") (footprint "Mlab_L:SMD-0805")
+      (reference "L61") (unit 1) (value "82nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/79a31c68-4327-4f68-9f9b-aa9f49426cb6"
-      (reference "L62") (unit 1) (value "5.6nH") (footprint "Inductors_SMD:L_0805")
+      (reference "L62") (unit 1) (value "5.6nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09808"
-      (reference "L63") (unit 1) (value "27nH") (footprint "Mlab_L:SMD-0805")
+      (reference "L63") (unit 1) (value "27nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/6b28e319-57f0-4bbc-bc4b-fd18cc34154c"
-      (reference "L64") (unit 1) (value "27nH") (footprint "Mlab_L:SMD-0805")
+      (reference "L64") (unit 1) (value "27nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/4967dffd-c852-4a0b-9fa1-e4b3d687b896"
-      (reference "L65") (unit 1) (value "82nH") (footprint "Mlab_L:SMD-0805")
+      (reference "L65") (unit 1) (value "82nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/d7464be5-6ccd-4014-8e25-d1f29a2f6e6f"
-      (reference "L66") (unit 1) (value "10nH") (footprint "Inductors_SMD:L_0805")
+      (reference "L66") (unit 1) (value "10nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0950f"
-      (reference "L67") (unit 1) (value "10nH") (footprint "Inductors_SMD:L_0805")
+      (reference "L67") (unit 1) (value "10nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/b9cb0984-a398-43cc-9ad8-aa15baad9204"
-      (reference "L68") (unit 1) (value "27nH") (footprint "Mlab_L:SMD-0805")
+      (reference "L68") (unit 1) (value "27nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09800"
-      (reference "L69") (unit 1) (value "27nH") (footprint "Mlab_L:SMD-0805")
+      (reference "L69") (unit 1) (value "27nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/70d83d4d-611c-49fc-9900-193ec2e8afc0"
-      (reference "L70") (unit 1) (value "27nH") (footprint "Mlab_L:SMD-0805")
+      (reference "L70") (unit 1) (value "27nH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095b3"
       (reference "R35") (unit 1) (value "3") (footprint "Mlab_R:SMD-0603")
@@ -5399,11 +5394,23 @@
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf097a1"
       (reference "R42") (unit 1) (value "3") (footprint "Mlab_R:SMD-0603")
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf094e3"
-      (reference "U6") (unit 1) (value "MPGA-105+") (footprint "maxrez:DL1020")
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/4b9d13ff-2e3b-4f10-a46d-90a74d804ff0"
+      (reference "U4") (unit 1) (value "MPGA-105+_MGVA-63+") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09695"
-      (reference "U7") (unit 1) (value "MPGA-105+") (footprint "maxrez:DL1020")
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/cf8cc472-726e-4c23-9aae-4cd207324792"
+      (reference "U4") (unit 2) (value "MPGA-105+_MGVA-63+") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/883127bd-d13a-43c5-b13d-fc41cb89b718"
+      (reference "U6") (unit 1) (value "MPGA-105+") (footprint "Mlab_IO:DL1020")
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/f38e18a0-0f16-444d-a5b9-ef437994df3c"
+      (reference "U6") (unit 2) (value "MPGA-105+") (footprint "Mlab_IO:DL1020")
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/cd6a1b84-94f1-41ae-a0f4-3130382a3a0f"
+      (reference "U7") (unit 1) (value "MPGA-105+") (footprint "Mlab_IO:DL1020")
+    )
+    (path "/00000000-0000-0000-0000-00005ccb1e0f/c3ddf2a1-6ec1-45f2-bdee-886d727bffe1"
+      (reference "U7") (unit 2) (value "MPGA-105+") (footprint "Mlab_IO:DL1020")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09700"
       (reference "U8") (unit 1) (value "MGVA-63+") (footprint "maxrez:DL1020")
@@ -5490,52 +5497,52 @@
       (reference "#PWR093") (unit 1) (value "GND") (footprint "")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced78ef"
-      (reference "C67") (unit 1) (value "10uF") (footprint "Mlab_R:SMD-0805")
+      (reference "C67") (unit 1) (value "10uF/16") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/cfdd0ffb-6946-4c8f-a936-8a10f7a035d2"
-      (reference "C68") (unit 1) (value "10uF") (footprint "Mlab_R:SMD-0805")
+      (reference "C68") (unit 1) (value "10uF/16") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced78f7"
-      (reference "C69") (unit 1) (value "100nF") (footprint "Mlab_R:SMD-0805")
+      (reference "C69") (unit 1) (value "100nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/cf49ba98-256c-4f60-bb75-5dfbc6cdde4b"
-      (reference "C70") (unit 1) (value "100nF") (footprint "Mlab_R:SMD-0805")
+      (reference "C70") (unit 1) (value "100nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced7898"
-      (reference "C71") (unit 1) (value "100nF") (footprint "Mlab_R:SMD-0805")
+      (reference "C71") (unit 1) (value "100nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/13ddbc04-41f2-4c1b-a5c6-1ab988bf5d93"
-      (reference "C72") (unit 1) (value "100nF") (footprint "Mlab_R:SMD-0805")
+      (reference "C72") (unit 1) (value "100nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced78af"
-      (reference "C73") (unit 1) (value "10uF") (footprint "Mlab_R:SMD-0805")
+      (reference "C73") (unit 1) (value "10uF/16") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/6ba1f7df-314a-490f-bdc0-f9146a29744e"
-      (reference "C74") (unit 1) (value "10uF") (footprint "Mlab_R:SMD-0805")
+      (reference "C74") (unit 1) (value "10uF/16") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced78b7"
-      (reference "C75") (unit 1) (value "10uF") (footprint "Mlab_R:SMD-0805")
+      (reference "C75") (unit 1) (value "10uF/16") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/054d3717-8563-414e-97cb-6b55fe7fb152"
-      (reference "C76") (unit 1) (value "10uF") (footprint "Mlab_R:SMD-0805")
+      (reference "C76") (unit 1) (value "10uF/16") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/788eea8f-c8c3-4998-9124-683fbcc94de8"
-      (reference "C77") (unit 1) (value "47uF/6,3V") (footprint "Mlab_R:SMD-0805")
+      (reference "C77") (unit 1) (value "47uF/6,3V") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/356bfcca-ddf9-451d-9c14-46b71c78a9f3"
       (reference "C78") (unit 1) (value "47uF/16") (footprint "Mlab_C:TantalC_SizeC_Reflow")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/b0d897e5-1f98-4b6c-a743-94ffe9f12d9f"
-      (reference "C79") (unit 1) (value "47uF/6,3V") (footprint "Mlab_R:SMD-0805")
+      (reference "C79") (unit 1) (value "47uF/6,3V") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/2f5d758d-745d-4d9b-97ea-9a00954b1498"
-      (reference "C80") (unit 1) (value "47uF/6,3V") (footprint "Mlab_R:SMD-0805")
+      (reference "C80") (unit 1) (value "47uF/6,3V") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/35bf205f-0c1d-40de-aeaf-c476d39e376a"
-      (reference "C81") (unit 1) (value "100nF") (footprint "Mlab_R:SMD-0805")
+      (reference "C81") (unit 1) (value "100nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/fce05d62-4380-4e09-b731-654d0dceaf00"
-      (reference "C82") (unit 1) (value "100nF") (footprint "Mlab_R:SMD-0805")
+      (reference "C82") (unit 1) (value "100nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005cf0871c"
       (reference "D2") (unit 1) (value "RED") (footprint "Mlab_D:LED_1206")

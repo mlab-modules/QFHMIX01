@@ -514,7 +514,6 @@
     )
   )
 
-
   (junction (at 77.47 26.67) (diameter 1.016) (color 0 0 0 0))
   (junction (at 78.105 74.93) (diameter 1.016) (color 0 0 0 0))
   (junction (at 85.09 26.67) (diameter 1.016) (color 0 0 0 0))

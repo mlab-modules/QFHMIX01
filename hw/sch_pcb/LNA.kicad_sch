@@ -395,7 +395,6 @@
     )
   )
 
-
   (junction (at 52.07 71.12) (diameter 1.016) (color 0 0 0 0))
   (junction (at 52.07 83.82) (diameter 1.016) (color 0 0 0 0))
   (junction (at 52.705 102.87) (diameter 1.016) (color 0 0 0 0))
@@ -3864,7 +3863,7 @@
     (pin "3" (uuid 6362ca35-5026-4fba-a368-78f4bf90bf49))
     (pin "6" (uuid a9cec6ca-56e5-46e7-9a41-5c31aa2d500d))
     (pin "7" (uuid bddd98f3-1964-490d-8b16-72f8909d804c))
-    (pin "8" (uuid b5a4436a-586b-4a02-b546-44d063eb9233))
+    (pin "8" (uuid 7230df91-fb7e-4d69-af34-67bfc4a1f695))
     (pin "8" (uuid 7230df91-fb7e-4d69-af34-67bfc4a1f695))
   )
 

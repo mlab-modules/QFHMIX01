@@ -3471,7 +3471,7 @@
     (property "Value" "M4" (id 1) (at 259.08 27.94 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Diodes_SMD:D_SMA" (id 2) (at 257.81 25.4 90)
+    (property "Footprint" "Diode_SMD:D_SMA" (id 2) (at 257.81 25.4 90)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 257.81 25.4 90)
@@ -4451,7 +4451,7 @@
     (property "Value" "HEADER_1x08" (id 1) (at 99.6188 32.4358 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "maxrez:IDC381-8-110" (id 2) (at 99.6188 31.0896 0)
+    (property "Footprint" "Mlab_CON:IDC381-8-110" (id 2) (at 99.6188 31.0896 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Datasheet" "" (id 3) (at 101.6 42.545 0)
@@ -4611,10 +4611,10 @@
     (stroke (width 0) (type solid) (color 132 0 132 1))
     (fill (color 255 255 255 0.0000))
     (uuid 00000000-0000-0000-0000-00005ccb1e0f)
-    (property "Sheet name" "LNA" (id 0) (at 22.987 66.5475 0)
+    (property "Název listu" "LNA" (id 0) (at 22.987 66.5475 0)
       (effects (font (size 1.524 1.524)) (justify left bottom))
     )
-    (property "Sheet file" "LNA.kicad_sch" (id 1) (at 22.987 102.2101 0)
+    (property "Soubor listu" "LNA.kicad_sch" (id 1) (at 22.987 102.2101 0)
       (effects (font (size 1.524 1.524)) (justify left top))
     )
     (pin "QFH_IN_1_P" input (at 22.987 71.755 180)
@@ -4655,10 +4655,10 @@
     (stroke (width 0.001) (type solid) (color 132 0 132 1))
     (fill (color 255 255 255 0.0000))
     (uuid d464a012-3bbc-4755-a15c-1179d919aa40)
-    (property "Sheet name" "Power" (id 0) (at 237.109 136.8035 0)
+    (property "Název listu" "Power" (id 0) (at 237.109 136.8035 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "Power.kicad_sch" (id 1) (at 240.919 144.7809 0)
+    (property "Soubor listu" "Power.kicad_sch" (id 1) (at 240.919 144.7809 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -4875,10 +4875,10 @@
       (reference "C28") (unit 1) (value "100nF") (footprint "Mlab_C:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-000055622fb7"
-      (reference "D1") (unit 1) (value "M4") (footprint "Diodes_SMD:D_SMA")
+      (reference "D1") (unit 1) (value "M4") (footprint "Diode_SMD:D_SMA")
     )
     (path "/00000000-0000-0000-0000-00005a87055f"
-      (reference "J1") (unit 1) (value "HEADER_1x08") (footprint "maxrez:IDC381-8-110")
+      (reference "J1") (unit 1) (value "HEADER_1x08") (footprint "Mlab_CON:IDC381-8-110")
     )
     (path "/00000000-0000-0000-0000-0000549d65bc"
       (reference "J2") (unit 1) (value "+9V") (footprint "Mlab_Pin_Headers:Straight_2x03")
@@ -5394,10 +5394,10 @@
       (reference "R42") (unit 1) (value "3") (footprint "Mlab_R:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/4b9d13ff-2e3b-4f10-a46d-90a74d804ff0"
-      (reference "U4") (unit 1) (value "MPGA-105+_MGVA-63+") (footprint "")
+      (reference "U4") (unit 1) (value "MPGA-105+_MGVA-63+") (footprint "Mlab_IO:DL1020")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/cf8cc472-726e-4c23-9aae-4cd207324792"
-      (reference "U4") (unit 2) (value "MPGA-105+_MGVA-63+") (footprint "")
+      (reference "U4") (unit 2) (value "MPGA-105+_MGVA-63+") (footprint "Mlab_IO:DL1020")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/883127bd-d13a-43c5-b13d-fc41cb89b718"
       (reference "U6") (unit 1) (value "MPGA-105+") (footprint "Mlab_IO:DL1020")
@@ -5412,10 +5412,10 @@
       (reference "U7") (unit 2) (value "MPGA-105+") (footprint "Mlab_IO:DL1020")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09700"
-      (reference "U8") (unit 1) (value "MGVA-63+") (footprint "maxrez:DL1020")
+      (reference "U8") (unit 1) (value "MGVA-63+") (footprint "Mlab_IO:DL1020")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0977e"
-      (reference "U9") (unit 1) (value "MGVA-63+") (footprint "maxrez:DL1020")
+      (reference "U9") (unit 1) (value "MGVA-63+") (footprint "Mlab_IO:DL1020")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced793c"
       (reference "#PWR068") (unit 1) (value "VCC") (footprint "")
@@ -5556,10 +5556,10 @@
       (reference "L49") (unit 1) (value "1uH") (footprint "Mlab_L:DE1205-10")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/ff26309f-e1d0-41be-b847-aeb9ebc5e4fc"
-      (reference "L50") (unit 1) (value "BLM21PG331SN1D") (footprint "")
+      (reference "L50") (unit 1) (value "BLM21PG331SN1D") (footprint "Mlab_R:SMD-0805")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/1c368aff-fe1c-413c-a92e-86c97cad24d3"
-      (reference "L51") (unit 1) (value "BLM21PG331SN1D") (footprint "")
+      (reference "L51") (unit 1) (value "BLM21PG331SN1D") (footprint "Mlab_R:SMD-0805")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/00000000-0000-0000-0000-00005ced7943"
       (reference "R43") (unit 1) (value "100k") (footprint "Mlab_R:SMD-0805")

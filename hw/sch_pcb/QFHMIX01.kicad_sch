@@ -5088,7 +5088,7 @@
       (reference "#PWR0119") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d319877"
-      (reference "C14") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C14") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09502"
       (reference "C29") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -5097,7 +5097,7 @@
       (reference "C30") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d319f0c"
-      (reference "C31") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C31") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d318b67"
       (reference "C32") (unit 1) (value "33pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -5106,7 +5106,7 @@
       (reference "C33") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/0ca5f603-0987-47e5-8e5d-b74e19bb283f"
-      (reference "C34") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C34") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09629"
       (reference "C35") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -5121,7 +5121,7 @@
       (reference "C38") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/1e76ed7e-eba4-47cd-96e8-e0e4d07821cb"
-      (reference "C39") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C39") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/5bd59e2b-4d69-438e-8294-dae5092e002b"
       (reference "C40") (unit 1) (value "33pF") (footprint "Capacitor_SMD:C_0603_1608Metric")

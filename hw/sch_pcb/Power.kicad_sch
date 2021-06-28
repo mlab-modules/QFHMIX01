@@ -1,4 +1,4 @@
-(kicad_sch (version 20210606) (generator eeschema)
+(kicad_sch (version 20210621) (generator eeschema)
 
   (uuid df7293dd-d81c-4c94-a95c-46705fc86ae9)
 
@@ -1623,7 +1623,7 @@
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23-6" (id 2) (at 113.665 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "" (id 3) (at 112.395 34.29 0)
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps563249.pdf" (id 3) (at 112.395 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "UST_ID" "5ce78139128750448edc1f52" (id 4) (at 112.395 34.29 0)

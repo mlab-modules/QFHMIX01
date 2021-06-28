@@ -4780,7 +4780,7 @@
     (property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" (id 2) (at 125.73 60.325 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 125.73 60.325 0)
+    (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8343.pdf" (id 3) (at 125.73 60.325 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "UST_ID" "5c70984612875079b91f89f7" (id 4) (at 137.16 70.485 0)

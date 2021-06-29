@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name QFHMIX01B-rescue)(type Legacy)(uri ${KIPRJMOD}/QFHMIX01B-rescue.lib)(options "")(descr ""))
-  (lib (name QFHMIX01C-rescue)(type Legacy)(uri ${KIPRJMOD}/QFHMIX01C-rescue.lib)(options "")(descr ""))
+  (lib (name "QFHMIX01B-rescue")(type "Legacy")(uri "${KIPRJMOD}/QFHMIX01B-rescue.lib")(options "")(descr ""))
+  (lib (name "QFHMIX01C-rescue")(type "Legacy")(uri "${KIPRJMOD}/QFHMIX01C-rescue.lib")(options "")(descr ""))
 )

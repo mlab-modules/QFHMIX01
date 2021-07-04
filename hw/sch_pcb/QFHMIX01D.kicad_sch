@@ -2527,6 +2527,11 @@
     (uuid ff6fd151-f8fa-459f-9642-1034730332f6)
   )
 
+  (text "Při připojení volmetru do tohoto místa oproti M5\nje občas slyšet písklavý zvuk.\nOstatní cívky to nedělají. Situace se opakovala na obou vyrobených PCB.  "
+    (at 154.94 99.06 0)
+    (effects (font (size 0.508 0.508)) (justify left bottom))
+    (uuid c9307c4b-c217-4d61-b2fa-6e2b7ea5abc8)
+  )
   (text "POWER INPUT" (at 238.76 38.1 0)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid b5f33e78-dc4f-43b4-8e5f-c4f62735c615)

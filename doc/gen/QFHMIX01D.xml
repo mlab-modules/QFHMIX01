@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/QFHMIX01D.kicad_sch</source>
-    <date>Thu May 26 10:08:26 2022</date>
+    <date>Thu May 26 12:52:07 2022</date>
     <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1087,6 +1087,7 @@
     <comp ref="U12">
       <value>Si53322</value>
       <footprint>Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm_ThermalVias</footprint>
+      <datasheet>https://www.skyworksinc.com/-/media/SkyWorks/SL/documents/public/data-sheets/Si5332x-datasheet.pdf</datasheet>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8b82</field>
       </fields>

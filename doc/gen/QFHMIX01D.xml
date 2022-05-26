@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/QFHMIX01D.kicad_sch</source>
-    <date>Mon Apr  4 16:57:49 2022</date>
+    <date>Thu May 26 09:49:54 2022</date>
     <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -449,7 +449,7 @@
     </comp>
     <comp ref="L1">
       <value>56nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8ba4</field>
       </fields>
@@ -462,7 +462,7 @@
     </comp>
     <comp ref="L2">
       <value>56nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8ba4</field>
       </fields>
@@ -475,7 +475,7 @@
     </comp>
     <comp ref="L3">
       <value>56nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8ba4</field>
       </fields>
@@ -488,7 +488,7 @@
     </comp>
     <comp ref="L4">
       <value>56nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8ba4</field>
       </fields>
@@ -501,7 +501,7 @@
     </comp>
     <comp ref="L6">
       <value>270nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5cd08d9d128750448e4542fe</field>
       </fields>
@@ -515,7 +515,7 @@
     </comp>
     <comp ref="L7">
       <value>820nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5cd08f38128750448e45432f</field>
       </fields>
@@ -528,7 +528,7 @@
     </comp>
     <comp ref="L8">
       <value>820nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5cd08f38128750448e45432f</field>
       </fields>
@@ -541,7 +541,7 @@
     </comp>
     <comp ref="L9">
       <value>270nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5cd08d9d128750448e4542fe</field>
       </fields>
@@ -555,7 +555,7 @@
     </comp>
     <comp ref="L10">
       <value>270nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5cd08d9d128750448e4542fe</field>
       </fields>
@@ -569,7 +569,7 @@
     </comp>
     <comp ref="L11">
       <value>820nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5cd08f38128750448e45432f</field>
       </fields>
@@ -582,7 +582,7 @@
     </comp>
     <comp ref="L12">
       <value>820nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5cd08f38128750448e45432f</field>
       </fields>
@@ -595,7 +595,7 @@
     </comp>
     <comp ref="L13">
       <value>270nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5cd08d9d128750448e4542fe</field>
       </fields>
@@ -1593,7 +1593,7 @@
     </comp>
     <comp ref="L5">
       <value>22nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="MFPN">0805AS-027J-08</field>
         <field name="UST_ID">60be80ed1287500165e6c3bb</field>
@@ -1608,7 +1608,7 @@
     </comp>
     <comp ref="L14">
       <value>22nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="MFPN">0805AS-027J-08</field>
         <field name="UST_ID">60be80ed1287500165e6c3bb</field>
@@ -1623,7 +1623,7 @@
     </comp>
     <comp ref="L15">
       <value>22nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="MFPN">0805AS-027J-08</field>
         <field name="UST_ID">60be80ed1287500165e6c3bb</field>
@@ -1638,7 +1638,7 @@
     </comp>
     <comp ref="L16">
       <value>22nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="MFPN">0805AS-027J-08</field>
         <field name="UST_ID">60be80ed1287500165e6c3bb</field>
@@ -1653,7 +1653,7 @@
     </comp>
     <comp ref="L17">
       <value>5.6nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="MFPN">0805AS-027J-08</field>
         <field name="UST_ID">5c70984412875079b91f8803</field>
@@ -1668,7 +1668,7 @@
     </comp>
     <comp ref="L18">
       <value>820nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5cd08f38128750448e45432f</field>
       </fields>
@@ -1682,7 +1682,7 @@
     </comp>
     <comp ref="L19">
       <value>270nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5cd08d9d128750448e4542fe</field>
       </fields>
@@ -1696,7 +1696,7 @@
     </comp>
     <comp ref="L20">
       <value>270nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5cd08d9d128750448e4542fe</field>
       </fields>
@@ -1710,7 +1710,7 @@
     </comp>
     <comp ref="L21">
       <value>820nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5cd08f38128750448e45432f</field>
       </fields>
@@ -1724,7 +1724,7 @@
     </comp>
     <comp ref="L22">
       <value>820nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5cd08f38128750448e45432f</field>
       </fields>
@@ -1738,7 +1738,7 @@
     </comp>
     <comp ref="L23">
       <value>270nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5cd08d9d128750448e4542fe</field>
       </fields>
@@ -1752,7 +1752,7 @@
     </comp>
     <comp ref="L24">
       <value>270nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5cd08d9d128750448e4542fe</field>
       </fields>
@@ -1766,7 +1766,7 @@
     </comp>
     <comp ref="L25">
       <value>820nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5cd08f38128750448e45432f</field>
       </fields>
@@ -1780,7 +1780,7 @@
     </comp>
     <comp ref="L26">
       <value>27nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5c70984412875079b91f8807</field>
       </fields>
@@ -1794,7 +1794,7 @@
     </comp>
     <comp ref="L27">
       <value>39nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="MFPN">0805AS-027J-08</field>
         <field name="UST_ID">5c70984412875079b91f8809</field>
@@ -1809,7 +1809,7 @@
     </comp>
     <comp ref="L28">
       <value>39nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="MFPN">0805AS-027J-08</field>
         <field name="UST_ID">5c70984412875079b91f8809</field>
@@ -1824,7 +1824,7 @@
     </comp>
     <comp ref="L29">
       <value>10nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">60be72061287500165e6c35e</field>
       </fields>
@@ -1838,7 +1838,7 @@
     </comp>
     <comp ref="L30">
       <value>10nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">60be72061287500165e6c35e</field>
       </fields>
@@ -1852,7 +1852,7 @@
     </comp>
     <comp ref="L31">
       <value>82nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">60be7e351287500165e6c39b</field>
       </fields>
@@ -1866,7 +1866,7 @@
     </comp>
     <comp ref="L32">
       <value>82nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">60be7e351287500165e6c39b</field>
       </fields>
@@ -1880,7 +1880,7 @@
     </comp>
     <comp ref="L33">
       <value>4.7nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="MFPN">0805AS-027J-08</field>
         <field name="UST_ID">60d330e0128750016518ca90</field>
@@ -1895,7 +1895,7 @@
     </comp>
     <comp ref="L34">
       <value>18nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="MFPN">0805AS-027J-08</field>
         <field name="UST_ID">5c70984412875079b91f8806</field>
@@ -1910,7 +1910,7 @@
     </comp>
     <comp ref="L35">
       <value>10nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">60be72061287500165e6c35e</field>
       </fields>
@@ -1924,7 +1924,7 @@
     </comp>
     <comp ref="L36">
       <value>10nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">60be72061287500165e6c35e</field>
       </fields>
@@ -1938,7 +1938,7 @@
     </comp>
     <comp ref="L37">
       <value>82nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">60be7e351287500165e6c39b</field>
       </fields>
@@ -1952,7 +1952,7 @@
     </comp>
     <comp ref="L38">
       <value>82nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">60be7e351287500165e6c39b</field>
       </fields>
@@ -1966,7 +1966,7 @@
     </comp>
     <comp ref="L39">
       <value>82nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">60be7e351287500165e6c39b</field>
       </fields>
@@ -1980,7 +1980,7 @@
     </comp>
     <comp ref="L40">
       <value>820nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5cd08f38128750448e45432f</field>
       </fields>
@@ -1994,7 +1994,7 @@
     </comp>
     <comp ref="L41">
       <value>270nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5cd08d9d128750448e4542fe</field>
       </fields>
@@ -2008,7 +2008,7 @@
     </comp>
     <comp ref="L42">
       <value>270nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5cd08d9d128750448e4542fe</field>
       </fields>
@@ -2022,7 +2022,7 @@
     </comp>
     <comp ref="L43">
       <value>820nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5cd08f38128750448e45432f</field>
       </fields>
@@ -2036,7 +2036,7 @@
     </comp>
     <comp ref="L44">
       <value>820nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5cd08f38128750448e45432f</field>
       </fields>
@@ -2050,7 +2050,7 @@
     </comp>
     <comp ref="L45">
       <value>270nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5cd08d9d128750448e4542fe</field>
       </fields>
@@ -2064,7 +2064,7 @@
     </comp>
     <comp ref="L46">
       <value>270nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5cd08d9d128750448e4542fe</field>
       </fields>
@@ -2078,7 +2078,7 @@
     </comp>
     <comp ref="L47">
       <value>820nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5cd08f38128750448e45432f</field>
       </fields>
@@ -2092,7 +2092,7 @@
     </comp>
     <comp ref="L52">
       <value>39nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="MFPN">0805AS-027J-08</field>
         <field name="UST_ID">5c70984412875079b91f8809</field>
@@ -2107,7 +2107,7 @@
     </comp>
     <comp ref="L53">
       <value>39nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="MFPN">0805AS-027J-08</field>
         <field name="UST_ID">5c70984412875079b91f8809</field>
@@ -2122,7 +2122,7 @@
     </comp>
     <comp ref="L54">
       <value>4.7nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="MFPN">0805AS-027J-08</field>
         <field name="UST_ID">60d330e0128750016518ca90</field>
@@ -2137,7 +2137,7 @@
     </comp>
     <comp ref="L55">
       <value>18nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="MFPN">0805AS-027J-08</field>
         <field name="UST_ID">5c70984412875079b91f8806</field>
@@ -2152,7 +2152,7 @@
     </comp>
     <comp ref="L56">
       <value>18nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="MFPN">0805AS-027J-08</field>
         <field name="UST_ID">5c70984412875079b91f8806</field>
@@ -2167,7 +2167,7 @@
     </comp>
     <comp ref="L57">
       <value>18nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="MFPN">0805AS-027J-08</field>
         <field name="UST_ID">5c70984412875079b91f8806</field>
@@ -2182,7 +2182,7 @@
     </comp>
     <comp ref="L58">
       <value>27nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5c70984412875079b91f8807</field>
       </fields>
@@ -2196,7 +2196,7 @@
     </comp>
     <comp ref="L59">
       <value>27nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5c70984412875079b91f8807</field>
       </fields>
@@ -2210,7 +2210,7 @@
     </comp>
     <comp ref="L60">
       <value>82nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">60be7e351287500165e6c39b</field>
       </fields>
@@ -2224,7 +2224,7 @@
     </comp>
     <comp ref="L61">
       <value>82nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">60be7e351287500165e6c39b</field>
       </fields>
@@ -2238,7 +2238,7 @@
     </comp>
     <comp ref="L62">
       <value>5.6nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="MFPN">0805AS-027J-08</field>
         <field name="UST_ID">5c70984412875079b91f8803</field>
@@ -2253,7 +2253,7 @@
     </comp>
     <comp ref="L63">
       <value>27nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5c70984412875079b91f8807</field>
       </fields>
@@ -2267,7 +2267,7 @@
     </comp>
     <comp ref="L64">
       <value>27nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5c70984412875079b91f8807</field>
       </fields>
@@ -2281,7 +2281,7 @@
     </comp>
     <comp ref="L65">
       <value>82nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">60be7e351287500165e6c39b</field>
       </fields>
@@ -2295,7 +2295,7 @@
     </comp>
     <comp ref="L66">
       <value>10nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">60be72061287500165e6c35e</field>
       </fields>
@@ -2309,7 +2309,7 @@
     </comp>
     <comp ref="L67">
       <value>10nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">60be72061287500165e6c35e</field>
       </fields>
@@ -2323,7 +2323,7 @@
     </comp>
     <comp ref="L68">
       <value>27nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5c70984412875079b91f8807</field>
       </fields>
@@ -2337,7 +2337,7 @@
     </comp>
     <comp ref="L69">
       <value>27nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5c70984412875079b91f8807</field>
       </fields>
@@ -2351,7 +2351,7 @@
     </comp>
     <comp ref="L70">
       <value>27nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5c70984412875079b91f8807</field>
       </fields>
@@ -2681,7 +2681,7 @@
     </comp>
     <comp ref="L48">
       <value>BLM21PG331SN1D</value>
-      <footprint>Mlab_L:SMD-0805</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="MFPN">BLM21PG331SN1D</field>
         <field name="UST_ID">5c70984712875079b91f8b8a</field>
@@ -2709,7 +2709,7 @@
     </comp>
     <comp ref="L51">
       <value>BLM21PG331SN1D</value>
-      <footprint>Mlab_R:SMD-0805</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="MFPN">BLM21PG331SN1D</field>
         <field name="UST_ID">5c70984712875079b91f8b8a</field>

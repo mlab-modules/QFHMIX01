@@ -5533,6 +5533,12 @@
     (path "/246865b8-4962-45e0-9694-640f94b808f8"
       (reference "#PWR023") (unit 1) (value "GND") (footprint "")
     )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/547a4391-c55a-4c0c-9bdb-8dd912224c01"
+      (reference "#PWR024") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/ef6685d5-b59f-4847-8eaf-b516597b2d26"
+      (reference "#PWR025") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005a594557"
       (reference "#PWR027") (unit 1) (value "GND") (footprint "")
     )
@@ -5920,6 +5926,9 @@
     (path "/00000000-0000-0000-0000-000055622fb7"
       (reference "D1") (unit 1) (value "M4") (footprint "Diode_SMD:D_SMA")
     )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/1c70b3a7-3972-4e0e-a8c9-5ff8d6b2a43f"
+      (reference "D2") (unit 1) (value "BZV55C-3,6V") (footprint "Diode_SMD:D_MiniMELF")
+    )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/88c7f9b5-6d1a-4f65-8f35-ba983b8c5731"
       (reference "D3") (unit 1) (value "RED") (footprint "Mlab_D:LED_1206")
     )
@@ -6205,6 +6214,9 @@
     (path "/dac5af7a-3fba-4d0d-990d-777308417f79"
       (reference "R15") (unit 1) (value "130R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/dcfbe243-d83e-4d86-80e1-8830abf3fa60"
+      (reference "R16") (unit 1) (value "24k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
     (path "/c9c4ae36-4d52-41b6-8a8e-5a8eced14e8c"
       (reference "R23") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
@@ -6273,6 +6285,9 @@
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/e3263593-0fe7-4a91-ad52-9cb0c7cb3a97"
       (reference "R54") (unit 1) (value "240R") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/6b22f738-c9a9-466a-b1b7-aee584ac4c19"
+      (reference "TH1") (unit 1) (value "Thermistor, NCP21XV103J03RA") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/c0610d33-9bfb-41fb-b3a1-f1f58c6e4530"
       (reference "U1") (unit 1) (value "NCP1117ST33") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")

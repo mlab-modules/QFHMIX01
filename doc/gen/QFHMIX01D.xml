@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/QFHMIX01D.kicad_sch</source>
-    <date>Wed Jun  1 22:02:58 2022</date>
+    <date>Thu Jun  2 20:13:53 2022</date>
     <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -3068,7 +3068,7 @@
       <tstamps>a842574a-62bd-4545-b3b1-b3137c6c2721</tstamps>
     </comp>
     <comp ref="R43">
-      <value>1k</value>
+      <value>R</value>
       <fields>
         <field name="Datasheet"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
@@ -3084,7 +3084,7 @@
       <tstamps>ae928684-c6fa-4e5d-8326-c57b804489c2</tstamps>
     </comp>
     <comp ref="R44">
-      <value>1k</value>
+      <value>R</value>
       <fields>
         <field name="Datasheet"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
@@ -3739,6 +3739,7 @@
       <node ref="L68" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="L69" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R37" pin="1" pintype="passive"/>
+      <node ref="R44" pin="1" pintype="passive"/>
       <node ref="U9" pin="8" pinfunction="Von" pintype="unspecified"/>
     </net>
     <net code="16" name="/Power/5VO">
@@ -3747,6 +3748,7 @@
       <node ref="L72" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="L73" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R41" pin="1" pintype="passive"/>
+      <node ref="R43" pin="1" pintype="passive"/>
       <node ref="U11" pin="8" pinfunction="Von" pintype="unspecified"/>
     </net>
     <net code="17" name="/Power/PG3v3">
@@ -3773,8 +3775,6 @@
       <node ref="C68" pin="2" pintype="passive"/>
       <node ref="C69" pin="2" pintype="passive"/>
       <node ref="L67" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="R43" pin="1" pintype="passive"/>
-      <node ref="R44" pin="1" pintype="passive"/>
       <node ref="U11" pin="15" pinfunction="Vin" pintype="unspecified"/>
       <node ref="U11" pin="16" pinfunction="Vin" pintype="unspecified"/>
       <node ref="U9" pin="15" pinfunction="Vin" pintype="unspecified"/>

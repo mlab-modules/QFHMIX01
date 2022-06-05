@@ -5736,6 +5736,15 @@
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/b34abbed-10be-47c7-8f5c-e31853f8bd84"
       (reference "#PWR097") (unit 1) (value "GND") (footprint "")
     )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/54c071f1-f679-439f-851a-ec424af893e5"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/c31e70db-a337-4610-85e1-eb696de9c196"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/c919bed2-182a-4bfc-957f-d30b3a964f20"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005a91acad"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -6006,6 +6015,9 @@
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/3e139d33-f3a4-4be6-a2d5-2bff60be76f4"
       (reference "C90") (unit 1) (value "10uF/16") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/ce7be239-d9f8-461a-89e7-f9b05ab6de4e"
+      (reference "C?") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
     (path "/00000000-0000-0000-0000-000055622fb7"
       (reference "D1") (unit 1) (value "M4") (footprint "Diode_SMD:D_SMA")
     )
@@ -6243,11 +6255,11 @@
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/1c368aff-fe1c-413c-a92e-86c97cad24d3"
       (reference "L71") (unit 1) (value "BLM21PG331SN1D") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
-    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/f1ff78d5-c868-434b-8efa-34652a69eb9a"
-      (reference "L72") (unit 1) (value "4.5uH") (footprint "")
-    )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/ae32c102-44c7-4dda-b92a-138b77044043"
       (reference "L73") (unit 1) (value "BLM21PG331SN1D") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+    )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/4d7cc17d-5f7a-4c9d-ad2e-eabdf0bf8ec2"
+      (reference "L?") (unit 1) (value "1mH") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005c1dc4ab"
       (reference "M1") (unit 1) (value "HOLE") (footprint "Mlab_Mechanical:MountingHole_3mm")
@@ -6400,13 +6412,19 @@
       (reference "R42") (unit 1) (value "25k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/ae928684-c6fa-4e5d-8326-c57b804489c2"
-      (reference "R43") (unit 1) (value "R") (footprint "")
+      (reference "R43") (unit 1) (value "240R") (footprint "")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/f70d1b92-3613-4551-8dfb-697dc9b6e637"
-      (reference "R44") (unit 1) (value "R") (footprint "")
+      (reference "R44") (unit 1) (value "R70") (footprint "")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/e3263593-0fe7-4a91-ad52-9cb0c7cb3a97"
       (reference "R45") (unit 1) (value "240R") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/223eba86-54ec-4fec-8884-42d28717e166"
+      (reference "R?") (unit 1) (value "100k") (footprint "")
+    )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/a35f28e7-bf87-4567-b184-304adaf0eff9"
+      (reference "R?") (unit 1) (value "150k") (footprint "")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/6b22f738-c9a9-466a-b1b7-aee584ac4c19"
       (reference "TH1") (unit 1) (value "Thermistor, NCP21XV103J03RA") (footprint "Resistor_SMD:R_0805_2012Metric")

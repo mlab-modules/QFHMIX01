@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "QFHMIX01D")
+    (date "2021-04-21")
+    (comment 2 "Frontend for QFH active antenna")
+  )
+
   (lib_symbols
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 0.635 2.54 0)

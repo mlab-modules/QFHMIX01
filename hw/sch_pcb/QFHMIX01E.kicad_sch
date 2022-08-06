@@ -5377,8 +5377,17 @@
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/b2d9fd74-157c-4102-bc09-6580f423a82e"
       (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
     )
-    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/8fdf6cd9-b75f-49a7-a321-6d1a13ded737"
-      (reference "#PWR0105") (unit 1) (value "VCC") (footprint "")
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/578db0e7-3d83-4cfb-b470-92962f310851"
+      (reference "#PWR0105") (unit 1) (value "VDDA") (footprint "")
+    )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/31c78fbb-d139-4f5d-b1e2-9186d757c2a7"
+      (reference "#PWR0106") (unit 1) (value "VDDA") (footprint "")
+    )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/df2ee9b5-a600-427e-87eb-8c255210bda6"
+      (reference "#PWR0107") (unit 1) (value "VDDA") (footprint "")
+    )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/93ff73e1-f67e-4039-a7cb-9a5a2d4fa1c5"
+      (reference "#PWR0108") (unit 1) (value "VDDA") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005a91acad"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -5670,9 +5679,6 @@
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/382112f9-9f4c-448e-b689-fa9f726436cb"
       (reference "J2") (unit 1) (value "+12V") (footprint "Mlab_Pin_Headers:Straight_2x03")
-    )
-    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/9734640d-ddaa-4f97-88a0-894e1e9c5abd"
-      (reference "J3") (unit 1) (value "HEADER_1x02") (footprint "Mlab_Pin_Headers:Straight_1x02")
     )
     (path "/64e0c955-df67-4b20-8ca1-cb0eff064923"
       (reference "L1") (unit 1) (value "56nH") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")

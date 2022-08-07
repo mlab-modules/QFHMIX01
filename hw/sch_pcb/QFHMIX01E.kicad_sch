@@ -5623,7 +5623,10 @@
       (reference "#PWR0108") (unit 1) (value "VDDA") (footprint "")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/e377473f-da39-49ed-89fa-05fbab7d73f9"
-      (reference "#PWR?") (unit 1) (value "VDDA") (footprint "")
+      (reference "#PWR0109") (unit 1) (value "VDDA") (footprint "")
+    )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/c2bbccdc-b0ca-4a1f-afbc-3c88b57582e8"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005a91acad"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")

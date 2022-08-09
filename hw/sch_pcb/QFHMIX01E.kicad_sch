@@ -5722,16 +5722,16 @@
       (reference "C31") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d318b67"
-      (reference "C32") (unit 1) (value "33pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C32") (unit 1) (value "33pF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/5bd59e2b-4d69-438e-8294-dae5092e002b"
-      (reference "C33") (unit 1) (value "33pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C33") (unit 1) (value "33pF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d319178"
-      (reference "C34") (unit 1) (value "39pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C34") (unit 1) (value "39pF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/d7efa84c-0746-4435-9ca3-41516ba66bf8"
-      (reference "C35") (unit 1) (value "39pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C35") (unit 1) (value "39pF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09833"
       (reference "C36") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -5770,22 +5770,22 @@
       (reference "C47") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/5203e43a-d3aa-4bf2-bb1b-88851e918843"
-      (reference "C48") (unit 1) (value "18pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C48") (unit 1) (value "18pF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09531"
-      (reference "C49") (unit 1) (value "18pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C49") (unit 1) (value "18pF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/a71ecc3a-fe1b-4b8f-bdf1-c0590349157a"
-      (reference "C50") (unit 1) (value "18pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C50") (unit 1) (value "18pF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf094fc"
-      (reference "C51") (unit 1) (value "18pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C51") (unit 1) (value "18pF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/b6ea13a7-f34d-47c0-a423-b72c3b39ebbd"
-      (reference "C52") (unit 1) (value "18pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C52") (unit 1) (value "18pF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09515"
-      (reference "C53") (unit 1) (value "18pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C53") (unit 1) (value "18pF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/c64d92f7-7e7a-484e-b84a-9d18f2ddddbd"
       (reference "C54") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -5968,10 +5968,10 @@
       (reference "L16") (unit 1) (value "22nH") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d31848b"
-      (reference "L17") (unit 1) (value "5.6nH") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (reference "L17") (unit 1) (value "5.6nH") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/79a31c68-4327-4f68-9f9b-aa9f49426cb6"
-      (reference "L18") (unit 1) (value "5.6nH") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (reference "L18") (unit 1) (value "5.6nH") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/2e560087-3bde-4623-b836-52049aa70f5a"
       (reference "L19") (unit 1) (value "39nH") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
@@ -5986,10 +5986,10 @@
       (reference "L22") (unit 1) (value "39nH") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d317c72"
-      (reference "L23") (unit 1) (value "4.7nH") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (reference "L23") (unit 1) (value "4.7nH") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/48bf1994-90dd-48bf-9113-080a7c601f86"
-      (reference "L24") (unit 1) (value "4.7nH") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (reference "L24") (unit 1) (value "4.7nH") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/1b676332-255f-4709-a128-087438df37dc"
       (reference "L25") (unit 1) (value "18nH") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
@@ -6040,10 +6040,10 @@
       (reference "L40") (unit 1) (value "27nH") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/4e9fb9a4-876d-47e0-bb8f-fe3d9e29d08c"
-      (reference "L41") (unit 1) (value "10nH") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (reference "L41") (unit 1) (value "10nH") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09538"
-      (reference "L42") (unit 1) (value "10nH") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (reference "L42") (unit 1) (value "10nH") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/288e5345-1771-4517-8a91-62da63b4472f"
       (reference "L43") (unit 1) (value "82nH") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
@@ -6058,10 +6058,10 @@
       (reference "L46") (unit 1) (value "82nH") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/8f015da6-748e-4e54-ac9b-36f5362a0ecd"
-      (reference "L47") (unit 1) (value "10nH") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (reference "L47") (unit 1) (value "10nH") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf094f0"
-      (reference "L48") (unit 1) (value "10nH") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (reference "L48") (unit 1) (value "10nH") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/44b3b508-2745-4c67-a671-09839e1a914a"
       (reference "L49") (unit 1) (value "82nH") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
@@ -6076,10 +6076,10 @@
       (reference "L52") (unit 1) (value "82nH") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/d7464be5-6ccd-4014-8e25-d1f29a2f6e6f"
-      (reference "L53") (unit 1) (value "10nH") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (reference "L53") (unit 1) (value "10nH") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf0950f"
-      (reference "L54") (unit 1) (value "10nH") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (reference "L54") (unit 1) (value "10nH") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ccb1e0f/b9cb0984-a398-43cc-9ad8-aa15baad9204"
       (reference "L55") (unit 1) (value "27nH") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")

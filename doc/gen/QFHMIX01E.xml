@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/QFHMIX01E.kicad_sch</source>
-    <date>Mon Aug  8 15:25:50 2022</date>
+    <date>Wed Aug 10 09:42:13 2022</date>
     <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1160,7 +1160,7 @@
     </comp>
     <comp ref="C32">
       <value>33pF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8be7</field>
       </fields>
@@ -1173,7 +1173,7 @@
     </comp>
     <comp ref="C33">
       <value>33pF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8be7</field>
       </fields>
@@ -1186,7 +1186,7 @@
     </comp>
     <comp ref="C34">
       <value>39pF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="UST_ID">5dad549f128750448eca1926</field>
       </fields>
@@ -1199,7 +1199,7 @@
     </comp>
     <comp ref="C35">
       <value>39pF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="UST_ID">5dad549f128750448eca1926</field>
       </fields>
@@ -1368,7 +1368,7 @@
     </comp>
     <comp ref="C48">
       <value>18pF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8be5</field>
       </fields>
@@ -1381,7 +1381,7 @@
     </comp>
     <comp ref="C49">
       <value>18pF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8be5</field>
       </fields>
@@ -1394,7 +1394,7 @@
     </comp>
     <comp ref="C50">
       <value>18pF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8be5</field>
       </fields>
@@ -1407,7 +1407,7 @@
     </comp>
     <comp ref="C51">
       <value>18pF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8be5</field>
       </fields>
@@ -1420,7 +1420,7 @@
     </comp>
     <comp ref="C52">
       <value>18pF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8be5</field>
       </fields>
@@ -1433,7 +1433,7 @@
     </comp>
     <comp ref="C53">
       <value>18pF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8be5</field>
       </fields>
@@ -1662,7 +1662,7 @@
     </comp>
     <comp ref="L17">
       <value>5.6nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="MFPN">0805AS-027J-08</field>
         <field name="UST_ID">5c70984412875079b91f8803</field>
@@ -1677,7 +1677,7 @@
     </comp>
     <comp ref="L18">
       <value>5.6nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="MFPN">0805AS-027J-08</field>
         <field name="UST_ID">5c70984412875079b91f8803</field>
@@ -1752,7 +1752,7 @@
     </comp>
     <comp ref="L23">
       <value>4.7nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="MFPN">0805AS-027J-08</field>
         <field name="UST_ID">60d330e0128750016518ca90</field>
@@ -1767,7 +1767,7 @@
     </comp>
     <comp ref="L24">
       <value>4.7nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="MFPN">0805AS-027J-08</field>
         <field name="UST_ID">60d330e0128750016518ca90</field>
@@ -2010,7 +2010,7 @@
     </comp>
     <comp ref="L41">
       <value>10nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="UST_ID">60be72061287500165e6c35e</field>
       </fields>
@@ -2024,7 +2024,7 @@
     </comp>
     <comp ref="L42">
       <value>10nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="UST_ID">60be72061287500165e6c35e</field>
       </fields>
@@ -2094,7 +2094,7 @@
     </comp>
     <comp ref="L47">
       <value>10nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="UST_ID">60be72061287500165e6c35e</field>
       </fields>
@@ -2108,7 +2108,7 @@
     </comp>
     <comp ref="L48">
       <value>10nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="UST_ID">60be72061287500165e6c35e</field>
       </fields>
@@ -2178,7 +2178,7 @@
     </comp>
     <comp ref="L53">
       <value>10nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="UST_ID">60be72061287500165e6c35e</field>
       </fields>
@@ -2192,7 +2192,7 @@
     </comp>
     <comp ref="L54">
       <value>10nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="UST_ID">60be72061287500165e6c35e</field>
       </fields>

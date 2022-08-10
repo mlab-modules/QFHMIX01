@@ -1644,7 +1644,7 @@
     (property "UST_ID" "5c70984812875079b91f8bef")
     (path "/00000000-0000-0000-0000-00005a5ff702")
     (attr smd)
-    (fp_text reference "C17" (at 0 1.43 45) (layer "B.SilkS") hide
+    (fp_text reference "C17" (at 0 1.43 45) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp b6e4e113-b4f2-4655-913c-23b18fec4c81)
     )
@@ -2034,7 +2034,7 @@
     (property "UST_ID" "5cd08d9d128750448e4542fe")
     (path "/00000000-0000-0000-0000-00005acfdbc8")
     (attr smd)
-    (fp_text reference "L12" (at 0 1.65 315) (layer "B.SilkS")
+    (fp_text reference "L12" (at -4.148878 2.640195 315) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 246bf986-83d8-470d-9eca-a96c5e5d3572)
     )
@@ -2120,7 +2120,7 @@
     (property "UST_ID" "5c70984812875079b91f8bef")
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095c0")
     (attr smd)
-    (fp_text reference "C44" (at 0 1.43 135) (layer "B.SilkS") hide
+    (fp_text reference "C44" (at 3.035327 -0.197566 135) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp cd861c86-53a2-43a0-934f-e495fdddbb1d)
     )
@@ -2249,7 +2249,7 @@
     (property "UST_ID" "5c70984712875079b91f8b3b")
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d319877")
     (attr smd)
-    (fp_text reference "C28" (at 0 1.68) (layer "B.SilkS") hide
+    (fp_text reference "C28" (at 0 1.68) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp baf92498-33fe-4d6c-a49f-ae012535ed46)
     )
@@ -2292,7 +2292,7 @@
     (property "UST_ID" "5c70984812875079b91f8be7")
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d318b67")
     (attr smd)
-    (fp_text reference "C32" (at 0 1.68 225) (layer "B.SilkS")
+    (fp_text reference "C32" (at -0.826184 -1.616446 225) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 4b3fabda-0ec2-4147-9bdd-ec8af7c3e4cf)
     )
@@ -2507,7 +2507,7 @@
     (property "UST_ID" "5c70984812875079b91f8be5")
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09531")
     (attr smd)
-    (fp_text reference "C49" (at 0 1.68 30) (layer "B.SilkS")
+    (fp_text reference "C49" (at 1.19349 1.539614 30) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 0bdd0a8c-bcdd-480e-a882-e1eff6a280fd)
     )
@@ -2550,7 +2550,7 @@
     (property "UST_ID" "5c70984812875079b91f8be5")
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf094fc")
     (attr smd)
-    (fp_text reference "C51" (at 0 1.68) (layer "B.SilkS")
+    (fp_text reference "C51" (at -3.175 0.127) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp e6a2999b-0029-403e-b227-439a214f9ef2)
     )
@@ -2593,7 +2593,7 @@
     (property "UST_ID" "5c70984812875079b91f8be5")
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09515")
     (attr smd)
-    (fp_text reference "C53" (at 0 1.68 150) (layer "B.SilkS")
+    (fp_text reference "C53" (at -3.304116 0.881103 150) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp b4e4beec-1686-4027-9366-e5af8d62a43d)
     )
@@ -2636,7 +2636,7 @@
     (property "UST_ID" "5c70984712875079b91f8b3b")
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d319f0c")
     (attr smd)
-    (fp_text reference "C29" (at 0 1.68) (layer "B.SilkS") hide
+    (fp_text reference "C29" (at 0 1.68) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 6b8b778c-8791-46c5-8f61-a99455e3695a)
     )
@@ -2679,7 +2679,7 @@
     (property "UST_ID" "5dad549f128750448eca1926")
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005d319178")
     (attr smd)
-    (fp_text reference "C34" (at 0 1.68 225) (layer "B.SilkS")
+    (fp_text reference "C34" (at 0.161645 -1.490723 225) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp b00bee8d-f20d-4c0b-842d-9aa55b006e3c)
     )
@@ -2765,7 +2765,7 @@
     (property "UST_ID" "5c70984812875079b91f8bea")
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf094f6")
     (attr smd)
-    (fp_text reference "C46" (at 0 1.43 150) (layer "B.SilkS") hide
+    (fp_text reference "C46" (at 0 1.43 150) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp ce9bf89a-b14f-473e-8f3a-d10231ad2913)
     )
@@ -3595,7 +3595,7 @@
     (property "UST_ID" "60be72061287500165e6c35e")
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf09538")
     (attr smd)
-    (fp_text reference "L42" (at 0 1.68 30) (layer "B.SilkS")
+    (fp_text reference "L42" (at -0.136786 1.71012 30) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp d34e8557-efe8-4c0d-9f73-6e0e2bd1883a)
     )
@@ -3639,7 +3639,7 @@
     (property "UST_ID" "60be72061287500165e6c35e")
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf094f0")
     (attr smd)
-    (fp_text reference "L48" (at 0 1.68) (layer "B.SilkS")
+    (fp_text reference "L48" (at 3.175 1.143) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 974a7a00-340d-4473-b0a5-a4611e6ad16f)
     )
@@ -4121,7 +4121,7 @@
     (property "UST_ID" "60d33559128750016518cb00")
     (path "/00000000-0000-0000-0000-00005ccb1e0f/00000000-0000-0000-0000-00005cf095b9")
     (attr smd)
-    (fp_text reference "R31" (at 0 1.43 135) (layer "B.SilkS") hide
+    (fp_text reference "R31" (at 3.017366 -0.035921 135) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 798d38e2-29a6-4410-982d-22b095d81140)
     )
@@ -5027,7 +5027,7 @@
     (property "UST_ID" "5c70984712875079b91f8b3b")
     (path "/00000000-0000-0000-0000-00005ccb1e0f/0ca5f603-0987-47e5-8e5d-b74e19bb283f")
     (attr smd)
-    (fp_text reference "C30" (at 0 1.68 90) (layer "B.SilkS") hide
+    (fp_text reference "C30" (at 0 1.68 90) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp af645d47-8f1f-444a-9324-89bebae98561)
     )
@@ -5070,7 +5070,7 @@
     (property "UST_ID" "5c70984812875079b91f8be5")
     (path "/00000000-0000-0000-0000-00005ccb1e0f/b6ea13a7-f34d-47c0-a423-b72c3b39ebbd")
     (attr smd)
-    (fp_text reference "C52" (at 0 1.68 120) (layer "B.SilkS")
+    (fp_text reference "C52" (at -0.711135 -1.613079 120) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 77099962-bc91-4771-829b-d60f60eb4509)
     )
@@ -5554,7 +5554,7 @@
     (property "UST_ID" "60be80ed1287500165e6c3bb")
     (path "/00000000-0000-0000-0000-00005ccb1e0f/f8e902b3-3556-47b0-97d3-cf3ef0ae2694")
     (attr smd)
-    (fp_text reference "L15" (at 0 1.65 30) (layer "B.SilkS")
+    (fp_text reference "L15" (at -0.083185 -1.83712 30) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 4eee5332-f684-4400-9cb5-fc46e61c48e2)
     )
@@ -5772,7 +5772,7 @@
     (property "UST_ID" "5c70984412875079b91f8803")
     (path "/00000000-0000-0000-0000-00005ccb1e0f/79a31c68-4327-4f68-9f9b-aa9f49426cb6")
     (attr smd)
-    (fp_text reference "L18" (at 0 1.68 45) (layer "B.SilkS")
+    (fp_text reference "L18" (at -0.808223 -1.670328 45) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp c1394255-fcac-4331-94af-5b6e3e580a3f)
     )
@@ -6061,7 +6061,7 @@
       (net 1 "GND") (pinfunction "K") (pintype "passive")
       (options (clearance outline) (anchor rect))
       (primitives
-    (gr_arc (start 0.404306 0.548105) (mid 0.307346 -0.001009) (end 0.405 -0.55) (width 0.4))
+    (gr_arc (start 0.404306 0.548105) (mid 0.307345 -0.001006) (end 0.404997 -0.549994) (width 0.4))
         (gr_poly (pts
             (xy 0.405 -0.75)
             (xy -0.645 -0.75)
@@ -6073,7 +6073,7 @@
       (net 93 "/Power/PG5v") (pinfunction "A") (pintype "passive")
       (options (clearance outline) (anchor rect))
       (primitives
-    (gr_arc (start 0.404306 0.548105) (mid 0.307346 -0.001009) (end 0.405 -0.55) (width 0.4))
+    (gr_arc (start 0.404306 0.548105) (mid 0.307345 -0.001006) (end 0.404997 -0.549994) (width 0.4))
         (gr_poly (pts
             (xy 0.405 -0.75)
             (xy -0.645 -0.75)
@@ -6937,7 +6937,7 @@
     (property "UST_ID" "60be80ed1287500165e6c3bb")
     (path "/00000000-0000-0000-0000-00005ccb1e0f/84ed683c-feaf-4c05-859f-ace6a0d5b1cb")
     (attr smd)
-    (fp_text reference "L16" (at 0 1.65) (layer "B.SilkS")
+    (fp_text reference "L16" (at -0.4572 -1.8796) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 0632debb-924b-47c7-88a0-ad38de196408)
     )
@@ -6981,7 +6981,7 @@
     (property "UST_ID" "60d330e0128750016518ca90")
     (path "/00000000-0000-0000-0000-00005ccb1e0f/48bf1994-90dd-48bf-9113-080a7c601f86")
     (attr smd)
-    (fp_text reference "L24" (at 0 1.68 45) (layer "B.SilkS")
+    (fp_text reference "L24" (at 0.161645 2.927563 45) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 1870bb72-30ef-45bd-a335-effdd8c7dae8)
     )
@@ -7327,7 +7327,7 @@
     (property "UST_ID" "5c70984812875079b91f8be7")
     (path "/00000000-0000-0000-0000-00005ccb1e0f/5bd59e2b-4d69-438e-8294-dae5092e002b")
     (attr smd)
-    (fp_text reference "C33" (at 0 1.68 45) (layer "B.SilkS")
+    (fp_text reference "C33" (at -0.103619 1.576381 45) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp a49acb53-265b-4dba-af35-a0d4d13a0122)
     )
@@ -7875,7 +7875,7 @@
     (property "UST_ID" "5c70984812875079b91f8bea")
     (path "/00000000-0000-0000-0000-00005ccb1e0f/6c566d95-d0ca-440e-beaf-a9328dd0fa0b")
     (attr smd)
-    (fp_text reference "C38" (at 0 1.43 135) (layer "B.SilkS") hide
+    (fp_text reference "C38" (at 0.143684 -1.508683 135) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp c4da7d56-00ef-4f81-bf7e-6691b9d71eb4)
     )
@@ -8482,7 +8482,7 @@
     (property "UST_ID" "5c70984412875079b91f8806")
     (path "/00000000-0000-0000-0000-00005ccb1e0f/b2e6c1c8-a920-4b0b-8b4b-ee88008410eb")
     (attr smd)
-    (fp_text reference "L28" (at 0 1.65 315) (layer "B.SilkS")
+    (fp_text reference "L28" (at -0.449013 -1.957696 315) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp d096363e-612f-40ef-bd85-189b3adc14c1)
     )
@@ -8955,7 +8955,7 @@
     (property "UST_ID" "5c70984812875079b91f8bbf")
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/4c660f3e-bc34-4273-ae4b-42d12280ba34")
     (attr smd)
-    (fp_text reference "C90" (at 0 1.68 45) (layer "B.SilkS")
+    (fp_text reference "C90" (at -1.167433 1.706249 45) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp ce299e0b-786e-41ba-8efd-9ed6f65151f1)
     )
@@ -9172,7 +9172,7 @@
     (property "UST_ID" "5cd08f38128750448e45432f")
     (path "/41b51b3d-8c4e-4f9d-ae23-84395a653718")
     (attr smd)
-    (fp_text reference "L75" (at 0 1.65 45) (layer "B.SilkS")
+    (fp_text reference "L75" (at 0.179605 -1.796051 45) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 88d60490-e3fe-4f6f-aba3-bcf3f041a691)
     )
@@ -9344,7 +9344,7 @@
     (property "UST_ID" "5c70984712875079b91f8b3b")
     (path "/00000000-0000-0000-0000-00005ccb1e0f/1e76ed7e-eba4-47cd-96e8-e0e4d07821cb")
     (attr smd)
-    (fp_text reference "C31" (at 0 1.68 90) (layer "B.SilkS") hide
+    (fp_text reference "C31" (at 0 1.68 90) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 96feb7ac-2bbc-421e-b484-5bf3857b1087)
     )
@@ -9660,7 +9660,7 @@
     (property "UST_ID" "5c70984812875079b91f8bea")
     (path "/00000000-0000-0000-0000-00005ccb1e0f/f14ae528-b651-4def-8262-74b44120815a")
     (attr smd)
-    (fp_text reference "C39" (at 0 1.43 135) (layer "B.SilkS") hide
+    (fp_text reference "C39" (at -0.089803 -1.490723 135) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp b85a871b-ee27-4b47-b395-6b01c15bb716)
     )
@@ -10398,7 +10398,7 @@
       (net 1 "GND") (pinfunction "K") (pintype "passive")
       (options (clearance outline) (anchor rect))
       (primitives
-    (gr_arc (start 0.404306 0.548105) (mid 0.307346 -0.001009) (end 0.405 -0.55) (width 0.4))
+    (gr_arc (start 0.404306 0.548105) (mid 0.307345 -0.001006) (end 0.404997 -0.549994) (width 0.4))
         (gr_poly (pts
             (xy 0.405 -0.75)
             (xy -0.645 -0.75)
@@ -10410,7 +10410,7 @@
       (net 103 "/Power/PG3v3") (pinfunction "A") (pintype "passive")
       (options (clearance outline) (anchor rect))
       (primitives
-    (gr_arc (start 0.404306 0.548105) (mid 0.307346 -0.001009) (end 0.405 -0.55) (width 0.4))
+    (gr_arc (start 0.404306 0.548105) (mid 0.307345 -0.001006) (end 0.404997 -0.549994) (width 0.4))
         (gr_poly (pts
             (xy 0.405 -0.75)
             (xy -0.645 -0.75)
@@ -10523,7 +10523,7 @@
     (property "UST_ID" "60be72061287500165e6c35e")
     (path "/00000000-0000-0000-0000-00005ccb1e0f/8f015da6-748e-4e54-ac9b-36f5362a0ecd")
     (attr smd)
-    (fp_text reference "L47" (at 0 1.68 75) (layer "B.SilkS")
+    (fp_text reference "L47" (at -3.203579 0.016924 75) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 4b9a6f7d-f1df-4871-88e7-3636523089fe)
     )
@@ -10610,7 +10610,7 @@
     (property "UST_ID" "5c70984412875079b91f8809")
     (path "/00000000-0000-0000-0000-00005ccb1e0f/a1b28fba-058d-4ff9-99f0-d2d0d2369251")
     (attr smd)
-    (fp_text reference "L22" (at 0 1.65 315) (layer "B.SilkS")
+    (fp_text reference "L22" (at -0.107763 -1.652367 315) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 1f47b111-a6b9-4cae-a1b2-f78b83253616)
     )
@@ -10869,7 +10869,7 @@
     (property "UST_ID" "60be72061287500165e6c35e")
     (path "/00000000-0000-0000-0000-00005ccb1e0f/d7464be5-6ccd-4014-8e25-d1f29a2f6e6f")
     (attr smd)
-    (fp_text reference "L53" (at 0 1.68 120) (layer "B.SilkS")
+    (fp_text reference "L53" (at -3.155363 -0.325951 120) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 53282d1b-f6f3-4587-9593-d3d5d99c0340)
     )
@@ -43005,60 +43005,6 @@
         (xy 123.862905 59.271095)
         (xy 123.925217 59.237069)
       )
-    )
-  )
-  (group "" (id 0b32518a-3448-476d-ad76-ce988eaf4b0a)
-    (members
-      0ab5546a-0d1f-4c89-adeb-cfacc5eb68da
-      fc9d795d-9215-49f4-918f-1ae44875b8e2
-    )
-  )
-  (group "" (id 0d8d52f4-4209-4cba-ba19-d9a7ff2983c3)
-    (members
-      00000000-0000-0000-0000-00005c9b038c
-      00000000-0000-0000-0000-00005c9b0c36
-    )
-  )
-  (group "" (id 0f08300f-bc7e-4b1d-a3f4-a3d91d9d3a54)
-    (members
-      00000000-0000-0000-0000-00005c9b03ae
-      00000000-0000-0000-0000-00005c9b0b3d
-    )
-  )
-  (group "" (id 1c11b55f-7af0-4d48-a64b-e9181c9e8625)
-    (members
-      00000000-0000-0000-0000-00005c9b0339
-      00000000-0000-0000-0000-00005c9b0b93
-    )
-  )
-  (group "" (id 41ad9be0-6eef-472d-ab20-142a95c6b973)
-    (members
-      00000000-0000-0000-0000-00005c9b02b3
-      00000000-0000-0000-0000-00005c9b0b3a
-    )
-  )
-  (group "" (id 5960e4dc-a892-4391-ae83-58fad1cd944a)
-    (members
-      21de04e5-0e36-491b-bce9-492061ca8902
-      7c50bb3e-2f7d-4629-8d26-ba3cef68bed4
-    )
-  )
-  (group "" (id 5f79d0cf-a538-44a1-8dd0-5e2cc4c0727b)
-    (members
-      75c29b67-4e42-4652-96be-975bd989445d
-      f27f097c-3342-4975-913d-8b1ba5ea28d9
-    )
-  )
-  (group "" (id 65a1ece6-dd68-458b-ac28-fb65f9cb577d)
-    (members
-      00000000-0000-0000-0000-00005c9b0328
-      00000000-0000-0000-0000-00005c9b0b90
-    )
-  )
-  (group "" (id 9a3e00c9-7993-4238-975e-02a155dfd100)
-    (members
-      6733b3ee-c185-42f9-825a-77c158d25658
-      8368b1af-2ab4-4f5b-91ce-102dfb3da083
     )
   )
   (group "" (id db25125d-46f4-4dff-b713-d405e2909ca2)

@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/QFHMIX01E.kicad_sch</source>
-    <date>Wed Aug 10 11:27:41 2022</date>
+    <date>Wed Aug 10 12:08:37 2022</date>
     <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1162,10 +1162,10 @@
       <value>33pF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8be7</field>
+        <field name="UST_ID">5c70984712875079b91f8b37</field>
       </fields>
       <libsource lib="QFHMIX01C-rescue" part="C_Small-device-QFHMIX01B-rescue" description=""/>
-      <property name="UST_ID" value="5c70984812875079b91f8be7"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b37"/>
       <property name="Sheetname" value="LNA"/>
       <property name="Sheetfile" value="LNA.kicad_sch"/>
       <sheetpath names="/LNA/" tstamps="/00000000-0000-0000-0000-00005ccb1e0f/"/>
@@ -1175,10 +1175,10 @@
       <value>33pF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8be7</field>
+        <field name="UST_ID">5c70984712875079b91f8b37</field>
       </fields>
       <libsource lib="QFHMIX01C-rescue" part="C_Small-device-QFHMIX01B-rescue" description=""/>
-      <property name="UST_ID" value="5c70984812875079b91f8be7"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b37"/>
       <property name="Sheetname" value="LNA"/>
       <property name="Sheetfile" value="LNA.kicad_sch"/>
       <sheetpath names="/LNA/" tstamps="/00000000-0000-0000-0000-00005ccb1e0f/"/>
@@ -1187,11 +1187,7 @@
     <comp ref="C34">
       <value>39pF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <fields>
-        <field name="UST_ID">5dad549f128750448eca1926</field>
-      </fields>
       <libsource lib="QFHMIX01C-rescue" part="C_Small-device-QFHMIX01B-rescue" description=""/>
-      <property name="UST_ID" value="5dad549f128750448eca1926"/>
       <property name="Sheetname" value="LNA"/>
       <property name="Sheetfile" value="LNA.kicad_sch"/>
       <sheetpath names="/LNA/" tstamps="/00000000-0000-0000-0000-00005ccb1e0f/"/>
@@ -1200,11 +1196,7 @@
     <comp ref="C35">
       <value>39pF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <fields>
-        <field name="UST_ID">5dad549f128750448eca1926</field>
-      </fields>
       <libsource lib="QFHMIX01C-rescue" part="C_Small-device-QFHMIX01B-rescue" description=""/>
-      <property name="UST_ID" value="5dad549f128750448eca1926"/>
       <property name="Sheetname" value="LNA"/>
       <property name="Sheetfile" value="LNA.kicad_sch"/>
       <sheetpath names="/LNA/" tstamps="/00000000-0000-0000-0000-00005ccb1e0f/"/>
@@ -1370,10 +1362,10 @@
       <value>18pF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8be5</field>
+        <field name="UST_ID">5c70984712875079b91f8b33</field>
       </fields>
       <libsource lib="QFHMIX01C-rescue" part="C_Small-device-QFHMIX01B-rescue" description=""/>
-      <property name="UST_ID" value="5c70984812875079b91f8be5"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b33"/>
       <property name="Sheetname" value="LNA"/>
       <property name="Sheetfile" value="LNA.kicad_sch"/>
       <sheetpath names="/LNA/" tstamps="/00000000-0000-0000-0000-00005ccb1e0f/"/>
@@ -1383,10 +1375,10 @@
       <value>18pF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8be5</field>
+        <field name="UST_ID">5c70984712875079b91f8b33</field>
       </fields>
       <libsource lib="QFHMIX01C-rescue" part="C_Small-device-QFHMIX01B-rescue" description=""/>
-      <property name="UST_ID" value="5c70984812875079b91f8be5"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b33"/>
       <property name="Sheetname" value="LNA"/>
       <property name="Sheetfile" value="LNA.kicad_sch"/>
       <sheetpath names="/LNA/" tstamps="/00000000-0000-0000-0000-00005ccb1e0f/"/>
@@ -1396,10 +1388,10 @@
       <value>18pF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8be5</field>
+        <field name="UST_ID">5c70984712875079b91f8b33</field>
       </fields>
       <libsource lib="QFHMIX01C-rescue" part="C_Small-device-QFHMIX01B-rescue" description=""/>
-      <property name="UST_ID" value="5c70984812875079b91f8be5"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b33"/>
       <property name="Sheetname" value="LNA"/>
       <property name="Sheetfile" value="LNA.kicad_sch"/>
       <sheetpath names="/LNA/" tstamps="/00000000-0000-0000-0000-00005ccb1e0f/"/>
@@ -1409,10 +1401,10 @@
       <value>18pF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8be5</field>
+        <field name="UST_ID">5c70984712875079b91f8b33</field>
       </fields>
       <libsource lib="QFHMIX01C-rescue" part="C_Small-device-QFHMIX01B-rescue" description=""/>
-      <property name="UST_ID" value="5c70984812875079b91f8be5"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b33"/>
       <property name="Sheetname" value="LNA"/>
       <property name="Sheetfile" value="LNA.kicad_sch"/>
       <sheetpath names="/LNA/" tstamps="/00000000-0000-0000-0000-00005ccb1e0f/"/>
@@ -1422,10 +1414,10 @@
       <value>18pF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8be5</field>
+        <field name="UST_ID">5c70984712875079b91f8b33</field>
       </fields>
       <libsource lib="QFHMIX01C-rescue" part="C_Small-device-QFHMIX01B-rescue" description=""/>
-      <property name="UST_ID" value="5c70984812875079b91f8be5"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b33"/>
       <property name="Sheetname" value="LNA"/>
       <property name="Sheetfile" value="LNA.kicad_sch"/>
       <sheetpath names="/LNA/" tstamps="/00000000-0000-0000-0000-00005ccb1e0f/"/>
@@ -1435,10 +1427,10 @@
       <value>18pF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8be5</field>
+        <field name="UST_ID">5c70984712875079b91f8b33</field>
       </fields>
       <libsource lib="QFHMIX01C-rescue" part="C_Small-device-QFHMIX01B-rescue" description=""/>
-      <property name="UST_ID" value="5c70984812875079b91f8be5"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b33"/>
       <property name="Sheetname" value="LNA"/>
       <property name="Sheetfile" value="LNA.kicad_sch"/>
       <sheetpath names="/LNA/" tstamps="/00000000-0000-0000-0000-00005ccb1e0f/"/>
@@ -1754,11 +1746,9 @@
       <value>4.7nH</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="MFPN">0805AS-027J-08</field>
         <field name="UST_ID">60d330e0128750016518ca90</field>
       </fields>
       <libsource lib="QFHMIX01C-rescue" part="L-device-QFHMIX01B-rescue" description=""/>
-      <property name="MFPN" value="0805AS-027J-08"/>
       <property name="UST_ID" value="60d330e0128750016518ca90"/>
       <property name="Sheetname" value="LNA"/>
       <property name="Sheetfile" value="LNA.kicad_sch"/>
@@ -1769,11 +1759,9 @@
       <value>4.7nH</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="MFPN">0805AS-027J-08</field>
         <field name="UST_ID">60d330e0128750016518ca90</field>
       </fields>
       <libsource lib="QFHMIX01C-rescue" part="L-device-QFHMIX01B-rescue" description=""/>
-      <property name="MFPN" value="0805AS-027J-08"/>
       <property name="UST_ID" value="60d330e0128750016518ca90"/>
       <property name="Sheetname" value="LNA"/>
       <property name="Sheetfile" value="LNA.kicad_sch"/>

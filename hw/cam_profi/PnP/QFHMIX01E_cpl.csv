@@ -129,10 +129,10 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "L33","270nH","L_0805_2012Metric_Pad1.15x1.40mm_HandSolder",179.7050,-91.1098,45.0000,bottom
 "L34","820nH","L_0805_2012Metric_Pad1.15x1.40mm_HandSolder",179.8427,-87.2851,135.0000,bottom
 "L35","820nH","L_0805_2012Metric_Pad1.15x1.40mm_HandSolder",153.5684,-60.2742,135.0000,bottom
-"L36","270nH","L_0805_2012Metric_Pad1.15x1.40mm_HandSolder",149.5044,-60.0202,-150.0000,bottom
+"L36","e","L_0805_2012Metric_Pad1.15x1.40mm_HandSolder",149.5044,-60.0202,-150.0000,bottom
 "L37","27nH","L_0805_2012Metric_Pad1.15x1.40mm_HandSolder",175.5648,-86.5886,135.0000,bottom
 "L38","27nH","L_0805_2012Metric_Pad1.15x1.40mm_HandSolder",172.2628,-93.5736,-90.0000,bottom
-"L39","27nH","L_0805_2012Metric_Pad1.15x1.40mm_HandSolder",146.6342,-67.7164,-7.5000,bottom
+"L39","e","L_0805_2012Metric_Pad1.15x1.40mm_HandSolder",146.6342,-67.7164,-7.5000,bottom
 "L40","27nH","L_0805_2012Metric_Pad1.15x1.40mm_HandSolder",152.9334,-64.4144,172.5000,bottom
 "L41","10nH","C_0805_2012Metric",172.7200,-88.2142,-135.0000,bottom
 "L42","10nH","C_0805_2012Metric",152.4254,-67.2846,30.0000,bottom

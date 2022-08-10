@@ -1595,6 +1595,7 @@
     )
   )
 
+
   (junction (at 108.204 73.025) (diameter 1.016) (color 0 0 0 0)
     (uuid 101ef598-601d-400e-9ef6-d655fbb1dbfa)
   )
@@ -4860,6 +4861,13 @@
     (pin "4" (uuid 4f968898-eb21-493c-a0e4-f4e6284eea82))
     (pin "6" (uuid 841451c3-47c0-4fdb-8086-ee29bdf59004))
     (pin "7" (uuid 4557020b-0c60-41e3-b52c-9ee77d1b3a84))
+    (pin "10" (uuid c886236f-2e8f-4a67-a528-ef116145690c))
+    (pin "12" (uuid 82b764bf-29f0-4c18-9d9e-cb80ae3745ff))
+    (pin "14" (uuid 8c556b99-a2c2-446e-830c-d8f5e6fb17fd))
+    (pin "17" (uuid 7e97a604-ac21-4621-a1f6-961d3b05ec67))
+    (pin "19" (uuid c3d440fa-ad41-45c4-8fad-c4dcfdcc1b5c))
+    (pin "21" (uuid e32ac946-b985-4848-a483-2fe7f83812ef))
+    (pin "8" (uuid 5566978a-77be-4b4b-9932-d8c7ece2a816))
   )
 
   (symbol (lib_id "Device:R") (at 166.37 40.005 0) (unit 1)
@@ -4993,6 +5001,18 @@
     (property "UST_ID" "5c70984712875079b91f8b83" (id 4) (at 221.488 107.823 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "2" (uuid 440fbcbb-0682-4af8-bbd6-2a422e1b45a2))
+    (pin "24" (uuid 85f2324d-da1f-4e8c-acda-4806cc73b8c8))
+    (pin "25" (uuid 30af5778-ec3c-4158-ba35-7770166a793d))
+    (pin "27" (uuid d1a7fa92-b9dc-4ddd-8925-c8fa177d7203))
+    (pin "29" (uuid cf481e78-ada6-49a3-b88f-1a21aacce0b5))
+    (pin "31" (uuid 2d8e7b96-58c8-4dce-b5e8-9e61034ae0bd))
+    (pin "32" (uuid 7f2d1194-abbe-47a3-9cc6-48bf56607ccf))
+    (pin "34" (uuid 8ea3d6b2-ef0f-4304-8995-52bf2c2013fc))
+    (pin "35" (uuid cccda43e-ec30-46ad-99d1-4b3d16319edc))
+    (pin "4" (uuid 9586168a-c2e6-401c-9d34-23e958daa94c))
+    (pin "6" (uuid ab129f82-7590-4395-b3e4-078e2f4fb183))
+    (pin "7" (uuid 3eeebd79-cf62-41a2-91f6-a2ef66c7853b))
     (pin "10" (uuid 9b6cc6ce-bde0-4a78-aae2-d92fa9ec44f0))
     (pin "12" (uuid 78ebfb6e-aa2d-49ad-9fb8-f59bcc8d804a))
     (pin "14" (uuid 0684a0fb-5c7e-42f7-bdbe-e5f7b43d0f96))
@@ -5306,6 +5326,24 @@
   )
 
   (symbol_instances
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/e61f3836-f0dd-4494-a345-0e4ad238ad5f"
+      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/b30c88a8-c2cb-41e1-ac8c-a2361cf854b6"
+      (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/5354533f-e7e6-4085-921b-df423f9dad3b"
+      (reference "#FLG0103") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/a9e89726-cc98-4c55-a0e6-92dc1af1a1de"
+      (reference "#FLG0104") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/cfb2e99c-c57d-4ff3-a8e1-bff8d2412dd4"
+      (reference "#FLG0105") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/89417dee-f27c-4f78-9150-236d0d7ff241"
+      (reference "#FLG0106") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005a91a7e1"
       (reference "#PWR01") (unit 1) (value "+3V3") (footprint "")
     )
@@ -5608,6 +5646,9 @@
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/c2bbccdc-b0ca-4a1f-afbc-3c88b57582e8"
       (reference "#PWR0110") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/d464a012-3bbc-4755-a15c-1179d919aa40/0afb23b6-6d64-4990-b189-0e4d1c030ded"
+      (reference "#PWR0111") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005a91acad"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")

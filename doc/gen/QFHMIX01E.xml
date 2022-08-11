@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/QFHMIX01E.kicad_sch</source>
-    <date>Wed Aug 10 20:19:21 2022</date>
+    <date>Thu Aug 11 09:51:06 2022</date>
     <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1093,9 +1093,9 @@
       <tstamps>3e2f8b3a-73b4-4ed5-8b05-40e6eb2033ae</tstamps>
     </comp>
     <comp ref="U4">
-      <value>LT6604-10</value>
+      <value>LT6604-5</value>
       <footprint>Mlab_IO:UFF_QFN34</footprint>
-      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/660410fb.pdf</datasheet>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/66045fa.pdf</datasheet>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8b83</field>
       </fields>

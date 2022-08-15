@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/QFHMIX01E.kicad_sch</source>
-    <date>Mon Aug 15 11:16:54 2022</date>
+    <date>Mon Aug 15 16:32:23 2022</date>
     <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -3099,7 +3099,7 @@
       <tstamps>ae928684-c6fa-4e5d-8326-c57b804489c2</tstamps>
     </comp>
     <comp ref="R41">
-      <value>70R</value>
+      <value>69R8</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID">62fa1c3b8c8e243169d1a1a4</field>

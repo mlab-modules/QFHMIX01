@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/QFHMIX01E.kicad_sch</source>
-    <date>Mon Aug 15 10:24:17 2022</date>
+    <date>Mon Aug 15 11:16:54 2022</date>
     <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -2727,10 +2727,10 @@
       <value>47uF/6,3V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bbf</field>
+        <field name="UST_ID">60d580ff1287500165f8595a</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="5c70984812875079b91f8bbf"/>
+      <property name="UST_ID" value="60d580ff1287500165f8595a"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Power/" tstamps="/d464a012-3bbc-4755-a15c-1179d919aa40/"/>
@@ -2792,10 +2792,10 @@
       <value>47uF/6,3V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bbf</field>
+        <field name="UST_ID">60d580ff1287500165f8595a</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="5c70984812875079b91f8bbf"/>
+      <property name="UST_ID" value="60d580ff1287500165f8595a"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Power/" tstamps="/d464a012-3bbc-4755-a15c-1179d919aa40/"/>
@@ -2805,10 +2805,10 @@
       <value>47uF/6,3V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bbf</field>
+        <field name="UST_ID">60d580ff1287500165f8595a</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="5c70984812875079b91f8bbf"/>
+      <property name="UST_ID" value="60d580ff1287500165f8595a"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Power/" tstamps="/d464a012-3bbc-4755-a15c-1179d919aa40/"/>
@@ -2831,10 +2831,10 @@
       <value>47uF/6,3V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bbf</field>
+        <field name="UST_ID">60d580ff1287500165f8595a</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="5c70984812875079b91f8bbf"/>
+      <property name="UST_ID" value="60d580ff1287500165f8595a"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Power/" tstamps="/d464a012-3bbc-4755-a15c-1179d919aa40/"/>
@@ -2857,10 +2857,10 @@
       <value>47uF/6,3V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bbf</field>
+        <field name="UST_ID">60d580ff1287500165f8595a</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="5c70984812875079b91f8bbf"/>
+      <property name="UST_ID" value="60d580ff1287500165f8595a"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Power/" tstamps="/d464a012-3bbc-4755-a15c-1179d919aa40/"/>
@@ -2870,10 +2870,10 @@
       <value>47uF/6,3V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bbf</field>
+        <field name="UST_ID">60d580ff1287500165f8595a</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="5c70984812875079b91f8bbf"/>
+      <property name="UST_ID" value="60d580ff1287500165f8595a"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Power/" tstamps="/d464a012-3bbc-4755-a15c-1179d919aa40/"/>

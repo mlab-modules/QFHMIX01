@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/QFHMIX01E.kicad_sch</source>
-    <date>Thu Aug 11 09:51:06 2022</date>
+    <date>Mon Aug 15 10:24:17 2022</date>
     <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1187,7 +1187,11 @@
     <comp ref="C34">
       <value>39pF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">62fa1b218c8e243169d1a145</field>
+      </fields>
       <libsource lib="QFHMIX01C-rescue" part="C_Small-device-QFHMIX01B-rescue" description=""/>
+      <property name="UST_ID" value="62fa1b218c8e243169d1a145"/>
       <property name="Sheetname" value="LNA"/>
       <property name="Sheetfile" value="LNA.kicad_sch"/>
       <sheetpath names="/LNA/" tstamps="/00000000-0000-0000-0000-00005ccb1e0f/"/>
@@ -1196,7 +1200,11 @@
     <comp ref="C35">
       <value>39pF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">62fa1b218c8e243169d1a145</field>
+      </fields>
       <libsource lib="QFHMIX01C-rescue" part="C_Small-device-QFHMIX01B-rescue" description=""/>
+      <property name="UST_ID" value="62fa1b218c8e243169d1a145"/>
       <property name="Sheetname" value="LNA"/>
       <property name="Sheetfile" value="LNA.kicad_sch"/>
       <sheetpath names="/LNA/" tstamps="/00000000-0000-0000-0000-00005ccb1e0f/"/>
@@ -3041,7 +3049,11 @@
     <comp ref="R37">
       <value>90k9</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">62fa1bba8c8e243169d1a17e</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="62fa1bba8c8e243169d1a17e"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Power/" tstamps="/d464a012-3bbc-4755-a15c-1179d919aa40/"/>
@@ -3050,7 +3062,11 @@
     <comp ref="R38">
       <value>20k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">62fa1bd18c8e243169d1a189</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="62fa1bd18c8e243169d1a189"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Power/" tstamps="/d464a012-3bbc-4755-a15c-1179d919aa40/"/>
@@ -3059,14 +3075,18 @@
     <comp ref="R39">
       <value>150k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">62fa1be78c8e243169d1a194</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="62fa1be78c8e243169d1a194"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Power/" tstamps="/d464a012-3bbc-4755-a15c-1179d919aa40/"/>
       <tstamps>a35f28e7-bf87-4567-b184-304adaf0eff9</tstamps>
     </comp>
     <comp ref="R40">
-      <value>240</value>
+      <value>240R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID">60d337a4128750016518cb3a</field>
@@ -3079,9 +3099,13 @@
       <tstamps>ae928684-c6fa-4e5d-8326-c57b804489c2</tstamps>
     </comp>
     <comp ref="R41">
-      <value>70</value>
+      <value>70R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">62fa1c3b8c8e243169d1a1a4</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="62fa1c3b8c8e243169d1a1a4"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Power/" tstamps="/d464a012-3bbc-4755-a15c-1179d919aa40/"/>
@@ -3090,7 +3114,11 @@
     <comp ref="R44">
       <value>90k9</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">62fa1bba8c8e243169d1a17e</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="62fa1bba8c8e243169d1a17e"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Power/" tstamps="/d464a012-3bbc-4755-a15c-1179d919aa40/"/>
@@ -3099,7 +3127,11 @@
     <comp ref="R45">
       <value>12k3</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">62fa1c638c8e243169d1a1ba</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="62fa1c638c8e243169d1a1ba"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Power/" tstamps="/d464a012-3bbc-4755-a15c-1179d919aa40/"/>
@@ -3108,7 +3140,11 @@
     <comp ref="R46">
       <value>150k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">62fa1be78c8e243169d1a194</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="62fa1be78c8e243169d1a194"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Power/" tstamps="/d464a012-3bbc-4755-a15c-1179d919aa40/"/>
@@ -3135,12 +3171,14 @@
       <fields>
         <field name="Datasheet">https://cz.mouser.com/datasheet/2/609/3601fc-1269813.pdf</field>
         <field name="Footprint">Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm_ThermalVias</field>
+        <field name="UST_ID">62fa1d388c8e243169d1a1fb</field>
         <field name="Value">LTC3601</field>
       </fields>
       <libsource lib="MLAB_IO" part="LTC3601" description="1.5A, 15V Monolithic Synchronous Step-Down Regulator"/>
       <property name="Datasheet" value="https://cz.mouser.com/datasheet/2/609/3601fc-1269813.pdf"/>
       <property name="Footprint" value="Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm_ThermalVias"/>
       <property name="Value" value="LTC3601"/>
+      <property name="UST_ID" value="62fa1d388c8e243169d1a1fb"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Power/" tstamps="/d464a012-3bbc-4755-a15c-1179d919aa40/"/>
@@ -3150,7 +3188,11 @@
       <value>LTC3601</value>
       <footprint>Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm_ThermalVias</footprint>
       <datasheet>https://cz.mouser.com/datasheet/2/609/3601fc-1269813.pdf</datasheet>
+      <fields>
+        <field name="UST_ID">62fa1d388c8e243169d1a1fb</field>
+      </fields>
       <libsource lib="MLAB_IO" part="LTC3601" description="1.5A, 15V Monolithic Synchronous Step-Down Regulator"/>
+      <property name="UST_ID" value="62fa1d388c8e243169d1a1fb"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Power/" tstamps="/d464a012-3bbc-4755-a15c-1179d919aa40/"/>

@@ -6291,7 +6291,7 @@
       (reference "R40") (unit 1) (value "240R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/f70d1b92-3613-4551-8dfb-697dc9b6e637"
-      (reference "R41") (unit 1) (value "70R") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R41") (unit 1) (value "69R8") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/d464a012-3bbc-4755-a15c-1179d919aa40/23eebd64-66a9-4507-abbd-49e904bf7ab5"
       (reference "R44") (unit 1) (value "90k9") (footprint "Resistor_SMD:R_0603_1608Metric")

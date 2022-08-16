@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/QFHMIX01E.kicad_sch</source>
-    <date>Mon Aug 15 16:32:23 2022</date>
+    <date>Tue Aug 16 08:08:19 2022</date>
     <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -3086,26 +3086,26 @@
       <tstamps>a35f28e7-bf87-4567-b184-304adaf0eff9</tstamps>
     </comp>
     <comp ref="R40">
-      <value>240R</value>
+      <value>390R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_ID">60d337a4128750016518cb3a</field>
+        <field name="UST_ID">5c70984712875079b91f8b6b</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="UST_ID" value="60d337a4128750016518cb3a"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b6b"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Power/" tstamps="/d464a012-3bbc-4755-a15c-1179d919aa40/"/>
       <tstamps>ae928684-c6fa-4e5d-8326-c57b804489c2</tstamps>
     </comp>
     <comp ref="R41">
-      <value>69R8</value>
+      <value>130R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_ID">62fa1c3b8c8e243169d1a1a4</field>
+        <field name="UST_ID">5cd08b17128750448e4542b1</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="UST_ID" value="62fa1c3b8c8e243169d1a1a4"/>
+      <property name="UST_ID" value="5cd08b17128750448e4542b1"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Power/" tstamps="/d464a012-3bbc-4755-a15c-1179d919aa40/"/>

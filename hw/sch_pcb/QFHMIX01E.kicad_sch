@@ -2625,6 +2625,10 @@
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid de7870d6-6375-49cb-9e5e-92300f75d0ce)
   )
+  (text "Gain = 806/R_{in}" (at 195.58 62.865 0)
+    (effects (font (size 1.524 1.524)) (justify left bottom))
+    (uuid ee6d9d5d-e103-415e-9f33-fdb64bd978c7)
+  )
 
   (label "CLK_MIX1_N" (at 156.591 75.565 0)
     (effects (font (size 0.762 0.762)) (justify left bottom))

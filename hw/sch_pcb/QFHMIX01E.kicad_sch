@@ -2616,6 +2616,14 @@
     (uuid ff6fd151-f8fa-459f-9642-1034730332f6)
   )
 
+  (text "50mV " (at 100.33 113.03 0)
+    (effects (font (size 1.524 1.524)) (justify left bottom))
+    (uuid 5b41020c-2c15-4d2e-b2b0-c45a961ed9ce)
+  )
+  (text "1.2 V" (at 66.04 119.38 0)
+    (effects (font (size 1.524 1.524)) (justify left bottom))
+    (uuid 9fa3d967-3929-450e-8106-36eca3e63f6c)
+  )
   (text "Při připojení volmetru do tohoto místa oproti M5\nje občas slyšet písklavý zvuk.\nOstatní cívky to nedělají. Situace se opakovala na obou vyrobených PCB.  "
     (at 154.94 99.06 0)
     (effects (font (size 0.508 0.508)) (justify left bottom))

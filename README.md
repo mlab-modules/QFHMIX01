@@ -1,7 +1,7 @@
-# QFHMIX01D -  QFH active antenna mixer
+# QFHMIX01E -  QFH active antenna mixer
 
 
-![QFHMIX01D board bottom ](doc/src/img/QFHMIX01D_bottom.jpg)
+![QFHMIX01D board bottom ](doc/src/img/QFHMIX01E_bottom.jpg)
 
 
 ## Parameters

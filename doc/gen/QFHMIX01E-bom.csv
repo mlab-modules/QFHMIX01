@@ -1,0 +1,74 @@
+Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,MFPN,UST_ID
+1,"Unpolarized capacitor, small symbol",C_Small,C69 C83,10pF,C_0603_1608Metric,2, ,~,,5c70984812875079b91f8be2
+2,,C_Small-device-QFHMIX01B-rescue,C48 C49 C50 C51 C52 C53,18pF,C_0805_2012Metric,6, ,,,5c70984712875079b91f8b33
+3,,C_Small-device-QFHMIX01B-rescue,C32 C33,33pF,C_0805_2012Metric,2, ,,,5c70984712875079b91f8b37
+4,,C_Small-device-QFHMIX01B-rescue,C34 C35,39pF,C_0805_2012Metric,2, ,,,62fa1b218c8e243169d1a145
+5,,C_Small-device-QFHMIX01B-rescue,C28 C29 C30 C31,100pF,C_0805_2012Metric,4, ,,,5c70984712875079b91f8b3b
+6,,C_Small-device-QFHMIX01B-rescue,C36 C37 C38 C39 C42 C43 C45 C46 C54 C55 C56 C57 C62 C63 C64 C65,100pF,C_0603_1608Metric,16, ,,,5c70984812875079b91f8bea
+7,,C_Small-device-QFHMIX01B-rescue,C3 C6 C7 C10 C11 C12 C13 C14 C15 C16 C17 C22 C23 C40 C41 C44 C47 C58 C59 C60 C61 C82 C86,10nF,C_0603_1608Metric,23, ,,,5c70984812875079b91f8bef
+8,,C_Small-device-QFHMIX01B-rescue,C1 C2 C4 C5 C8 C9 C18 C19 C20 C21 C24 C25 C27,100nF,C_0603_1608Metric,13, ,,,5c70984812875079b91f8bf2
+9,"Unpolarized capacitor, small symbol",C_Small,C66 C72 C74 C77 C80 C81 C88 C91,100nF,C_0603_1608Metric,8, ,~,,5c70984812875079b91f8bf2
+10,"Unpolarized capacitor, small symbol",C_Small,C67 C68,4u7,C_0603_1608Metric,2, ,~,,5e3ff54b1287502a33bad705
+11,,C_Small-device-QFHMIX01B-rescue,C26,10uF/16,C_0805_2012Metric,1, ,,,5c70984812875079b91f8bbe
+12,"Unpolarized capacitor, small symbol",C_Small,C70 C71 C73 C75 C76 C78,10uF/16,C_0805_2012Metric,6, ,~,,5c70984812875079b91f8bbe
+13,Unpolarized capacitor,C,C79 C84 C85 C87 C89 C90,"47uF/6,3V",C_0805_2012Metric,6, ,~,,60d580ff1287500165f8595a
+14,Zener diode,D_Zener,D2,"BZV55C-3,6V",D_MiniMELF,1, ,~,,5c70984512875079b91f88b1
+15,,D_Small-device-QFHMIX01B-rescue,D1,M4,D_SMA,1, ,,,5c70984512875079b91f88ac
+16,Light emitting diode,LED,D3 D4,RED,LED_1206,2, ,~,,5c70984412875079b91f8896
+17,,HEADER_2x03_PARALLEL-MLAB_HEADER,J2,+12V,Straight_2x03,1, ,,,
+18,,HEADER_1x08-MLAB_HEADER,J1,HEADER_1x08,IDC381-8-110,1, ,https://www.tme.eu/Document/4e9cf481f3d9b179aa09f3a743bc9b2b/IDC381-x-110_KRONE.pdf,,5c70984712875079b91f8b89
+19,,L-device-QFHMIX01B-rescue,L23 L24,4.7nH,C_0805_2012Metric,2, ,,,60d330e0128750016518ca90
+20,,L-device-QFHMIX01B-rescue,L17 L18,5.6nH,C_0805_2012Metric,2, ,,0805AS-027J-08,5c70984412875079b91f8803
+21,,L-device-QFHMIX01B-rescue,L41 L42 L47 L48 L53 L54,10nH,C_0805_2012Metric,6, ,,,60be72061287500165e6c35e
+22,,L-device-QFHMIX01B-rescue,L25 L26 L27 L28,18nH,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,4, ,,0805AS-027J-08,5c70984412875079b91f8806
+23,,L-device-QFHMIX01B-rescue,L13 L14 L15 L16,22nH,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,4, ,,0805AS-027J-08,60be80ed1287500165e6c3bb
+24,,L-device-QFHMIX01B-rescue,L37 L38 L39 L40 L55 L56 L57 L58,27nH,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,8, ,,,5c70984412875079b91f8807
+25,,L-device-QFHMIX01B-rescue,L19 L20 L21 L22,39nH,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,4, ,,0805AS-027J-08,5c70984412875079b91f8809
+26,Inductor,L,L1 L2 L3 L4,56nH,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,4, ,~,,5c70984812875079b91f8ba4
+27,,L-device-QFHMIX01B-rescue,L43 L44 L45 L46 L49 L50 L51 L52,82nH,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,8, ,,,60be7e351287500165e6c39b
+28,,L-device-QFHMIX01B-rescue,L5 L8 L9 L12 L29 L32 L33 L36 L60 L61 L64 L65,270nH,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,12, ,,,5cd08d9d128750448e4542fe
+29,Inductor,L,L6 L7 L10 L11,820nH,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,4, ,~,,5cd08f38128750448e45432f
+30,,L-device-QFHMIX01B-rescue,L30 L31 L34 L35 L59 L62 L63 L66 L72 L73 L74 L75,820nH,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,12, ,,,5cd08f38128750448e45432f
+31,Inductor,L,L67 L68,1u5H,PCC-M0530M-LP,2, ,https://cz.mouser.com/datasheet/2/315/AGL0000C63-1283966.pdf,ETQ-P3M1R5KVP,60d3317e128750016518cab1
+32,Inductor,L,L69 L70 L71,BLM21PG331SN1D,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,3, ,https://cz.mouser.com/datasheet/2/281/1/mure_s_a0010614486_1-2279380.pdf,BLM21PG331SN1D,5c70984712875079b91f8b8a
+33,,HOLE-MLAB_MECHANICAL,M1 M2 M3 M4,HOLE,WA-SMSI_SMT_Steel_Spacer,4, ,,,
+34,,HOLE-MLAB_MECHANICAL,M5 M6 M7 M8,HOLE,MountingHole_3mm,4, ,,,
+35,Resistor,R,R16 R17 R18 R19,0R,R_0603_1608Metric,4, ,~,,5c70984512875079b91f894e
+36,,R-device-QFHMIX01B-rescue,R28 R29 R30 R31 R32 R33 R34 R35,3R,R_0603_1608Metric,8, ,,,60d33559128750016518cb00
+37,,R-device-QFHMIX01B-rescue,R12 R13,3R9,R_0603_1608Metric,2, ,,,60d334b6128750016518cae8
+38,,R-device-QFHMIX01B-rescue,R24 R25 R26 R27,49R9,R_0603_1608Metric,4, ,,,5cd0970e128750448e454388
+39,,R-device-QFHMIX01B-rescue,R2 R3 R4 R5 R10 R11 R14 R15,68R,R_0603_1608Metric,8, ,,,60d3338b128750016518cad5
+40,Resistor,R,R1,100R,R_0603_1608Metric,1, ,,,5c70984512875079b91f8956
+41,,R-device-QFHMIX01B-rescue,R20 R21 R22 R23,100R,R_0603_1608Metric,4, ,,,5c70984512875079b91f8956
+42,"Resistor, small symbol",R_Small,R41,130R,R_0603_1608Metric,1, ,~,,5cd08b17128750448e4542b1
+43,,R-device-QFHMIX01B-rescue,R6 R7 R8 R9,130R,R_0603_1608Metric,4, ,,,5cd08b17128750448e4542b1
+44,"Resistor, small symbol",R_Small,R40,390R,R_0603_1608Metric,1, ,~,,5c70984712875079b91f8b6b
+45,"Resistor, small symbol",R_Small,R45,12k3,R_0603_1608Metric,1, ,~,,62fa1c638c8e243169d1a1ba
+46,"Resistor, small symbol",R_Small,R38,20k,R_0603_1608Metric,1, ,~,,62fa1bd18c8e243169d1a189
+47,Resistor,R,R36,24k,R_0603_1608Metric,1, ,~,,5c70984512875079b91f8965
+48,"Resistor, small symbol",R_Small,R37 R44,90k9,R_0603_1608Metric,2, ,~,,62fa1bba8c8e243169d1a17e
+49,"Resistor, small symbol",R_Small,R39 R46,150k,R_0603_1608Metric,2, ,~,,62fa1be78c8e243169d1a194
+50,Temperature dependent resistor,Thermistor,TH1,"Thermistor, NCP21XV103J03RA",R_0805_2012Metric,1, ,https://www.murata.com/~/media/webrenewal/support/library/catalog/products/thermistor/ntc/r44e.ashx?la=en-us,,5c70984712875079b91f8ac5
+51,,AD8343,U2 U3,AD8343,TSSOP-14_4.4x5mm_P0.65mm,2, ,https://www.analog.com/media/en/technical-documentation/data-sheets/AD8343.pdf,,5c70984612875079b91f89f7
+52,,LT6604-10,U4,LT6604-5,UFF_QFN34,1, ,https://www.analog.com/media/en/technical-documentation/data-sheets/66045fa.pdf,,5c70984712875079b91f8b83
+53,"1.5A, 15V Monolithic Synchronous Step-Down Regulator",LTC3601,U9 U11,LTC3601,QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm_ThermalVias,2, ,https://cz.mouser.com/datasheet/2/609/3601fc-1269813.pdf,,62fa1d388c8e243169d1a1fb
+54,,MPGA-105+_MGVA-63+,U7 U8,MGVA-63+,DL1020,2, ,https://www.minicircuits.com/pdfs/MGVA-63+.pdf,,5d415db2128750448e6b455c
+55,,MPGA-105+_MGVA-63+,U5 U6,MPGA-105+,DL1020,2, ,https://www.minicircuits.com/pdfs/MPGA-105+.pdf,,5d415954128750448e6b4555
+56,,Si53322,U1,Si53322,QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm_ThermalVias,1, ,https://www.skyworksinc.com/-/media/SkyWorks/SL/documents/public/data-sheets/Si5332x-datasheet.pdf,,5c70984712875079b91f8b82
+
+
+
+
+
+Project info:
+Schematic:,QFHMIX01E
+Variant:,default
+Revision:,
+Date:,2022-07-31
+KiCad Version:,6.0.10+dfsg-1~bpo11+1
+Statistics:
+Component Groups:,56
+Component Count:,235
+Fitted Components:,235
+Number of PCBs:,1
+Total Components:,235

@@ -2,6 +2,12 @@ name: Kicad - production files generator
 
 on:
   push:
+    paths:
+      - '**.kicad_pcb'
+      - '**.kicad_sch'
+      - '**.kicad_pro'
+      - '**.yml'
+      - 'doc/assets'
   workflow_dispatch:
 
 env:
@@ -22,7 +28,7 @@ jobs:
           token: ${{ secrets.pat }}
           ref: ${{ github.head_ref }}
 
-      - uses: MLAB-project/KiBot@master
+      - uses: INTI-CMNB/KiBot@v2_k6
         with:
           config: ${{ env.kibot }}/erc.kibot.yaml
           schema: ${{ env.schema }}
@@ -39,7 +45,7 @@ jobs:
           token: ${{ secrets.pat }}
           ref: ${{ github.head_ref }}
 
-      - uses: MLAB-project/KiBot@master
+      - uses: INTI-CMNB/KiBot@v2_k6
         with:
           config: ${{ env.kibot }}/drc.kibot.yaml
           schema: ${{ env.schema }}
@@ -56,7 +62,7 @@ jobs:
           token: ${{ secrets.pat }}
           ref: ${{ github.head_ref }}
 
-      - uses: MLAB-project/KiBot@master
+      - uses: INTI-CMNB/KiBot@v2_k6
         with:
           config: ${{ env.kibot }}/xml.kibot.yaml
           schema: ${{ env.schema }}
@@ -67,7 +73,7 @@ jobs:
         with:
           name: doc_xml
           path: hw/sch_pcb/*.xml
-          retention-days: 1
+
 
 # documentation
   schematics:
@@ -80,7 +86,7 @@ jobs:
           token: ${{ secrets.pat }}
           ref: ${{ github.head_ref }}
 
-      - uses: MLAB-project/KiBot@master
+      - uses: INTI-CMNB/KiBot@v2_k6
         with:
           config: ${{ env.kibot }}/schematics.kibot.yaml
           schema: ${{ env.schema }}
@@ -92,7 +98,6 @@ jobs:
         with:
           name: doc_sch
           path: ${{ env.dir }}_docs/**
-          retention-days: 1
 
 
   placement:
@@ -105,7 +110,7 @@ jobs:
           token: ${{ secrets.pat }}
           ref: ${{ github.head_ref }}
 
-      - uses: MLAB-project/KiBot@master
+      - uses: INTI-CMNB/KiBot@v2_k6
         with:
           config: ${{ env.kibot }}/placement.kibot.yaml
           schema: ${{ env.schema }}
@@ -118,7 +123,7 @@ jobs:
         with:
           name: doc_placement
           path: ${{ env.dir }}_docs/**/*.pdf
-          retention-days: 1
+
 
   pnp:
     runs-on: ubuntu-latest
@@ -130,7 +135,7 @@ jobs:
           token: ${{ secrets.pat }}
           ref: ${{ github.head_ref }}
 
-      - uses: MLAB-project/KiBot@master
+      - uses: INTI-CMNB/KiBot@v2_k6
         with:
           config: ${{ env.kibot }}/pnp.kibot.yaml
           schema: ${{ env.schema }}
@@ -143,7 +148,29 @@ jobs:
         with:
           name: doc_pnp
           path: ${{ env.dir }}_docs/
-          retention-days: 1
+
+  report:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: recursive
+          token: ${{ secrets.pat }}
+          ref: ${{ github.head_ref }}
+
+      - uses: INTI-CMNB/KiBot@v2_k6
+        with:
+          config: ${{ env.kibot }}/report.kibot.yaml
+          schema: ${{ env.schema }}
+          board: ${{ env.board }}
+          dir: ${{ env.dir }}_report
+
+      - uses: actions/upload-artifact@v3
+        if: ${{ success() }}
+        with:
+          name: doc_report
+          path: ${{ env.dir }}_report/
 
 # fabrications
   gerbers:
@@ -156,7 +183,7 @@ jobs:
           token: ${{ secrets.pat }}
           ref: ${{ github.head_ref }}
 
-      - uses: MLAB-project/KiBot@master
+      - uses: INTI-CMNB/KiBot@v2_k6
         with:
           config: ${{ env.kibot }}/gerbers.kibot.yaml
           schema: ${{ env.schema }}
@@ -169,7 +196,6 @@ jobs:
         with:
           name: hw_cam_profi
           path: ${{ env.dir }}_gerbers/gerbers/**
-          retention-days: 1
 
 
   cad:
@@ -182,7 +208,7 @@ jobs:
           token: ${{ secrets.pat }}
           ref: ${{ github.head_ref }}
 
-      - uses: MLAB-project/KiBot@master
+      - uses: INTI-CMNB/KiBot@v2_k6
         with:
           config: ${{ env.kibot }}/cad.kibot.yaml
           schema: ${{ env.schema }}
@@ -194,7 +220,6 @@ jobs:
         with:
           name: doc_cad
           path: ${{ env.dir }}_cad/**
-          retention-days: 1
 
 
   render:
@@ -207,7 +232,7 @@ jobs:
           token: ${{ secrets.pat }}
           ref: ${{ github.head_ref }}
 
-      - uses: MLAB-project/KiBot@master
+      - uses: INTI-CMNB/KiBot@v2_k6
         with:
           config: ${{ env.kibot }}/render.kibot.yaml
           schema: ${{ env.schema }}
@@ -220,7 +245,6 @@ jobs:
         with:
           name: doc_img
           path: ${{ env.dir }}_img/img/**
-          retention-days: 1
 
   UPDATE_REPO:
     runs-on: ubuntu-latest
@@ -230,8 +254,12 @@ jobs:
     - uses: actions/checkout@v3
       with:
         ref: ${{ github.head_ref }}
+        token: ${{ secrets.pat }}
 
-    - run: git pull --force --rebase || true
+
+    - run: |
+        git pull --force --rebase || true
+        git submodule update --remote || true
 
     - name: Download a Build Artifact
       uses: actions/download-artifact@v3.0.0
@@ -261,6 +289,8 @@ jobs:
         cp -r doc_sch/img/pcb/* doc/gen/img || true
         cp -r doc_placement/doc* hw/cam_profi || true
         cp -r doc_pnp/* hw/cam_profi || true
+        cp -r doc_report/* doc/gen || true
+
 
         rm -r doc_img || true
         rm -r doc_cad || true
@@ -269,6 +299,8 @@ jobs:
         rm -r doc_placement || true
         rm -r doc_pnp || true
         rm -r doc_xml || true
+        rm -r doc_report || true
+
 
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:

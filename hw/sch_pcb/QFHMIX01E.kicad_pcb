@@ -6056,7 +6056,7 @@
     (fp_line (start 2.4384 -1.4224) (end -2.5146 -1.4224) (layer "B.Fab") (width 0.15) (tstamp 90b5f0fb-eb50-4949-93cf-674e0442b296))
     (fp_line (start -2.4638 1.4224) (end 2.4892 1.4224) (layer "B.Fab") (width 0.15) (tstamp a2d4a8f1-76dc-44c0-9138-66e44c193095))
     (pad "" np_thru_hole circle (at 0 0 135) (size 2.7 2.7) (drill 2.7) (layers *.Mask) (tstamp 3f7bc42e-08ec-4d55-91b2-e8fb59200caf))
-    (pad "1" smd custom (at 1.905 0 315) (size 0 0) (layers "B.Cu" "B.Paste" "B.Mask")
+    (pad "1" smd custom (at 1.905 0 315) (size 0.001 0.001) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 1 "GND") (pinfunction "K") (pintype "passive")
       (options (clearance outline) (anchor rect))
       (primitives
@@ -6068,7 +6068,7 @@
             (xy 0.405 -0.75)
           ) (width 0) (fill yes))
       ) (tstamp 0ef72fb1-9a74-4a61-8ab7-5a4a580b8ed0))
-    (pad "2" smd custom (at -1.905 0 135) (size 0 0) (layers "B.Cu" "B.Paste" "B.Mask")
+    (pad "2" smd custom (at -1.905 0 135) (size 0.001 0.001) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 93 "/Power/PG5v") (pinfunction "A") (pintype "passive")
       (options (clearance outline) (anchor rect))
       (primitives
@@ -10393,7 +10393,7 @@
     (fp_line (start -2.5146 -1.4224) (end -2.5146 1.4224) (layer "B.Fab") (width 0.15) (tstamp a86d9e90-566a-499f-9a6a-1e18a6b40b10))
     (fp_line (start 2.5146 1.4224) (end 2.5146 -1.4224) (layer "B.Fab") (width 0.15) (tstamp f64af5ac-df8a-4c90-bc74-f4822f3049d6))
     (pad "" np_thru_hole circle (at 0 0 45) (size 2.7 2.7) (drill 2.7) (layers *.Mask) (tstamp 07c22c49-ddb0-4786-af01-f2fa46bfeab4))
-    (pad "1" smd custom (at 1.905 0 225) (size 0 0) (layers "B.Cu" "B.Paste" "B.Mask")
+    (pad "1" smd custom (at 1.905 0 225) (size 0.001 0.001) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 1 "GND") (pinfunction "K") (pintype "passive")
       (options (clearance outline) (anchor rect))
       (primitives
@@ -10405,7 +10405,7 @@
             (xy 0.405 -0.75)
           ) (width 0) (fill yes))
       ) (tstamp aeab1fc2-d084-4009-ae74-6421fce89c31))
-    (pad "2" smd custom (at -1.905 0 45) (size 0 0) (layers "B.Cu" "B.Paste" "B.Mask")
+    (pad "2" smd custom (at -1.905 0 45) (size 0.001 0.001) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 103 "/Power/PG3v3") (pinfunction "A") (pintype "passive")
       (options (clearance outline) (anchor rect))
       (primitives
@@ -10971,7 +10971,7 @@
   (dimension (type aligned) (layer "Dwgs.User") (tstamp f896f459-57c0-4663-a667-676d2b71cfb7)
     (pts (xy 114.44 54.44) (xy 114.44 125.56))
     (height 24.892)
-    (gr_text "2.8000 in" (at 87.748 90 90) (layer "Dwgs.User") (tstamp f896f459-57c0-4663-a667-676d2b71cfb7)
+    (gr_text "2.8000 palec" (at 87.748 90 90) (layer "Dwgs.User") (tstamp f896f459-57c0-4663-a667-676d2b71cfb7)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (format (units 0) (units_format 1) (precision 4))

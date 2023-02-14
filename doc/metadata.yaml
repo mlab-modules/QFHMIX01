@@ -1,0 +1,24 @@
+description: QFH active antenna mixer
+github_branch: QFHMIX01E
+github_repo: QFHMIX01
+github_url: https://github.com/mlab-modules/QFHMIX01
+homepage: false
+images:
+- doc/src/img/QFHMIX01E_top.jpg
+- doc/src/img/QFHMIX01E_bottom.jpg
+- doc/NoiceCalc.png
+- doc/gen/img/QFHMIX01E-top.png
+- doc/gen/img/QFHMIX01E-bottom.png
+- doc/gen/img/pcb/QFHMIX01D-top.png
+- doc/gen/img/pcb/QFHMIX01D-bottom.png
+- doc/gen/QFHMIX01E-schematic.svg
+- doc/gen/QFHMIX01D-Power.svg
+- doc/gen/QFHMIX01D-schematic.svg
+- doc/gen/QFHMIX01E-Power.svg
+- doc/gen/QFHMIX01D-LNA.svg
+- doc/gen/QFHMIX01E-LNA.svg
+- doc/gen/img/QFHMIX01E-top.svg
+mark: 50
+mod_scheme: doc/gen/QFHMIX01D-schematic.pdf
+tags: []
+title: QFHMIX01

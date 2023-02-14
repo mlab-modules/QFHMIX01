@@ -19,6 +19,7 @@ images:
 - doc/gen/QFHMIX01E-LNA.svg
 - doc/gen/img/QFHMIX01E-top.svg
 mark: 50
-mod_scheme: doc/gen/QFHMIX01D-schematic.pdf
+mod_ibom: hw/cam_profi/ibom/QFHMIX01E-ibom.html
+mod_scheme: doc/gen/QFHMIX01E-schematic.pdf
 tags: []
 title: QFHMIX01

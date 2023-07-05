@@ -21,5 +21,12 @@ images:
 mark: 50
 mod_ibom: hw/cam_profi/ibom/QFHMIX01E-ibom.html
 mod_scheme: doc/gen/QFHMIX01E-schematic.pdf
-tags: []
+tags:
+- mlab
+- mlab-module
+- kicad
+- kicad-pcb
+- kicad-project
+- mlab-kicad
+- pcb
 title: QFHMIX01

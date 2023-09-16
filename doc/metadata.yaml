@@ -21,6 +21,7 @@ images:
 mark: 50
 mod_ibom: hw/cam_profi/ibom/QFHMIX01E-ibom.html
 mod_scheme: doc/gen/QFHMIX01E-schematic.pdf
+status: 0
 tags:
 - mlab
 - mlab-module

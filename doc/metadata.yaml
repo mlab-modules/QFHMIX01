@@ -2,7 +2,7 @@ description: QFH active antenna mixer
 github_branch: QFHMIX01E
 github_repo: QFHMIX01
 github_url: https://github.com/mlab-modules/QFHMIX01
-homepage: false
+homepage: true
 images:
 - doc/src/img/QFHMIX01E_top.jpg
 - doc/src/img/QFHMIX01E_bottom.jpg

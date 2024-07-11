@@ -1,4 +1,4 @@
-description: QFH active antenna mixer
+description: QFH active antenna analog front end and down converter
 github_branch: QFHMIX01E
 github_repo: QFHMIX01
 github_url: https://github.com/mlab-modules/QFHMIX01

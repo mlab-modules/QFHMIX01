@@ -1,8 +1,8 @@
-# QFHMIX01E -  QFH active antenna mixer
+# QFHMIX01 -  QFH active antenna mixer
 
+The module was designed to solve the issue of connecting the [QFH antenna](https://en.wikipedia.org/wiki/Helical_antenna) (which has two orthogonally-phased outputs) to an SDR receiver.
 
 ![QFHMIX01D board bottom ](doc/src/img/QFHMIX01E_bottom.jpg)
-
 
 ## Parameters
 
